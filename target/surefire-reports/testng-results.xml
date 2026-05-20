@@ -1,0 +1,2911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[✅ Login successful. PLANT SETTINGS is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Login succeeded — tests will run.]]>
+    </line>
+    <line>
+      <![CDATA[Old Updated On text: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked dashboard Refresh button.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[STEP 1 — Navigation: Clicking Home logo]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Bar</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Home logo]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS again.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked ADVANCED ALERTS.]]>
+    </line>
+    <line>
+      <![CDATA[Advanced Alerts page loaded.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 2 — Create Module Alert: Opening create modal]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: CREATE NEW ALERT]]>
+    </line>
+    <line>
+      <![CDATA[Create modal visible.]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Module Alert type...]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'PM Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'Module Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'Parameter Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'AI Alert']]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Selected Alert Type: Module Alert]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Entered alert name: Module Alert Test]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']]]>
+    </line>
+    <line>
+      <![CDATA[Entered score: 70]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved: screenshots/module_alert_before_save_20260520_120058.png]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Save alert]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Save.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Toast: Added successfully visible.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Bar</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.168)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, executeScript {args=[], script=window.scrollTo(0, document.body.scrollHeight);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Line</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Line</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Dot</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Dot</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Bar Label</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Bar Label</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Line Label</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Line Label</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Table</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Table</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Numeric</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Numeric</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Gauge</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Gauge</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Pie</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Pie</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Donut</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Donut</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Box</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Box</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Report Type - Text</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<span style='color:red;'><b>Creation FAIL: Text</b></span><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping View & Delete<br><hr>]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Module Alert tab]]>
+    </line>
+    <line>
+      <![CDATA[Module Alert row found in AG Grid.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 12 — Delete Alert: Clicking delete icon on row.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Delete icon]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Popup DELETE button]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[STEP 15 — Validate Deletion: Ensuring row no longer exists.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Module Alert flow completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 1 — Navigation: Clicking Home logo]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Home logo]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS again.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: ADVANCED ALERTS]]>
+    </line>
+    <line>
+      <![CDATA[Clicked ADVANCED ALERTS.]]>
+    </line>
+    <line>
+      <![CDATA[Advanced Alerts page loaded.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 2 — Open Create Alert Modal: Opening create modal]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: CREATE NEW ALERT]]>
+    </line>
+    <line>
+      <![CDATA[Create modal visible.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 3 — Select Alert Type]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Parameter Alert type...]]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'PM Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'Module Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'Parameter Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'AI Alert']]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Selected Alert Type: Parameter Alert]]>
+    </line>
+    <line>
+      <![CDATA[STEP 4 — Enter Alert Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered alert name: Parameter Alert Test]]>
+    </line>
+    <line>
+      <![CDATA[STEP 5 — Select Module]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'RO-3' on By.xpath: //select[@formcontrolname='moduleparam']]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Validated selected Module: RO-3]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked USER menu.]]>
+    </line>
+    <line>
+      <![CDATA[Pressed ESC to close dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[STEP 6 — Select Parameter]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Parameter option found: Select Parameter*]]>
+    </line>
+    <line>
+      <![CDATA[Parameter option found: RO-3 I/L Flow rate (O)]]>
+    </line>
+    <line>
+      <![CDATA[Selected Parameter: RO-3 I/L Flow rate (O)]]>
+    </line>
+    <line>
+      <![CDATA[STEP 7 — Select Condition]]>
+    </line>
+    <line>
+      <![CDATA[Condition option found: Conditions*]]>
+    </line>
+    <line>
+      <![CDATA[Condition option found: Greater (>)]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Selected Condition: Greater (>)]]>
+    </line>
+    <line>
+      <![CDATA[STEP 8 — Assign To]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']]]>
+    </line>
+    <line>
+      <![CDATA[STEP 9 — Enter Score]]>
+    </line>
+    <line>
+      <![CDATA[Entered score: 70]]>
+    </line>
+    <line>
+      <![CDATA[STEP 10 — Screenshot Before Save]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved: screenshots/parameter_alert_before_save_20260520_120114.png]]>
+    </line>
+    <line>
+      <![CDATA[STEP 11 — Save Alert]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Save alert]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Save.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 12 — Validate Creation Toast]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Toast: Added successfully visible.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 13 — Reopen Advanced Alerts Page]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked + Add Site User.]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Toast message: User added successfully.]]>
+    </line>
+    <line>
+      <![CDATA[✅ User added successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Closed Add Site User sidebar.]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS again.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: ADVANCED ALERTS]]>
+    </line>
+    <line>
+      <![CDATA[Clicked ADVANCED ALERTS.]]>
+    </line>
+    <line>
+      <![CDATA[Advanced Alerts page loaded.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 14 — Click Parameter Alert Filter]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Parameter Alert tab]]>
+    </line>
+    <line>
+      <![CDATA[STEP 15 — Validate Row Exists In AG Grid]]>
+    </line>
+    <line>
+      <![CDATA[Parameter Alert row found in AG Grid.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 16 — Delete Alert]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked delete icon for Parameter Alert Test row.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 17 — Delete Confirmation Popup]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Popup DELETE button]]>
+    </line>
+    <line>
+      <![CDATA[STEP 18 — Validate Delete Toast]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[STEP 19 — Final Delete Validation]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Parameter Alert row deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[STEP 1 — Navigation: Clicking Home logo]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Home logo]]>
+    </line>
+    <line>
+      <![CDATA[Failed to close sidebar in AfterMethod (both click and JS): no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')]"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [550734d4e8bccff3e228d534fa73fc33, findElement {value=//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS again.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked ADVANCED ALERTS.]]>
+    </line>
+    <line>
+      <![CDATA[Advanced Alerts page loaded.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 2 — Create PM Alert: Opening create modal]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked USER menu.]]>
+    </line>
+    <line>
+      <![CDATA[Pressed ESC to close dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: CREATE NEW ALERT]]>
+    </line>
+    <line>
+      <![CDATA[Create modal visible.]]>
+    </line>
+    <line>
+      <![CDATA[Selecting PM Alert type...]]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'PM Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'Module Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'Parameter Alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Type Option: 'AI Alert']]>
+    </line>
+    <line>
+      <![CDATA[Selected Alert Type: PM Alert]]>
+    </line>
+    <line>
+      <![CDATA[Entered alert name: PM Alert Test]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Equipment dropdown options to load...]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Equipment option found: Equipments*]]>
+    </line>
+    <line>
+      <![CDATA[Equipment option found: PI-9019AN]]>
+    </line>
+    <line>
+      <![CDATA[Selected Equipment: PI-9019AN]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']]]>
+    </line>
+    <line>
+      <![CDATA[Setting Start Date & Time...]]>
+    </line>
+    <line>
+      <![CDATA[Target datetime: 19-May-2026 12:01]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Calendar popup opened]]>
+    </line>
+    <line>
+      <![CDATA[Target day selected]]>
+    </line>
+    <line>
+      <![CDATA[Selected datetime value: 19-05-2026 12:01]]>
+    </line>
+    <line>
+      <![CDATA[Datetime field populated]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved: screenshots/pm_alert_before_save_20260520_120134.png]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Save alert]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Save.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Toast: Added successfully visible.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: PM Alert tab]]>
+    </line>
+    <line>
+      <![CDATA[PM Alert row found in AG Grid.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 5 — Delete Alert: Clicking delete icon on row.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Delete icon]]>
+    </line>
+    <line>
+      <![CDATA[Clicked: Popup DELETE button]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[STEP 6 — Validate Deletion: Ensuring row no longer exists.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[PM Alert flow completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked dropdown div trigger.]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]]]>
+    </line>
+    <line>
+      <![CDATA[Edit form appeared for user: jamil0943334@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+    </line>
+    <line>
+      <![CDATA[Polling Updated On: Updated On : 20-05-2026 12:00:50]]>
+    </line>
+    <line>
+      <![CDATA[Updated time changed after refresh]]>
+    </line>
+    <line>
+      <![CDATA[Found list item: Chemicals]]>
+    </line>
+    <line>
+      <![CDATA[Icon path navigation success: true]]>
+    </line>
+    <line>
+      <![CDATA[Reset to main view after icon path.]]>
+    </line>
+    <line>
+      <![CDATA[Image upload failed: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='form-group']//input[@id='imageUpload'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[✅ User updated successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked USER menu.]]>
+    </line>
+    <line>
+      <![CDATA[Pressed ESC to close dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Menu navigation failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h4[normalize-space()='OPEX Module Reports'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62086}, goog:processID: 14300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62086/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e21c6df2b4b7520af7f1bb93a05f7aa]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved: screenshots/opex_navigation_fail_20260520_120229.png]]>
+    </line>
+    <line>
+      <![CDATA[Menu path navigation success: false]]>
+    </line>
+    <line>
+      <![CDATA[OPEX navigation considered SUCCESS (at least one path succeeded).]]>
+    </line>
+    <line>
+      <![CDATA[Clicked logo at test end to return to main view.]]>
+    </line>
+    <line>
+      <![CDATA[Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas]]>
+    </line>
+    <line>
+      <![CDATA[Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']]]>
+    </line>
+    <line>
+      <![CDATA[Found element: By.xpath: //div[@class='row mt-1 ng-star-inserted']]]>
+    </line>
+    <line>
+      <![CDATA[Clicked home logo after ProcessDashboardModuleStoreTest.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked SPECIAL REPORTS.]]>
+    </line>
+    <line>
+      <![CDATA[✅ Dashboard Report list found.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked SPECIAL REPORTS link.]]>
+    </line>
+    <line>
+      <![CDATA[✅ Dashboard Report list present. Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[Returned to Home screen after SpecialReportsDashboardTest.]]>
+    </line>
+    <line>
+      <![CDATA[Hovered on PLANT SETTINGS.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked USER menu.]]>
+    </line>
+    <line>
+      <![CDATA[Pressed ESC to close dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Site User Settings header visible]]>
+    </line>
+    <line>
+      <![CDATA[Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+    </line>
+    <line>
+      <![CDATA[Clicked dropdown div trigger.]]>
+    </line>
+    <line>
+      <![CDATA[Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+    </line>
+    <line>
+      <![CDATA[Clicked delete icon for user: jamil0943334@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Clicked confirmation Yes button.]]>
+    </line>
+    <line>
+      <![CDATA[✅ User deleted successfully toast found.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-05-20T11:59:58 IST" name="TestSuite" finished-at="2026-05-20T12:07:08 IST" duration-ms="430457">
+    <groups>
+      <group name="opex">
+        <method signature="OpexDashboardTest.opexModuleDashboardNavigationAndValidation()[pri:0, instance:com.purebi.homepage.OpexDashboardTest@2145b572]" name="opexModuleDashboardNavigationAndValidation" class="com.purebi.homepage.OpexDashboardTest"/>
+      </group> <!-- opex -->
+      <group name="parameter-alerts">
+        <method signature="ParameterAlertsTest.parameterAlertFullFlow()[pri:0, instance:com.purebi.AdvanceAlert.ParameterAlertsTest@7e0b85f9]" name="parameterAlertFullFlow" class="com.purebi.AdvanceAlert.ParameterAlertsTest"/>
+      </group> <!-- parameter-alerts -->
+      <group name="module-alerts">
+        <method signature="ModuleAlertsTest.moduleAlertFullFlow()[pri:0, instance:com.purebi.AdvanceAlert.ModuleAlertsTest@6580cfdd]" name="moduleAlertFullFlow" class="com.purebi.AdvanceAlert.ModuleAlertsTest"/>
+      </group> <!-- module-alerts -->
+      <group name="pm-alerts">
+        <method signature="PMAlertsTest.pmAlertFullFlow()[pri:0, instance:com.purebi.AdvanceAlert.PMAlertsTest@63355449]" name="pmAlertFullFlow" class="com.purebi.AdvanceAlert.PMAlertsTest"/>
+      </group> <!-- pm-alerts -->
+      <group name="visual">
+        <method signature="GaugeTest.gaugeEchartCanvasPresenceAfterOpex()[pri:0, instance:com.purebi.homepage.GaugeTest@39529185]" name="gaugeEchartCanvasPresenceAfterOpex" class="com.purebi.homepage.GaugeTest"/>
+      </group> <!-- visual -->
+      <group name="login">
+        <method signature="LoginTest.loginTest()[pri:0, instance:com.purebi.homepage.LoginTest@7c0c77c7]" name="loginTest" class="com.purebi.homepage.LoginTest"/>
+      </group> <!-- login -->
+      <group name="chart">
+        <method signature="OpexDashboardChartTest.opexDashboardChartDataCheck()[pri:0, instance:com.purebi.homepage.OpexDashboardChartTest@15eb5ee5]" name="opexDashboardChartDataCheck" class="com.purebi.homepage.OpexDashboardChartTest"/>
+      </group> <!-- chart -->
+      <group name="plant-settings-setup">
+        <method signature="PlantSettingsTest.plantSettingsTest()[pri:0, instance:com.purebi.PlantSettings.PlantSettingsTest@1d9b7cce]" name="plantSettingsTest" class="com.purebi.PlantSettings.PlantSettingsTest"/>
+      </group> <!-- plant-settings-setup -->
+      <group name="dashboard">
+        <method signature="DashboardRefreshTest.dashboardRefreshAndNotificationTest()[pri:0, instance:com.purebi.homepage.DashboardRefreshTest@4f209819]" name="dashboardRefreshAndNotificationTest" class="com.purebi.homepage.DashboardRefreshTest"/>
+      </group> <!-- dashboard -->
+    </groups>
+    <test started-at="2026-05-20T11:59:58 IST" name="Login Gate" finished-at="2026-05-20T12:00:52 IST" duration-ms="54152">
+      <class name="com.purebi.homepage.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.LoginTest@7c0c77c7]" started-at="2026-05-20T11:59:58 IST" name="setup" finished-at="2026-05-20T12:00:11 IST" duration-ms="13489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.LoginTest.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.purebi.homepage.LoginTest@7c0c77c7]" started-at="2026-05-20T12:00:11 IST" name="loginTest" finished-at="2026-05-20T12:00:23 IST" duration-ms="12041" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[✅ Login successful. PLANT SETTINGS is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Login succeeded — tests will run.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.purebi.homepage.LoginTest@7c0c77c7]" started-at="2026-05-20T12:00:23 IST" name="quitDriver" finished-at="2026-05-20T12:00:52 IST" duration-ms="28574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.purebi.homepage.LoginTest -->
+    </test> <!-- Login Gate -->
+    <test started-at="2026-05-20T11:59:58 IST" name="Browser 4 - Special Reports" finished-at="2026-05-20T12:01:01 IST" duration-ms="62953">
+      <class name="com.purebi.SpecialReports.SpecialReportsTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.SpecialReports.SpecialReportsTest@5e0826e7]" started-at="2026-05-20T11:59:58 IST" name="setup" finished-at="2026-05-20T12:00:49 IST" duration-ms="50803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.SpecialReports.SpecialReportsTest.lifecycleAllReports()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lifecycleAllReports()[pri:0, instance:com.purebi.SpecialReports.SpecialReportsTest@5e0826e7]" started-at="2026-05-20T12:00:49 IST" name="lifecycleAllReports" finished-at="2026-05-20T12:01:01 IST" duration-ms="12034" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[One or more report types failed. Check emailable-report.html for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: One or more report types failed. Check emailable-report.html for details.
+at org.testng.Assert.fail(Assert.java:111)
+at com.purebi.SpecialReports.SpecialReportsTest.lifecycleAllReports(SpecialReportsTest.java:144)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br><b>Report Type - Bar</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Bar</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.168)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, executeScript {args=[], script=window.scrollTo(0, document.body.scrollHeight);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Line</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Line</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Dot</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Dot</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Bar Label</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Bar Label</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Line Label</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Line Label</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Table</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Table</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Numeric</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Numeric</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Gauge</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Gauge</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Pie</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Pie</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Donut</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Donut</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Box</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Box</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Report Type - Text</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<span style='color:red;'><b>Creation FAIL: Text</b></span><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping View & Delete<br><hr>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lifecycleAllReports -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.purebi.SpecialReports.SpecialReportsTest@5e0826e7]" started-at="2026-05-20T12:01:01 IST" name="quitDriver" finished-at="2026-05-20T12:01:01 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.purebi.SpecialReports.SpecialReportsTest -->
+    </test> <!-- Browser 4 - Special Reports -->
+    <test started-at="2026-05-20T11:59:58 IST" name="Browser 1 - Advanced Alerts" finished-at="2026-05-20T12:02:01 IST" duration-ms="123270">
+      <class name="com.purebi.AdvanceAlert.ModuleAlertsTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.AdvanceAlert.ModuleAlertsTest@6580cfdd]" started-at="2026-05-20T11:59:58 IST" name="setup" finished-at="2026-05-20T12:00:45 IST" duration-ms="47729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.AdvanceAlert.ModuleAlertsTest.moduleAlertFullFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="moduleAlertFullFlow()[pri:0, instance:com.purebi.AdvanceAlert.ModuleAlertsTest@6580cfdd]" started-at="2026-05-20T12:00:45 IST" name="moduleAlertFullFlow" finished-at="2026-05-20T12:01:06 IST" duration-ms="20089" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP 1 — Navigation: Clicking Home logo]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Home logo]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS again.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked ADVANCED ALERTS.]]>
+            </line>
+            <line>
+              <![CDATA[Advanced Alerts page loaded.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 2 — Create Module Alert: Opening create modal]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: CREATE NEW ALERT]]>
+            </line>
+            <line>
+              <![CDATA[Create modal visible.]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Module Alert type...]]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'PM Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'Module Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'Parameter Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'AI Alert']]>
+            </line>
+            <line>
+              <![CDATA[Selected Alert Type: Module Alert]]>
+            </line>
+            <line>
+              <![CDATA[Entered alert name: Module Alert Test]]>
+            </line>
+            <line>
+              <![CDATA[Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']]]>
+            </line>
+            <line>
+              <![CDATA[Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']]]>
+            </line>
+            <line>
+              <![CDATA[Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']]]>
+            </line>
+            <line>
+              <![CDATA[Entered score: 70]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved: screenshots/module_alert_before_save_20260520_120058.png]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Save alert]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Save.]]>
+            </line>
+            <line>
+              <![CDATA[Toast: Added successfully visible.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Module Alert tab]]>
+            </line>
+            <line>
+              <![CDATA[Module Alert row found in AG Grid.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 12 — Delete Alert: Clicking delete icon on row.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Delete icon]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Popup DELETE button]]>
+            </line>
+            <line>
+              <![CDATA[STEP 15 — Validate Deletion: Ensuring row no longer exists.]]>
+            </line>
+            <line>
+              <![CDATA[Module Alert flow completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moduleAlertFullFlow -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.purebi.AdvanceAlert.ModuleAlertsTest@6580cfdd]" started-at="2026-05-20T12:01:40 IST" name="quitDriver" finished-at="2026-05-20T12:02:01 IST" duration-ms="20813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.purebi.AdvanceAlert.ModuleAlertsTest -->
+      <class name="com.purebi.AdvanceAlert.PMAlertsTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.AdvanceAlert.PMAlertsTest@63355449]" started-at="2026-05-20T12:01:25 IST" name="setup" finished-at="2026-05-20T12:01:25 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.AdvanceAlert.PMAlertsTest.pmAlertFullFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pmAlertFullFlow()[pri:0, instance:com.purebi.AdvanceAlert.PMAlertsTest@63355449]" started-at="2026-05-20T12:01:25 IST" name="pmAlertFullFlow" finished-at="2026-05-20T12:01:40 IST" duration-ms="14648" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP 1 — Navigation: Clicking Home logo]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Home logo]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS again.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked ADVANCED ALERTS.]]>
+            </line>
+            <line>
+              <![CDATA[Advanced Alerts page loaded.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 2 — Create PM Alert: Opening create modal]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: CREATE NEW ALERT]]>
+            </line>
+            <line>
+              <![CDATA[Create modal visible.]]>
+            </line>
+            <line>
+              <![CDATA[Selecting PM Alert type...]]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'PM Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'Module Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'Parameter Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'AI Alert']]>
+            </line>
+            <line>
+              <![CDATA[Selected Alert Type: PM Alert]]>
+            </line>
+            <line>
+              <![CDATA[Entered alert name: PM Alert Test]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Equipment dropdown options to load...]]>
+            </line>
+            <line>
+              <![CDATA[Equipment option found: Equipments*]]>
+            </line>
+            <line>
+              <![CDATA[Equipment option found: PI-9019AN]]>
+            </line>
+            <line>
+              <![CDATA[Selected Equipment: PI-9019AN]]>
+            </line>
+            <line>
+              <![CDATA[Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']]]>
+            </line>
+            <line>
+              <![CDATA[Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']]]>
+            </line>
+            <line>
+              <![CDATA[Setting Start Date & Time...]]>
+            </line>
+            <line>
+              <![CDATA[Target datetime: 19-May-2026 12:01]]>
+            </line>
+            <line>
+              <![CDATA[Calendar popup opened]]>
+            </line>
+            <line>
+              <![CDATA[Target day selected]]>
+            </line>
+            <line>
+              <![CDATA[Selected datetime value: 19-05-2026 12:01]]>
+            </line>
+            <line>
+              <![CDATA[Datetime field populated]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved: screenshots/pm_alert_before_save_20260520_120134.png]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Save alert]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Save.]]>
+            </line>
+            <line>
+              <![CDATA[Toast: Added successfully visible.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: PM Alert tab]]>
+            </line>
+            <line>
+              <![CDATA[PM Alert row found in AG Grid.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 5 — Delete Alert: Clicking delete icon on row.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Delete icon]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Popup DELETE button]]>
+            </line>
+            <line>
+              <![CDATA[STEP 6 — Validate Deletion: Ensuring row no longer exists.]]>
+            </line>
+            <line>
+              <![CDATA[PM Alert flow completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pmAlertFullFlow -->
+      </class> <!-- com.purebi.AdvanceAlert.PMAlertsTest -->
+      <class name="com.purebi.AdvanceAlert.ParameterAlertsTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.AdvanceAlert.ParameterAlertsTest@7e0b85f9]" started-at="2026-05-20T12:01:06 IST" name="setup" finished-at="2026-05-20T12:01:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.AdvanceAlert.ParameterAlertsTest.parameterAlertFullFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="parameterAlertFullFlow()[pri:0, instance:com.purebi.AdvanceAlert.ParameterAlertsTest@7e0b85f9]" started-at="2026-05-20T12:01:06 IST" name="parameterAlertFullFlow" finished-at="2026-05-20T12:01:25 IST" duration-ms="19946" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP 1 — Navigation: Clicking Home logo]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Home logo]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS again.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: ADVANCED ALERTS]]>
+            </line>
+            <line>
+              <![CDATA[Clicked ADVANCED ALERTS.]]>
+            </line>
+            <line>
+              <![CDATA[Advanced Alerts page loaded.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 2 — Open Create Alert Modal: Opening create modal]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: CREATE NEW ALERT]]>
+            </line>
+            <line>
+              <![CDATA[Create modal visible.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 3 — Select Alert Type]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Parameter Alert type...]]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'PM Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'Module Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'Parameter Alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Type Option: 'AI Alert']]>
+            </line>
+            <line>
+              <![CDATA[Selected Alert Type: Parameter Alert]]>
+            </line>
+            <line>
+              <![CDATA[STEP 4 — Enter Alert Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered alert name: Parameter Alert Test]]>
+            </line>
+            <line>
+              <![CDATA[STEP 5 — Select Module]]>
+            </line>
+            <line>
+              <![CDATA[Selected 'RO-3' on By.xpath: //select[@formcontrolname='moduleparam']]]>
+            </line>
+            <line>
+              <![CDATA[Validated selected Module: RO-3]]>
+            </line>
+            <line>
+              <![CDATA[STEP 6 — Select Parameter]]>
+            </line>
+            <line>
+              <![CDATA[Parameter option found: Select Parameter*]]>
+            </line>
+            <line>
+              <![CDATA[Parameter option found: RO-3 I/L Flow rate (O)]]>
+            </line>
+            <line>
+              <![CDATA[Selected Parameter: RO-3 I/L Flow rate (O)]]>
+            </line>
+            <line>
+              <![CDATA[STEP 7 — Select Condition]]>
+            </line>
+            <line>
+              <![CDATA[Condition option found: Conditions*]]>
+            </line>
+            <line>
+              <![CDATA[Condition option found: Greater (>)]]>
+            </line>
+            <line>
+              <![CDATA[Selected Condition: Greater (>)]]>
+            </line>
+            <line>
+              <![CDATA[STEP 8 — Assign To]]>
+            </line>
+            <line>
+              <![CDATA[Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']]]>
+            </line>
+            <line>
+              <![CDATA[STEP 9 — Enter Score]]>
+            </line>
+            <line>
+              <![CDATA[Entered score: 70]]>
+            </line>
+            <line>
+              <![CDATA[STEP 10 — Screenshot Before Save]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved: screenshots/parameter_alert_before_save_20260520_120114.png]]>
+            </line>
+            <line>
+              <![CDATA[STEP 11 — Save Alert]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Save alert]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Save.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 12 — Validate Creation Toast]]>
+            </line>
+            <line>
+              <![CDATA[Toast: Added successfully visible.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 13 — Reopen Advanced Alerts Page]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS again.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: ADVANCED ALERTS]]>
+            </line>
+            <line>
+              <![CDATA[Clicked ADVANCED ALERTS.]]>
+            </line>
+            <line>
+              <![CDATA[Advanced Alerts page loaded.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 14 — Click Parameter Alert Filter]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Parameter Alert tab]]>
+            </line>
+            <line>
+              <![CDATA[STEP 15 — Validate Row Exists In AG Grid]]>
+            </line>
+            <line>
+              <![CDATA[Parameter Alert row found in AG Grid.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 16 — Delete Alert]]>
+            </line>
+            <line>
+              <![CDATA[Clicked delete icon for Parameter Alert Test row.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 17 — Delete Confirmation Popup]]>
+            </line>
+            <line>
+              <![CDATA[Clicked: Popup DELETE button]]>
+            </line>
+            <line>
+              <![CDATA[STEP 18 — Validate Delete Toast]]>
+            </line>
+            <line>
+              <![CDATA[STEP 19 — Final Delete Validation]]>
+            </line>
+            <line>
+              <![CDATA[Parameter Alert row deleted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- parameterAlertFullFlow -->
+      </class> <!-- com.purebi.AdvanceAlert.ParameterAlertsTest -->
+    </test> <!-- Browser 1 - Advanced Alerts -->
+    <test started-at="2026-05-20T11:59:58 IST" name="Browser 2 - Home Dashboard" finished-at="2026-05-20T12:02:57 IST" duration-ms="179351">
+      <class name="com.purebi.homepage.OpexDashboardChartTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.OpexDashboardChartTest@15eb5ee5]" started-at="2026-05-20T12:02:07 IST" name="setup" finished-at="2026-05-20T12:02:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.OpexDashboardChartTest.opexDashboardChartDataCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opexDashboardChartDataCheck()[pri:0, instance:com.purebi.homepage.OpexDashboardChartTest@15eb5ee5]" started-at="2026-05-20T12:02:07 IST" name="opexDashboardChartDataCheck" finished-at="2026-05-20T12:02:07 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Found list item: Chemicals]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- opexDashboardChartDataCheck -->
+      </class> <!-- com.purebi.homepage.OpexDashboardChartTest -->
+      <class name="com.purebi.homepage.DashboardRefreshTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.DashboardRefreshTest@4f209819]" started-at="2026-05-20T11:59:58 IST" name="setup" finished-at="2026-05-20T12:00:45 IST" duration-ms="47177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.DashboardRefreshTest.dashboardRefreshAndNotificationTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dashboardRefreshAndNotificationTest()[pri:0, instance:com.purebi.homepage.DashboardRefreshTest@4f209819]" started-at="2026-05-20T12:00:45 IST" name="dashboardRefreshAndNotificationTest" finished-at="2026-05-20T12:02:07 IST" duration-ms="81925" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Old Updated On text: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Clicked dashboard Refresh button.]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 19-05-2026 14:38:46]]>
+            </line>
+            <line>
+              <![CDATA[Polling Updated On: Updated On : 20-05-2026 12:00:50]]>
+            </line>
+            <line>
+              <![CDATA[Updated time changed after refresh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dashboardRefreshAndNotificationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.purebi.homepage.DashboardRefreshTest@4f209819]" started-at="2026-05-20T12:02:36 IST" name="quitDriver" finished-at="2026-05-20T12:02:57 IST" duration-ms="20779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.purebi.homepage.DashboardRefreshTest -->
+      <class name="com.purebi.homepage.SpecialReportsDashboardTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.SpecialReportsDashboardTest@31c88ec8]" started-at="2026-05-20T12:02:31 IST" name="setup" finished-at="2026-05-20T12:02:31 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.SpecialReportsDashboardTest.specialReportsDashboardCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="specialReportsDashboardCheck()[pri:0, instance:com.purebi.homepage.SpecialReportsDashboardTest@31c88ec8]" started-at="2026-05-20T12:02:31 IST" name="specialReportsDashboardCheck" finished-at="2026-05-20T12:02:32 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked SPECIAL REPORTS link.]]>
+            </line>
+            <line>
+              <![CDATA[✅ Dashboard Report list present. Test passed.]]>
+            </line>
+            <line>
+              <![CDATA[Returned to Home screen after SpecialReportsDashboardTest.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- specialReportsDashboardCheck -->
+      </class> <!-- com.purebi.homepage.SpecialReportsDashboardTest -->
+      <class name="com.purebi.homepage.SpecialReportPage">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.SpecialReportPage@3daa422a]" started-at="2026-05-20T12:02:31 IST" name="setup" finished-at="2026-05-20T12:02:31 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.SpecialReportPage.specialReportPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="specialReportPageTest()[pri:0, instance:com.purebi.homepage.SpecialReportPage@3daa422a]" started-at="2026-05-20T12:02:31 IST" name="specialReportPageTest" description="Run special reports navigation check; only when login succeeded" finished-at="2026-05-20T12:02:31 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked SPECIAL REPORTS.]]>
+            </line>
+            <line>
+              <![CDATA[✅ Dashboard Report list found.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- specialReportPageTest -->
+      </class> <!-- com.purebi.homepage.SpecialReportPage -->
+      <class name="com.purebi.homepage.UserTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.UserTest@1cbbffcd]" started-at="2026-05-20T12:02:32 IST" name="setup" finished-at="2026-05-20T12:02:32 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.UserTest.userSettingsPresence()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userSettingsPresence()[pri:0, instance:com.purebi.homepage.UserTest@1cbbffcd]" started-at="2026-05-20T12:02:32 IST" name="userSettingsPresence" description="Verify Site User Settings page is accessible" finished-at="2026-05-20T12:02:36 IST" duration-ms="4336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked USER menu.]]>
+            </line>
+            <line>
+              <![CDATA[Pressed ESC to close dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[Site User Settings header visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userSettingsPresence -->
+      </class> <!-- com.purebi.homepage.UserTest -->
+      <class name="com.purebi.homepage.ProcessDashboardModuleStoreTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.ProcessDashboardModuleStoreTest@72f926e6]" started-at="2026-05-20T12:02:29 IST" name="setup" finished-at="2026-05-20T12:02:29 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.ProcessDashboardModuleStoreTest.processDashboardModuleStoreCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="processDashboardModuleStoreCheck()[pri:0, instance:com.purebi.homepage.ProcessDashboardModuleStoreTest@72f926e6]" started-at="2026-05-20T12:02:29 IST" name="processDashboardModuleStoreCheck" description="Click process dashboard icon, check module store row, then return home" finished-at="2026-05-20T12:02:31 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']]]>
+            </line>
+            <line>
+              <![CDATA[Found element: By.xpath: //div[@class='row mt-1 ng-star-inserted']]]>
+            </line>
+            <line>
+              <![CDATA[Clicked home logo after ProcessDashboardModuleStoreTest.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- processDashboardModuleStoreCheck -->
+      </class> <!-- com.purebi.homepage.ProcessDashboardModuleStoreTest -->
+      <class name="com.purebi.homepage.GaugeTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.GaugeTest@39529185]" started-at="2026-05-20T12:02:29 IST" name="setup" finished-at="2026-05-20T12:02:29 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.GaugeTest.gaugeEchartCanvasPresenceAfterOpex()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="gaugeEchartCanvasPresenceAfterOpex()[pri:0, instance:com.purebi.homepage.GaugeTest@39529185]" started-at="2026-05-20T12:02:29 IST" name="gaugeEchartCanvasPresenceAfterOpex" finished-at="2026-05-20T12:02:29 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gaugeEchartCanvasPresenceAfterOpex -->
+      </class> <!-- com.purebi.homepage.GaugeTest -->
+      <class name="com.purebi.homepage.OpexDashboardTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.homepage.OpexDashboardTest@2145b572]" started-at="2026-05-20T12:02:07 IST" name="setup" finished-at="2026-05-20T12:02:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.homepage.OpexDashboardTest.opexModuleDashboardNavigationAndValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opexModuleDashboardNavigationAndValidation()[pri:0, instance:com.purebi.homepage.OpexDashboardTest@2145b572]" started-at="2026-05-20T12:02:07 IST" name="opexModuleDashboardNavigationAndValidation" finished-at="2026-05-20T12:02:29 IST" duration-ms="21943" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Icon path navigation success: true]]>
+            </line>
+            <line>
+              <![CDATA[Reset to main view after icon path.]]>
+            </line>
+            <line>
+              <![CDATA[Menu navigation failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h4[normalize-space()='OPEX Module Reports'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62086}, goog:processID: 14300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62086/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e21c6df2b4b7520af7f1bb93a05f7aa]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved: screenshots/opex_navigation_fail_20260520_120229.png]]>
+            </line>
+            <line>
+              <![CDATA[Menu path navigation success: false]]>
+            </line>
+            <line>
+              <![CDATA[OPEX navigation considered SUCCESS (at least one path succeeded).]]>
+            </line>
+            <line>
+              <![CDATA[Clicked logo at test end to return to main view.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- opexModuleDashboardNavigationAndValidation -->
+      </class> <!-- com.purebi.homepage.OpexDashboardTest -->
+    </test> <!-- Browser 2 - Home Dashboard -->
+    <test started-at="2026-05-20T12:00:52 IST" name="Browser 5 - User Management" finished-at="2026-05-20T12:03:18 IST" duration-ms="145546">
+      <class name="com.purebi.User.EditUserTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.User.EditUserTest@323b36e0]" started-at="2026-05-20T12:01:26 IST" name="setup" finished-at="2026-05-20T12:01:26 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.User.EditUserTest.editUserFromExcel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editUserFromExcel()[pri:0, instance:com.purebi.User.EditUserTest@323b36e0]" started-at="2026-05-20T12:01:26 IST" name="editUserFromExcel" finished-at="2026-05-20T12:02:22 IST" duration-ms="56160" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked USER menu.]]>
+            </line>
+            <line>
+              <![CDATA[Pressed ESC to close dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+            </line>
+            <line>
+              <![CDATA[Clicked dropdown div trigger.]]>
+            </line>
+            <line>
+              <![CDATA[Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+            </line>
+            <line>
+              <![CDATA[Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]]]>
+            </line>
+            <line>
+              <![CDATA[Edit form appeared for user: jamil0943334@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Image upload failed: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='form-group']//input[@id='imageUpload'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[✅ User updated successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editUserFromExcel -->
+        <test-method is-config="true" signature="ensureReturnHome()[pri:0, instance:com.purebi.User.EditUserTest@323b36e0]" started-at="2026-05-20T12:02:22 IST" name="ensureReturnHome" finished-at="2026-05-20T12:02:23 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureReturnHome -->
+      </class> <!-- com.purebi.User.EditUserTest -->
+      <class name="com.purebi.User.DeleteUserTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.User.DeleteUserTest@44ebcd03]" started-at="2026-05-20T12:02:23 IST" name="setup" finished-at="2026-05-20T12:02:23 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.User.DeleteUserTest.deleteUserByEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUserByEmail()[pri:0, instance:com.purebi.User.DeleteUserTest@44ebcd03]" started-at="2026-05-20T12:02:23 IST" name="deleteUserByEmail" finished-at="2026-05-20T12:02:57 IST" duration-ms="33938" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked USER menu.]]>
+            </line>
+            <line>
+              <![CDATA[Pressed ESC to close dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+            </line>
+            <line>
+              <![CDATA[Clicked dropdown div trigger.]]>
+            </line>
+            <line>
+              <![CDATA[Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+            </line>
+            <line>
+              <![CDATA[Clicked delete icon for user: jamil0943334@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Clicked confirmation Yes button.]]>
+            </line>
+            <line>
+              <![CDATA[✅ User deleted successfully toast found.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUserByEmail -->
+        <test-method is-config="true" signature="ensureReturnHome()[pri:0, instance:com.purebi.User.DeleteUserTest@44ebcd03]" started-at="2026-05-20T12:02:57 IST" name="ensureReturnHome" finished-at="2026-05-20T12:02:57 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureReturnHome -->
+      </class> <!-- com.purebi.User.DeleteUserTest -->
+      <class name="com.purebi.User.UserCreate">
+        <test-method is-config="true" signature="resetDriverState()[pri:0, instance:com.purebi.User.UserCreate@5af3afd9]" started-at="2026-05-20T11:59:58 IST" name="resetDriverState" finished-at="2026-05-20T11:59:58 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetDriverState -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.User.UserCreate@5af3afd9]" started-at="2026-05-20T12:00:52 IST" name="setup" finished-at="2026-05-20T12:01:09 IST" duration-ms="16697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.User.UserCreate.createSiteUserFromExcel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createSiteUserFromExcel()[pri:0, instance:com.purebi.User.UserCreate@5af3afd9]" started-at="2026-05-20T12:01:09 IST" name="createSiteUserFromExcel" finished-at="2026-05-20T12:01:18 IST" duration-ms="8990" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hovered on PLANT SETTINGS.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked USER menu.]]>
+            </line>
+            <line>
+              <![CDATA[Pressed ESC to close dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked + Add Site User.]]>
+            </line>
+            <line>
+              <![CDATA[Toast message: User added successfully.]]>
+            </line>
+            <line>
+              <![CDATA[✅ User added successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Closed Add Site User sidebar.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createSiteUserFromExcel -->
+        <test-method is-config="true" signature="ensureSidebarClosed()[pri:0, instance:com.purebi.User.UserCreate@5af3afd9]" started-at="2026-05-20T12:01:18 IST" name="ensureSidebarClosed" finished-at="2026-05-20T12:01:26 IST" duration-ms="8253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Failed to close sidebar in AfterMethod (both click and JS): no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')]"}
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [550734d4e8bccff3e228d534fa73fc33, findElement {value=//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ensureSidebarClosed -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.purebi.User.UserCreate@5af3afd9]" started-at="2026-05-20T12:02:57 IST" name="quitDriver" finished-at="2026-05-20T12:03:18 IST" duration-ms="20634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitAllDrivers()[pri:0, instance:com.purebi.User.UserCreate@5af3afd9]" started-at="2026-05-20T12:07:08 IST" name="quitAllDrivers" finished-at="2026-05-20T12:07:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAllDrivers -->
+      </class> <!-- com.purebi.User.UserCreate -->
+    </test> <!-- Browser 5 - User Management -->
+    <test started-at="2026-05-20T11:59:58 IST" name="Browser 3 - Plant Settings" finished-at="2026-05-20T12:07:08 IST" duration-ms="430457">
+      <class name="com.purebi.PlantSettings.PlantSettingsTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.PlantSettings.PlantSettingsTest@1d9b7cce]" started-at="2026-05-20T11:59:58 IST" name="setup" finished-at="2026-05-20T12:00:42 IST" duration-ms="44434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.PlantSettings.PlantSettingsTest.plantSettingsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="plantSettingsTest()[pri:0, instance:com.purebi.PlantSettings.PlantSettingsTest@1d9b7cce]" started-at="2026-05-20T12:00:42 IST" name="plantSettingsTest" finished-at="2026-05-20T12:04:23 IST" duration-ms="220385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plantSettingsTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.purebi.PlantSettings.PlantSettingsTest@1d9b7cce]" started-at="2026-05-20T12:06:48 IST" name="quitDriver" finished-at="2026-05-20T12:07:08 IST" duration-ms="20395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.purebi.PlantSettings.PlantSettingsTest -->
+      <class name="com.purebi.PlantSettings.RevertPlantSettingsTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.purebi.PlantSettings.RevertPlantSettingsTest@4d9e68d0]" started-at="2026-05-20T12:04:23 IST" name="setup" finished-at="2026-05-20T12:04:23 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.purebi.PlantSettings.RevertPlantSettingsTest.revertPlantSettings()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="revertPlantSettings()[pri:0, instance:com.purebi.PlantSettings.RevertPlantSettingsTest@4d9e68d0]" started-at="2026-05-20T12:04:23 IST" name="revertPlantSettings" depends-on-groups="plant-settings-setup" finished-at="2026-05-20T12:06:48 IST" duration-ms="145197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- revertPlantSettings -->
+      </class> <!-- com.purebi.PlantSettings.RevertPlantSettingsTest -->
+    </test> <!-- Browser 3 - Plant Settings -->
+  </suite> <!-- TestSuite -->
+</testng-results>

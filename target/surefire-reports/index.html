@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
+                    <span>C:\Users\nawaz\OneDrive\Desktop\automation_testing\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestSuite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestSuite" class="navigator-link ">
+                    <span>9 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.SpecialReports.SpecialReportsTest" class="method navigator-link" hash-for-method="lifecycleAllReports">lifecycleAllReports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.User.UserCreate" class="method navigator-link" hash-for-method="createSiteUserFromExcel">createSiteUserFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.DashboardRefreshTest" class="method navigator-link" hash-for-method="dashboardRefreshAndNotificationTest">dashboardRefreshAndNotificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.User.DeleteUserTest" class="method navigator-link" hash-for-method="deleteUserByEmail">deleteUserByEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.User.EditUserTest" class="method navigator-link" hash-for-method="editUserFromExcel">editUserFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.GaugeTest" class="method navigator-link" hash-for-method="gaugeEchartCanvasPresenceAfterOpex">gaugeEchartCanvasPresenceAfterOpex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.LoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.AdvanceAlert.ModuleAlertsTest" class="method navigator-link" hash-for-method="moduleAlertFullFlow">moduleAlertFullFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.OpexDashboardChartTest" class="method navigator-link" hash-for-method="opexDashboardChartDataCheck">opexDashboardChartDataCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.OpexDashboardTest" class="method navigator-link" hash-for-method="opexModuleDashboardNavigationAndValidation">opexModuleDashboardNavigationAndValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.AdvanceAlert.ParameterAlertsTest" class="method navigator-link" hash-for-method="parameterAlertFullFlow">parameterAlertFullFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.PlantSettings.PlantSettingsTest" class="method navigator-link" hash-for-method="plantSettingsTest">plantSettingsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.AdvanceAlert.PMAlertsTest" class="method navigator-link" hash-for-method="pmAlertFullFlow">pmAlertFullFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.ProcessDashboardModuleStoreTest" class="method navigator-link" hash-for-method="processDashboardModuleStoreCheck">processDashboardModuleStoreCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.PlantSettings.RevertPlantSettingsTest" class="method navigator-link" hash-for-method="revertPlantSettings">revertPlantSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.SpecialReportPage" class="method navigator-link" hash-for-method="specialReportPageTest">specialReportPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.SpecialReportsDashboardTest" class="method navigator-link" hash-for-method="specialReportsDashboardCheck">specialReportsDashboardCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.UserTest" class="method navigator-link" hash-for-method="userSettingsPresence">userSettingsPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.purebi.SpecialReports.SpecialReportsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lifecycleAllReports">
+                  </a> <!-- lifecycleAllReports -->
+                  <span class="method-name">lifecycleAllReports</span>
+                  <div class="stack-trace">java.lang.AssertionError: One or more report types failed. Check emailable-report.html for details.
+	at com.purebi.SpecialReports.SpecialReportsTest.lifecycleAllReports(SpecialReportsTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.SpecialReportPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="specialReportPageTest">
+                  </a> <!-- specialReportPageTest -->
+                  <span class="method-name">specialReportPageTest</span>
+                  <em>
+(Run special reports navigation check; only when login succeeded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.AdvanceAlert.PMAlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pmAlertFullFlow">
+                  </a> <!-- pmAlertFullFlow -->
+                  <span class="method-name">pmAlertFullFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.User.EditUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editUserFromExcel">
+                  </a> <!-- editUserFromExcel -->
+                  <span class="method-name">editUserFromExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.User.DeleteUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUserByEmail">
+                  </a> <!-- deleteUserByEmail -->
+                  <span class="method-name">deleteUserByEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.DashboardRefreshTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardRefreshAndNotificationTest">
+                  </a> <!-- dashboardRefreshAndNotificationTest -->
+                  <span class="method-name">dashboardRefreshAndNotificationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.PlantSettings.RevertPlantSettingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="revertPlantSettings">
+                  </a> <!-- revertPlantSettings -->
+                  <span class="method-name">revertPlantSettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.UserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userSettingsPresence">
+                  </a> <!-- userSettingsPresence -->
+                  <span class="method-name">userSettingsPresence</span>
+                  <em>
+(Verify Site User Settings page is accessible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.GaugeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="gaugeEchartCanvasPresenceAfterOpex">
+                  </a> <!-- gaugeEchartCanvasPresenceAfterOpex -->
+                  <span class="method-name">gaugeEchartCanvasPresenceAfterOpex</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.ProcessDashboardModuleStoreTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="processDashboardModuleStoreCheck">
+                  </a> <!-- processDashboardModuleStoreCheck -->
+                  <span class="method-name">processDashboardModuleStoreCheck</span>
+                  <em>
+(Click process dashboard icon, check module store row, then return home)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.OpexDashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="opexModuleDashboardNavigationAndValidation">
+                  </a> <!-- opexModuleDashboardNavigationAndValidation -->
+                  <span class="method-name">opexModuleDashboardNavigationAndValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.AdvanceAlert.ParameterAlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="parameterAlertFullFlow">
+                  </a> <!-- parameterAlertFullFlow -->
+                  <span class="method-name">parameterAlertFullFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.User.UserCreate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createSiteUserFromExcel">
+                  </a> <!-- createSiteUserFromExcel -->
+                  <span class="method-name">createSiteUserFromExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="moduleAlertFullFlow">
+                  </a> <!-- moduleAlertFullFlow -->
+                  <span class="method-name">moduleAlertFullFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.SpecialReportsDashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="specialReportsDashboardCheck">
+                  </a> <!-- specialReportsDashboardCheck -->
+                  <span class="method-name">specialReportsDashboardCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.PlantSettings.PlantSettingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="plantSettingsTest">
+                  </a> <!-- plantSettingsTest -->
+                  <span class="method-name">plantSettingsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.purebi.homepage.OpexDashboardChartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="opexDashboardChartDataCheck">
+                  </a> <!-- opexDashboardChartDataCheck -->
+                  <span class="method-name">opexDashboardChartDataCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nawaz\OneDrive\Desktop\automation_testing\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.purebi.listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.purebi.listeners.ScreenshotListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.purebi.listeners.LoginGatekeeperListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Login Gate&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.purebi.homepage.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Gate --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Browser 1 - Advanced Alerts&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.purebi.AdvanceAlert.ModuleAlertsTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.AdvanceAlert.ParameterAlertsTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.AdvanceAlert.PMAlertsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Browser 1 - Advanced Alerts --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Browser 2 - Home Dashboard&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.purebi.homepage.DashboardRefreshTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.homepage.OpexDashboardChartTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.homepage.OpexDashboardTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.homepage.GaugeTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.homepage.ProcessDashboardModuleStoreTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.homepage.SpecialReportPage&quot;/&gt;
+      &lt;class name=&quot;com.purebi.homepage.SpecialReportsDashboardTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.homepage.UserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Browser 2 - Home Dashboard --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Browser 3 - Plant Settings&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.purebi.PlantSettings.PlantSettingsTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.PlantSettings.RevertPlantSettingsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Browser 3 - Plant Settings --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Browser 4 - Special Reports&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.purebi.SpecialReports.SpecialReportsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Browser 4 - Special Reports --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Browser 5 - User Management&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.purebi.User.UserCreate&quot;/&gt;
+      &lt;class name=&quot;com.purebi.User.EditUserTest&quot;/&gt;
+      &lt;class name=&quot;com.purebi.User.DeleteUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Browser 5 - User Management --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Gate (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Browser 1 - Advanced Alerts (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Browser 2 - Home Dashboard (8 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Browser 3 - Plant Settings (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Browser 4 - Special Reports (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Browser 5 - User Management (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">chart</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">opexDashboardChartDataCheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">dashboard</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">dashboardRefreshAndNotificationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">module-alerts</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">moduleAlertFullFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">opex</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">opexModuleDashboardNavigationAndValidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">parameter-alerts</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">parameterAlertFullFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">plant-settings-setup</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">plantSettingsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">pm-alerts</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">pmAlertFullFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">visual</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">gaugeEchartCanvasPresenceAfterOpex</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'plantSettingsTest')
+data.setCell(0, 2, 'com.purebi.PlantSettings.PlantSettingsTest')
+data.setCell(0, 3, 220385);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'revertPlantSettings')
+data.setCell(1, 2, 'com.purebi.PlantSettings.RevertPlantSettingsTest')
+data.setCell(1, 3, 145197);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dashboardRefreshAndNotificationTest')
+data.setCell(2, 2, 'com.purebi.homepage.DashboardRefreshTest')
+data.setCell(2, 3, 81925);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'editUserFromExcel')
+data.setCell(3, 2, 'com.purebi.User.EditUserTest')
+data.setCell(3, 3, 56160);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteUserByEmail')
+data.setCell(4, 2, 'com.purebi.User.DeleteUserTest')
+data.setCell(4, 3, 33938);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'opexModuleDashboardNavigationAndValidation')
+data.setCell(5, 2, 'com.purebi.homepage.OpexDashboardTest')
+data.setCell(5, 3, 21943);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'moduleAlertFullFlow')
+data.setCell(6, 2, 'com.purebi.AdvanceAlert.ModuleAlertsTest')
+data.setCell(6, 3, 20089);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'parameterAlertFullFlow')
+data.setCell(7, 2, 'com.purebi.AdvanceAlert.ParameterAlertsTest')
+data.setCell(7, 3, 19946);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'pmAlertFullFlow')
+data.setCell(8, 2, 'com.purebi.AdvanceAlert.PMAlertsTest')
+data.setCell(8, 3, 14648);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTest')
+data.setCell(9, 2, 'com.purebi.homepage.LoginTest')
+data.setCell(9, 3, 12041);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'lifecycleAllReports')
+data.setCell(10, 2, 'com.purebi.SpecialReports.SpecialReportsTest')
+data.setCell(10, 3, 12034);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createSiteUserFromExcel')
+data.setCell(11, 2, 'com.purebi.User.UserCreate')
+data.setCell(11, 3, 8990);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'userSettingsPresence')
+data.setCell(12, 2, 'com.purebi.homepage.UserTest')
+data.setCell(12, 3, 4336);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'processDashboardModuleStoreCheck')
+data.setCell(13, 2, 'com.purebi.homepage.ProcessDashboardModuleStoreTest')
+data.setCell(13, 3, 1119);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'specialReportPageTest')
+data.setCell(14, 2, 'com.purebi.homepage.SpecialReportPage')
+data.setCell(14, 3, 672);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'specialReportsDashboardCheck')
+data.setCell(15, 2, 'com.purebi.homepage.SpecialReportsDashboardTest')
+data.setCell(15, 3, 651);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'gaugeEchartCanvasPresenceAfterOpex')
+data.setCell(16, 2, 'com.purebi.homepage.GaugeTest')
+data.setCell(16, 3, 623);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'opexDashboardChartDataCheck')
+data.setCell(17, 2, 'com.purebi.homepage.OpexDashboardChartTest')
+data.setCell(17, 3, 54);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">✅ Login successful. PLANT SETTINGS is visible.</span>
+                <span class="reporter-method-output">Login succeeded — tests will run.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">lifecycleAllReports</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><b>Report Type - Bar</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Bar</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.168)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, executeScript {args=[], script=window.scrollTo(0, document.body.scrollHeight);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Line</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Line</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Dot</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Dot</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Bar Label</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Bar Label</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Line Label</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Line Label</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Table</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Table</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Numeric</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Numeric</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Gauge</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Gauge</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Pie</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Pie</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Donut</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Donut</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Box</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Box</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Text</b><br></span>
+                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Text</b></span><br></span>
+                <span class="reporter-method-output"><b>Reason:</b> invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
+                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">moduleAlertFullFlow</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP 1 — Navigation: Clicking Home logo</span>
+                <span class="reporter-method-output">Clicked: Home logo</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS again.</span>
+                <span class="reporter-method-output">Clicked ADVANCED ALERTS.</span>
+                <span class="reporter-method-output">Advanced Alerts page loaded.</span>
+                <span class="reporter-method-output">STEP 2 — Create Module Alert: Opening create modal</span>
+                <span class="reporter-method-output">Clicked: CREATE NEW ALERT</span>
+                <span class="reporter-method-output">Create modal visible.</span>
+                <span class="reporter-method-output">Selecting Module Alert type...</span>
+                <span class="reporter-method-output">Alert Type Option: 'PM Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Module Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Parameter Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'AI Alert'</span>
+                <span class="reporter-method-output">Selected Alert Type: Module Alert</span>
+                <span class="reporter-method-output">Entered alert name: Module Alert Test</span>
+                <span class="reporter-method-output">Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']</span>
+                <span class="reporter-method-output">Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']</span>
+                <span class="reporter-method-output">Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']</span>
+                <span class="reporter-method-output">Entered score: 70</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/module_alert_before_save_20260520_120058.png</span>
+                <span class="reporter-method-output">Clicked: Save alert</span>
+                <span class="reporter-method-output">Clicked Save.</span>
+                <span class="reporter-method-output">Toast: Added successfully visible.</span>
+                <span class="reporter-method-output">STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.</span>
+                <span class="reporter-method-output">Clicked: Module Alert tab</span>
+                <span class="reporter-method-output">Module Alert row found in AG Grid.</span>
+                <span class="reporter-method-output">STEP 12 — Delete Alert: Clicking delete icon on row.</span>
+                <span class="reporter-method-output">Clicked: Delete icon</span>
+                <span class="reporter-method-output">Clicked: Popup DELETE button</span>
+                <span class="reporter-method-output">STEP 15 — Validate Deletion: Ensuring row no longer exists.</span>
+                <span class="reporter-method-output">Module Alert flow completed successfully.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">pmAlertFullFlow</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP 1 — Navigation: Clicking Home logo</span>
+                <span class="reporter-method-output">Clicked: Home logo</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS again.</span>
+                <span class="reporter-method-output">Clicked ADVANCED ALERTS.</span>
+                <span class="reporter-method-output">Advanced Alerts page loaded.</span>
+                <span class="reporter-method-output">STEP 2 — Create PM Alert: Opening create modal</span>
+                <span class="reporter-method-output">Clicked: CREATE NEW ALERT</span>
+                <span class="reporter-method-output">Create modal visible.</span>
+                <span class="reporter-method-output">Selecting PM Alert type...</span>
+                <span class="reporter-method-output">Alert Type Option: 'PM Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Module Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Parameter Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'AI Alert'</span>
+                <span class="reporter-method-output">Selected Alert Type: PM Alert</span>
+                <span class="reporter-method-output">Entered alert name: PM Alert Test</span>
+                <span class="reporter-method-output">Waiting for Equipment dropdown options to load...</span>
+                <span class="reporter-method-output">Equipment option found: Equipments*</span>
+                <span class="reporter-method-output">Equipment option found: PI-9019AN</span>
+                <span class="reporter-method-output">Selected Equipment: PI-9019AN</span>
+                <span class="reporter-method-output">Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']</span>
+                <span class="reporter-method-output">Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']</span>
+                <span class="reporter-method-output">Setting Start Date & Time...</span>
+                <span class="reporter-method-output">Target datetime: 19-May-2026 12:01</span>
+                <span class="reporter-method-output">Calendar popup opened</span>
+                <span class="reporter-method-output">Target day selected</span>
+                <span class="reporter-method-output">Selected datetime value: 19-05-2026 12:01</span>
+                <span class="reporter-method-output">Datetime field populated</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/pm_alert_before_save_20260520_120134.png</span>
+                <span class="reporter-method-output">Clicked: Save alert</span>
+                <span class="reporter-method-output">Clicked Save.</span>
+                <span class="reporter-method-output">Toast: Added successfully visible.</span>
+                <span class="reporter-method-output">STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.</span>
+                <span class="reporter-method-output">Clicked: PM Alert tab</span>
+                <span class="reporter-method-output">PM Alert row found in AG Grid.</span>
+                <span class="reporter-method-output">STEP 5 — Delete Alert: Clicking delete icon on row.</span>
+                <span class="reporter-method-output">Clicked: Delete icon</span>
+                <span class="reporter-method-output">Clicked: Popup DELETE button</span>
+                <span class="reporter-method-output">STEP 6 — Validate Deletion: Ensuring row no longer exists.</span>
+                <span class="reporter-method-output">PM Alert flow completed successfully.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">parameterAlertFullFlow</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP 1 — Navigation: Clicking Home logo</span>
+                <span class="reporter-method-output">Clicked: Home logo</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS again.</span>
+                <span class="reporter-method-output">Clicked: ADVANCED ALERTS</span>
+                <span class="reporter-method-output">Clicked ADVANCED ALERTS.</span>
+                <span class="reporter-method-output">Advanced Alerts page loaded.</span>
+                <span class="reporter-method-output">STEP 2 — Open Create Alert Modal: Opening create modal</span>
+                <span class="reporter-method-output">Clicked: CREATE NEW ALERT</span>
+                <span class="reporter-method-output">Create modal visible.</span>
+                <span class="reporter-method-output">STEP 3 — Select Alert Type</span>
+                <span class="reporter-method-output">Selecting Parameter Alert type...</span>
+                <span class="reporter-method-output">Alert Type Option: 'PM Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Module Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Parameter Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'AI Alert'</span>
+                <span class="reporter-method-output">Selected Alert Type: Parameter Alert</span>
+                <span class="reporter-method-output">STEP 4 — Enter Alert Name</span>
+                <span class="reporter-method-output">Entered alert name: Parameter Alert Test</span>
+                <span class="reporter-method-output">STEP 5 — Select Module</span>
+                <span class="reporter-method-output">Selected 'RO-3' on By.xpath: //select[@formcontrolname='moduleparam']</span>
+                <span class="reporter-method-output">Validated selected Module: RO-3</span>
+                <span class="reporter-method-output">STEP 6 — Select Parameter</span>
+                <span class="reporter-method-output">Parameter option found: Select Parameter*</span>
+                <span class="reporter-method-output">Parameter option found: RO-3 I/L Flow rate (O)</span>
+                <span class="reporter-method-output">Selected Parameter: RO-3 I/L Flow rate (O)</span>
+                <span class="reporter-method-output">STEP 7 — Select Condition</span>
+                <span class="reporter-method-output">Condition option found: Conditions*</span>
+                <span class="reporter-method-output">Condition option found: Greater (>)</span>
+                <span class="reporter-method-output">Selected Condition: Greater (>)</span>
+                <span class="reporter-method-output">STEP 8 — Assign To</span>
+                <span class="reporter-method-output">Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']</span>
+                <span class="reporter-method-output">STEP 9 — Enter Score</span>
+                <span class="reporter-method-output">Entered score: 70</span>
+                <span class="reporter-method-output">STEP 10 — Screenshot Before Save</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/parameter_alert_before_save_20260520_120114.png</span>
+                <span class="reporter-method-output">STEP 11 — Save Alert</span>
+                <span class="reporter-method-output">Clicked: Save alert</span>
+                <span class="reporter-method-output">Clicked Save.</span>
+                <span class="reporter-method-output">STEP 12 — Validate Creation Toast</span>
+                <span class="reporter-method-output">Toast: Added successfully visible.</span>
+                <span class="reporter-method-output">STEP 13 — Reopen Advanced Alerts Page</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS again.</span>
+                <span class="reporter-method-output">Clicked: ADVANCED ALERTS</span>
+                <span class="reporter-method-output">Clicked ADVANCED ALERTS.</span>
+                <span class="reporter-method-output">Advanced Alerts page loaded.</span>
+                <span class="reporter-method-output">STEP 14 — Click Parameter Alert Filter</span>
+                <span class="reporter-method-output">Clicked: Parameter Alert tab</span>
+                <span class="reporter-method-output">STEP 15 — Validate Row Exists In AG Grid</span>
+                <span class="reporter-method-output">Parameter Alert row found in AG Grid.</span>
+                <span class="reporter-method-output">STEP 16 — Delete Alert</span>
+                <span class="reporter-method-output">Clicked delete icon for Parameter Alert Test row.</span>
+                <span class="reporter-method-output">STEP 17 — Delete Confirmation Popup</span>
+                <span class="reporter-method-output">Clicked: Popup DELETE button</span>
+                <span class="reporter-method-output">STEP 18 — Validate Delete Toast</span>
+                <span class="reporter-method-output">STEP 19 — Final Delete Validation</span>
+                <span class="reporter-method-output">Parameter Alert row deleted successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">specialReportsDashboardCheck</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked SPECIAL REPORTS link.</span>
+                <span class="reporter-method-output">✅ Dashboard Report list present. Test passed.</span>
+                <span class="reporter-method-output">Returned to Home screen after SpecialReportsDashboardTest.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">processDashboardModuleStoreCheck</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']</span>
+                <span class="reporter-method-output">Found element: By.xpath: //div[@class='row mt-1 ng-star-inserted']</span>
+                <span class="reporter-method-output">Clicked home logo after ProcessDashboardModuleStoreTest.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dashboardRefreshAndNotificationTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Old Updated On text: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Clicked dashboard Refresh button.</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 20-05-2026 12:00:50</span>
+                <span class="reporter-method-output">Updated time changed after refresh</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">userSettingsPresence</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Clicked USER menu.</span>
+                <span class="reporter-method-output">Pressed ESC to close dropdown.</span>
+                <span class="reporter-method-output">Site User Settings header visible</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">gaugeEchartCanvasPresenceAfterOpex</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">specialReportPageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked SPECIAL REPORTS.</span>
+                <span class="reporter-method-output">✅ Dashboard Report list found.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">opexDashboardChartDataCheck</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Found list item: Chemicals</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">opexModuleDashboardNavigationAndValidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Icon path navigation success: true</span>
+                <span class="reporter-method-output">Reset to main view after icon path.</span>
+                <span class="reporter-method-output">Menu navigation failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h4[normalize-space()='OPEX Module Reports'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62086}, goog:processID: 14300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62086/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e21c6df2b4b7520af7f1bb93a05f7aa</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/opex_navigation_fail_20260520_120229.png</span>
+                <span class="reporter-method-output">Menu path navigation success: false</span>
+                <span class="reporter-method-output">OPEX navigation considered SUCCESS (at least one path succeeded).</span>
+                <span class="reporter-method-output">Clicked logo at test end to return to main view.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editUserFromExcel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Clicked USER menu.</span>
+                <span class="reporter-method-output">Pressed ESC to close dropdown.</span>
+                <span class="reporter-method-output">Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
+                <span class="reporter-method-output">Clicked dropdown div trigger.</span>
+                <span class="reporter-method-output">Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
+                <span class="reporter-method-output">Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]</span>
+                <span class="reporter-method-output">Edit form appeared for user: jamil0943334@gmail.com</span>
+                <span class="reporter-method-output">Image upload failed: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='form-group']//input[@id='imageUpload'] (tried for 20 second(s) with 500 milliseconds interval)</span>
+                <span class="reporter-method-output">✅ User updated successfully.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">deleteUserByEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Clicked USER menu.</span>
+                <span class="reporter-method-output">Pressed ESC to close dropdown.</span>
+                <span class="reporter-method-output">Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
+                <span class="reporter-method-output">Clicked dropdown div trigger.</span>
+                <span class="reporter-method-output">Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
+                <span class="reporter-method-output">Clicked delete icon for user: jamil0943334@gmail.com</span>
+                <span class="reporter-method-output">Clicked confirmation Yes button.</span>
+                <span class="reporter-method-output">✅ User deleted successfully toast found.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createSiteUserFromExcel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Clicked USER menu.</span>
+                <span class="reporter-method-output">Pressed ESC to close dropdown.</span>
+                <span class="reporter-method-output">Clicked + Add Site User.</span>
+                <span class="reporter-method-output">Toast message: User added successfully.</span>
+                <span class="reporter-method-output">✅ User added successfully.</span>
+                <span class="reporter-method-output">Closed Add Site User sidebar.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">36 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.homepage.SpecialReportPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.homepage.ProcessDashboardModuleStoreTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.homepage.GaugeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.AdvanceAlert.PMAlertsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.User.EditUserTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.homepage.OpexDashboardTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.User.DeleteUserTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.AdvanceAlert.ParameterAlertsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.PlantSettings.RevertPlantSettingsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.homepage.SpecialReportsDashboardTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.homepage.OpexDashboardChartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.purebi.homepage.UserTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">resetDriverState</span>
+                <br/>
+                <span class="ignored-method-name">quitDriver</span>
+                <br/>
+                <span class="ignored-method-name">quitAllDrivers</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">resetDriverState</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.SpecialReports.SpecialReportsTest.lifecycleAllReports())</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.LoginTest.loginTest())</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.AdvanceAlert.ModuleAlertsTest.moduleAlertFullFlow())</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.DashboardRefreshTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.DashboardRefreshTest.dashboardRefreshAndNotificationTest())</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.PlantSettings.PlantSettingsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.PlantSettings.PlantSettingsTest.plantSettingsTest())</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">13540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">25585 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.PlantSettings.PlantSettingsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">plantSettingsTest</span>
+                <span class="method-start">44487 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.DashboardRefreshTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dashboardRefreshAndNotificationTest</span>
+                <span class="method-start">47228 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">moduleAlertFullFlow</span>
+                <span class="method-start">47782 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">lifecycleAllReports</span>
+                <span class="method-start">50854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.User.UserCreate.createSiteUserFromExcel())</span>
+                <span class="method-start">54377 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">62900 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.AdvanceAlert.ParameterAlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.AdvanceAlert.ParameterAlertsTest.parameterAlertFullFlow())</span>
+                <span class="method-start">67872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">parameterAlertFullFlow</span>
+                <span class="method-start">67873 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createSiteUserFromExcel</span>
+                <span class="method-start">71074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ensureSidebarClosed</span>
+                <span class="method-start">80066 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.AdvanceAlert.PMAlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.AdvanceAlert.PMAlertsTest.pmAlertFullFlow())</span>
+                <span class="method-start">87819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pmAlertFullFlow</span>
+                <span class="method-start">87822 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.EditUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.User.EditUserTest.editUserFromExcel())</span>
+                <span class="method-start">88320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editUserFromExcel</span>
+                <span class="method-start">88325 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">102471 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.OpexDashboardChartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.OpexDashboardChartTest.opexDashboardChartDataCheck())</span>
+                <span class="method-start">129154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">opexDashboardChartDataCheck</span>
+                <span class="method-start">129156 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.OpexDashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.OpexDashboardTest.opexModuleDashboardNavigationAndValidation())</span>
+                <span class="method-start">129211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">opexModuleDashboardNavigationAndValidation</span>
+                <span class="method-start">129215 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.EditUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">ensureReturnHome</span>
+                <span class="method-start">144486 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.DeleteUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.User.DeleteUserTest.deleteUserByEmail())</span>
+                <span class="method-start">144932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteUserByEmail</span>
+                <span class="method-start">144935 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.GaugeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.GaugeTest.gaugeEchartCanvasPresenceAfterOpex())</span>
+                <span class="method-start">151159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">gaugeEchartCanvasPresenceAfterOpex</span>
+                <span class="method-start">151161 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.ProcessDashboardModuleStoreTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.ProcessDashboardModuleStoreTest.processDashboardModuleStoreCheck())</span>
+                <span class="method-start">151785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">processDashboardModuleStoreCheck</span>
+                <span class="method-start">151788 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.SpecialReportPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.SpecialReportPage.specialReportPageTest())</span>
+                <span class="method-start">152909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">specialReportPageTest</span>
+                <span class="method-start">152914 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.SpecialReportsDashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.SpecialReportsDashboardTest.specialReportsDashboardCheck())</span>
+                <span class="method-start">153588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">specialReportsDashboardCheck</span>
+                <span class="method-start">153594 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.homepage.UserTest.userSettingsPresence())</span>
+                <span class="method-start">154246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userSettingsPresence</span>
+                <span class="method-start">154250 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.homepage.DashboardRefreshTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">158586 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.DeleteUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">ensureReturnHome</span>
+                <span class="method-start">178874 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">179277 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.PlantSettings.RevertPlantSettingsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.PlantSettings.RevertPlantSettingsTest.revertPlantSettings())</span>
+                <span class="method-start">264874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">revertPlantSettings</span>
+                <span class="method-start">264877 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.PlantSettings.PlantSettingsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">410075 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitAllDrivers</span>
+                <span class="method-start">430484 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

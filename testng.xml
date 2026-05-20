@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" preserve-order="true" parallel="tests" thread-count="5">
+
+    <listeners>
+        <listener class-name="com.purebi.listeners.TestListener"/>
+        <listener class-name="com.purebi.listeners.ScreenshotListener"/>
+        <listener class-name="com.purebi.listeners.LoginGatekeeperListener"/>
+    </listeners>
+
+    <test name="Login Gate">
+        <classes>
+            <class name="com.purebi.homepage.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Browser 1 - Advanced Alerts" parallel="false">
+        <classes>
+            <class name="com.purebi.AdvanceAlert.ModuleAlertsTest"/>
+            <class name="com.purebi.AdvanceAlert.ParameterAlertsTest"/>
+            <class name="com.purebi.AdvanceAlert.PMAlertsTest"/>
+        </classes>
+    </test>
+
+    <test name="Browser 2 - Home Dashboard" parallel="false">
+        <classes>
+            <class name="com.purebi.homepage.DashboardRefreshTest"/>
+            <class name="com.purebi.homepage.OpexDashboardChartTest"/>
+            <class name="com.purebi.homepage.OpexDashboardTest"/>
+            <class name="com.purebi.homepage.GaugeTest"/>
+            <class name="com.purebi.homepage.ProcessDashboardModuleStoreTest"/>
+            <class name="com.purebi.homepage.SpecialReportPage"/>
+            <class name="com.purebi.homepage.SpecialReportsDashboardTest"/>
+            <class name="com.purebi.homepage.UserTest"/>
+        </classes>
+    </test>
+
+    <test name="Browser 3 - Plant Settings" parallel="false">
+        <classes>
+            <class name="com.purebi.PlantSettings.PlantSettingsTest"/>
+            <class name="com.purebi.PlantSettings.RevertPlantSettingsTest"/>
+        </classes>
+    </test>
+
+    <test name="Browser 4 - Special Reports" parallel="false">
+        <classes>
+            <class name="com.purebi.SpecialReports.SpecialReportsTest"/>
+        </classes>
+    </test>
+
+    <test name="Browser 5 - User Management" parallel="false">
+        <classes>
+            <class name="com.purebi.User.UserCreate"/>
+            <class name="com.purebi.User.EditUserTest"/>
+            <class name="com.purebi.User.DeleteUserTest"/>
+        </classes>
+    </test>
+
+</suite>

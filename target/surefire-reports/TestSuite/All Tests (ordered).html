@@ -1,0 +1,744 @@
+<html>
+<head>
+<title>TestNG:  All Tests (ordered)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Tests (ordered)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/3/2</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 18 11:12:41 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>555 seconds (555103 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.purebi.homepage.LogoutTest.logoutTest()'><b>logoutTest</b><br>Test class: com.purebi.homepage.LogoutTest<br/>
+<a href="#Output-327193443" onClick='toggleBox("Output-327193443", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-327193443" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-327193443">
+Waiting for user menu to be ready before logout...<br/>
+❌ Logout failed: Expected condition failed: waiting for element to be clickable: By.cssSelector: img.avatar[alt='User avatar'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11<br/>
+<a href='screenshots/logoutTest_20260518_111928.png'><img src='screenshots/logoutTest_20260518_111928.png' height='200' alt='screenshot'/></a><br/>
+<br/><a href='screenshots/logoutTest_20260518_111928.png'>Full screenshot: logoutTest</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: img.avatar[alt=&apos;User avatar&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11
+	at com.purebi.homepage.LogoutTest.logoutTest(LogoutTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: img.avatar[alt=&apos;User avatar&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.purebi.homepage.LogoutTest.logoutTest(LogoutTest.java:38)
+	... 30 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327193443", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace327193443'><pre>java.lang.RuntimeException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: img.avatar[alt=&apos;User avatar&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11
+	at com.purebi.homepage.LogoutTest.logoutTest(LogoutTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: img.avatar[alt=&apos;User avatar&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.purebi.homepage.LogoutTest.logoutTest(LogoutTest.java:38)
+	... 30 more
+</pre></div></td>
+<td>20</td>
+<td>com.purebi.homepage.LogoutTest@1dde4cb2</td></tr>
+<tr>
+<td title='com.purebi.homepage.UserTest.userSettingsPresence()'><b>userSettingsPresence</b><br>Test class: com.purebi.homepage.UserTest<br>Test method: Verify Site User Settings page is accessible<br/>
+<a href="#Output-1756988236" onClick='toggleBox("Output-1756988236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1756988236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1756988236">
+Hovered on PLANT SETTINGS.<br/>
+Screenshot saved: screenshots/user_settings_missing_20260518_111410.png<br/>
+<a href='screenshots/userSettingsPresence_20260518_111410.png'><img src='screenshots/userSettingsPresence_20260518_111410.png' height='200' alt='screenshot'/></a><br/>
+<br/><a href='screenshots/userSettingsPresence_20260518_111410.png'>Full screenshot: userSettingsPresence</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Site User Settings header not found: Expected condition failed: waiting for visibility of element located by By.xpath: //a[normalize-space()=&apos;USER&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11
+	at com.purebi.homepage.UserTest.userSettingsPresence(UserTest.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1756988236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1756988236'><pre>java.lang.AssertionError: Site User Settings header not found: Expected condition failed: waiting for visibility of element located by By.xpath: //a[normalize-space()=&apos;USER&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.purebi.homepage.UserTest.userSettingsPresence(UserTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>22</td>
+<td>com.purebi.homepage.UserTest@19bb07ed</td></tr>
+<tr>
+<td title='com.purebi.User.UserCreate.createSiteUserFromExcel()'><b>createSiteUserFromExcel</b><br>Test class: com.purebi.User.UserCreate<br/>
+<a href="#Output-729867689" onClick='toggleBox("Output-729867689", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-729867689" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-729867689">
+Hovered on PLANT SETTINGS.<br/>
+Clicked USER menu.<br/>
+Pressed ESC to close dropdown.<br/>
+Clicked + Add Site User.<br/>
+Toast message: Entered email id is already registered<br/>
+Screenshot saved: screenshots/user_create_toast_unexpected_20260518_111417.png<br/>
+Closed Add Site User sidebar.<br/>
+<a href='screenshots/createSiteUserFromExcel_20260518_111417.png'><img src='screenshots/createSiteUserFromExcel_20260518_111417.png' height='200' alt='screenshot'/></a><br/>
+<br/><a href='screenshots/createSiteUserFromExcel_20260518_111417.png'>Full screenshot: createSiteUserFromExcel</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Unexpected toast message: Entered email id is already registered
+	at com.purebi.User.UserCreate.createSiteUserFromExcel(UserCreate.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace729867689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace729867689'><pre>java.lang.AssertionError: Unexpected toast message: Entered email id is already registered
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.purebi.User.UserCreate.createSiteUserFromExcel(UserCreate.java:183)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>6</td>
+<td>com.purebi.User.UserCreate@10e41621</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.purebi.homepage.SpecialReportsDashboardTest.specialReportsDashboardCheck()'><b>specialReportsDashboardCheck</b><br>Test class: com.purebi.homepage.SpecialReportsDashboardTest<br/>
+<a href="#Output-1748574267" onClick='toggleBox("Output-1748574267", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1748574267" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1748574267">
+Clicked SPECIAL REPORTS link.<br/>
+✅ Dashboard Report list present. Test passed.<br/>
+Returned to Home screen after SpecialReportsDashboardTest.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.SpecialReportsDashboardTest@31368b99</td></tr>
+<tr>
+<td title='com.purebi.AdvanceAlert.ParameterAlertsTest.parameterAlertFullFlow()'><b>parameterAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.ParameterAlertsTest<br/>
+<a href="#Output-123577051" onClick='toggleBox("Output-123577051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-123577051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-123577051">
+STEP 1 — Navigation: Clicking Home logo<br/>
+Clicked: Home logo<br/>
+Hovered on PLANT SETTINGS.<br/>
+Hovered on PLANT SETTINGS again.<br/>
+Clicked: ADVANCED ALERTS<br/>
+Clicked ADVANCED ALERTS.<br/>
+Advanced Alerts page loaded.<br/>
+STEP 2 — Open Create Alert Modal: Opening create modal<br/>
+Clicked: CREATE NEW ALERT<br/>
+Create modal visible.<br/>
+STEP 3 — Select Alert Type<br/>
+Selecting Parameter Alert type...<br/>
+Selected Alert Type: Parameter Alert<br/>
+STEP 4 — Enter Alert Name<br/>
+Entered alert name: Parameter Alert Test<br/>
+STEP 5 — Select Module<br/>
+Selected 'RO-3' on By.xpath: //select[@formcontrolname='moduleparam']<br/>
+Validated selected Module: RO-3<br/>
+STEP 6 — Select Parameter<br/>
+Parameter option found: Select Parameter*<br/>
+Parameter option found: RO-3 I/L Flow rate (O)<br/>
+Selected Parameter: RO-3 I/L Flow rate (O)<br/>
+STEP 7 — Select Condition<br/>
+Condition option found: Conditions*<br/>
+Condition option found: Greater (>)<br/>
+Selected Condition: Greater (>)<br/>
+STEP 8 — Assign To<br/>
+Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']<br/>
+STEP 9 — Enter Score<br/>
+Entered score: 70<br/>
+STEP 10 — Screenshot Before Save<br/>
+Screenshot saved: screenshots/parameter_alert_before_save_20260518_111837.png<br/>
+STEP 11 — Save Alert<br/>
+Clicked: Save alert<br/>
+Clicked Save.<br/>
+STEP 12 — Validate Creation Toast<br/>
+Toast: Added successfully visible.<br/>
+STEP 13 — Reopen Advanced Alerts Page<br/>
+Hovered on PLANT SETTINGS.<br/>
+Hovered on PLANT SETTINGS again.<br/>
+Clicked: ADVANCED ALERTS<br/>
+Clicked ADVANCED ALERTS.<br/>
+Advanced Alerts page loaded.<br/>
+STEP 14 — Click Parameter Alert Filter<br/>
+Clicked: Parameter Alert tab<br/>
+STEP 15 — Validate Row Exists In AG Grid<br/>
+Parameter Alert row found in AG Grid.<br/>
+STEP 16 — Delete Alert<br/>
+Clicked delete icon for Parameter Alert Test row.<br/>
+STEP 17 — Delete Confirmation Popup<br/>
+Clicked: Popup DELETE button<br/>
+STEP 18 — Validate Delete Toast<br/>
+STEP 19 — Final Delete Validation<br/>
+Parameter Alert row deleted successfully<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.purebi.AdvanceAlert.ParameterAlertsTest@3835c46</td></tr>
+<tr>
+<td title='com.purebi.homepage.GaugeTest.gaugeEchartCanvasPresenceAfterOpex()'><b>gaugeEchartCanvasPresenceAfterOpex</b><br>Test class: com.purebi.homepage.GaugeTest<br/>
+<a href="#Output-1249547869" onClick='toggleBox("Output-1249547869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1249547869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1249547869">
+Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.GaugeTest@e056f20</td></tr>
+<tr>
+<td title='com.purebi.homepage.ProcessDashboardModuleStoreTest.processDashboardModuleStoreCheck()'><b>processDashboardModuleStoreCheck</b><br>Test class: com.purebi.homepage.ProcessDashboardModuleStoreTest<br>Test method: Click process dashboard icon, check module store row, then return home<br/>
+<a href="#Output-1280959582" onClick='toggleBox("Output-1280959582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1280959582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1280959582">
+Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']<br/>
+Found element: By.xpath: //div[@class='row mt-1 ng-star-inserted']<br/>
+Clicked home logo after ProcessDashboardModuleStoreTest.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.purebi.homepage.ProcessDashboardModuleStoreTest@4b0b0854</td></tr>
+<tr>
+<td title='com.purebi.AdvanceAlert.ModuleAlertsTest.moduleAlertFullFlow()'><b>moduleAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.ModuleAlertsTest<br/>
+<a href="#Output-1525186016" onClick='toggleBox("Output-1525186016", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1525186016" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1525186016">
+STEP 1 — Navigation: Clicking Home logo<br/>
+Clicked: Home logo<br/>
+Hovered on PLANT SETTINGS.<br/>
+Hovered on PLANT SETTINGS again.<br/>
+Clicked ADVANCED ALERTS.<br/>
+Advanced Alerts page loaded.<br/>
+STEP 2 — Create Module Alert: Opening create modal<br/>
+Clicked: CREATE NEW ALERT<br/>
+Create modal visible.<br/>
+Selecting Module Alert type...<br/>
+Alert Type Option: 'PM Alert'<br/>
+Alert Type Option: 'Module Alert'<br/>
+Alert Type Option: 'Parameter Alert'<br/>
+Alert Type Option: 'AI Alert'<br/>
+Selected Alert Type: Module Alert<br/>
+Entered alert name: Module Alert Test<br/>
+Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']<br/>
+Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']<br/>
+Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']<br/>
+Entered score: 70<br/>
+Screenshot saved: screenshots/module_alert_before_save_20260518_111823.png<br/>
+Clicked: Save alert<br/>
+Clicked Save.<br/>
+Toast: Added successfully visible.<br/>
+STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.<br/>
+Clicked: Module Alert tab<br/>
+Module Alert row found in AG Grid.<br/>
+STEP 12 — Delete Alert: Clicking delete icon on row.<br/>
+Clicked: Delete icon<br/>
+Clicked: Popup DELETE button<br/>
+STEP 15 — Validate Deletion: Ensuring row no longer exists.<br/>
+Module Alert flow completed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.purebi.AdvanceAlert.ModuleAlertsTest@20deea7f</td></tr>
+<tr>
+<td title='com.purebi.PlantSettings.RevertPlantSettingsTest.revertPlantSettings()'><b>revertPlantSettings</b><br>Test class: com.purebi.PlantSettings.RevertPlantSettingsTest</td>
+<td></td>
+<td>147</td>
+<td>com.purebi.PlantSettings.RevertPlantSettingsTest@5119fb47</td></tr>
+<tr>
+<td title='com.purebi.AdvanceAlert.PMAlertsTest.pmAlertFullFlow()'><b>pmAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.PMAlertsTest<br/>
+<a href="#Output-148018969" onClick='toggleBox("Output-148018969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-148018969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-148018969">
+STEP 1 — Navigation: Clicking Home logo<br/>
+Clicked: Home logo<br/>
+Hovered on PLANT SETTINGS.<br/>
+Hovered on PLANT SETTINGS again.<br/>
+Clicked ADVANCED ALERTS.<br/>
+Advanced Alerts page loaded.<br/>
+STEP 2 — Create PM Alert: Opening create modal<br/>
+Clicked: CREATE NEW ALERT<br/>
+Create modal visible.<br/>
+Selecting PM Alert type...<br/>
+Alert Type Option: 'PM Alert'<br/>
+Alert Type Option: 'Module Alert'<br/>
+Alert Type Option: 'Parameter Alert'<br/>
+Alert Type Option: 'AI Alert'<br/>
+Selected Alert Type: PM Alert<br/>
+Entered alert name: PM Alert Test<br/>
+Waiting for Equipment dropdown options to load...<br/>
+Equipment option found: Equipments*<br/>
+Equipment option found: PI-9019AN<br/>
+Selected Equipment: PI-9019AN<br/>
+Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']<br/>
+Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']<br/>
+Setting Start Date & Time...<br/>
+Target datetime: 17-May-2026 11:18<br/>
+Calendar popup opened<br/>
+Target day selected<br/>
+Selected datetime value: 17-05-2026 11:18<br/>
+Datetime field populated<br/>
+Screenshot saved: screenshots/pm_alert_before_save_20260518_111811.png<br/>
+Clicked: Save alert<br/>
+Clicked Save.<br/>
+Toast: Added successfully visible.<br/>
+STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.<br/>
+Clicked: PM Alert tab<br/>
+PM Alert row found in AG Grid.<br/>
+STEP 5 — Delete Alert: Clicking delete icon on row.<br/>
+Clicked: Delete icon<br/>
+Clicked: Popup DELETE button<br/>
+STEP 6 — Validate Deletion: Ensuring row no longer exists.<br/>
+PM Alert flow completed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.purebi.AdvanceAlert.PMAlertsTest@7193666c</td></tr>
+<tr>
+<td title='com.purebi.PlantSettings.PlantSettingsTest.plantSettingsTest()'><b>plantSettingsTest</b><br>Test class: com.purebi.PlantSettings.PlantSettingsTest</td>
+<td></td>
+<td>217</td>
+<td>com.purebi.PlantSettings.PlantSettingsTest@6a192cfe</td></tr>
+<tr>
+<td title='com.purebi.homepage.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.purebi.homepage.LoginTest<br/>
+<a href="#Output-972843820" onClick='toggleBox("Output-972843820", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-972843820" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-972843820">
+✅ Login successful. PLANT SETTINGS is visible.<br/>
+Login succeeded — tests will run.<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.purebi.homepage.LoginTest@2e4b8173</td></tr>
+<tr>
+<td title='com.purebi.homepage.OpexDashboardChartTest.opexDashboardChartDataCheck()'><b>opexDashboardChartDataCheck</b><br>Test class: com.purebi.homepage.OpexDashboardChartTest<br/>
+<a href="#Output-1815592231" onClick='toggleBox("Output-1815592231", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1815592231" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1815592231">
+Found list item: Chemicals<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.OpexDashboardChartTest@6e4784bc</td></tr>
+<tr>
+<td title='com.purebi.homepage.SpecialReportPage.specialReportPageTest()'><b>specialReportPageTest</b><br>Test class: com.purebi.homepage.SpecialReportPage<br>Test method: Run special reports navigation check; only when login succeeded<br/>
+<a href="#Output-446613518" onClick='toggleBox("Output-446613518", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-446613518" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-446613518">
+Clicked SPECIAL REPORTS.<br/>
+✅ Dashboard Report list found.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.SpecialReportPage@50b472aa</td></tr>
+<tr>
+<td title='com.purebi.homepage.DashboardRefreshTest.dashboardRefreshAndNotificationTest()'><b>dashboardRefreshAndNotificationTest</b><br>Test class: com.purebi.homepage.DashboardRefreshTest<br/>
+<a href="#Output-1476061571" onClick='toggleBox("Output-1476061571", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1476061571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1476061571">
+Old Updated On text: Updated On : 18-05-2026 11:08:51<br/>
+Clicked dashboard Refresh button.<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:08:51<br/>
+Polling Updated On: Updated On : 18-05-2026 11:12:52<br/>
+Updated time changed after refresh<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.purebi.homepage.DashboardRefreshTest@5a63f509</td></tr>
+<tr>
+<td title='com.purebi.homepage.OpexDashboardTest.opexModuleDashboardNavigationAndValidation()'><b>opexModuleDashboardNavigationAndValidation</b><br>Test class: com.purebi.homepage.OpexDashboardTest<br/>
+<a href="#Output-1722645488" onClick='toggleBox("Output-1722645488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1722645488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1722645488">
+Icon path navigation success: true<br/>
+Reset to main view after icon path.<br/>
+Menu navigation failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h4[normalize-space()='OPEX Module Reports'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64069}, goog:processID: 23264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b2131fbd591e109697fa052c316c11<br/>
+Screenshot saved: screenshots/opex_navigation_fail_20260518_111346.png<br/>
+Menu path navigation success: false<br/>
+OPEX navigation considered SUCCESS (at least one path succeeded).<br/>
+Clicked logo at test end to return to main view.<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.purebi.homepage.OpexDashboardTest@34b7ac2f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.purebi.User.EditUserTest.editUserFromExcel()'><b>editUserFromExcel</b><br>Test class: com.purebi.User.EditUserTest<br/>
+<a href="#Output-686327949" onClick='toggleBox("Output-686327949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-686327949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-686327949">
+Skipping EditUserTest because UserCreate did not pass.<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.EditUserTest.editUserFromExcel(EditUserTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace686327949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace686327949'><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.EditUserTest.editUserFromExcel(EditUserTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>com.purebi.User.EditUserTest@1817d444</td></tr>
+<tr>
+<td title='com.purebi.User.DeleteUserTest.deleteUserByEmail()'><b>deleteUserByEmail</b><br>Test class: com.purebi.User.DeleteUserTest<br/>
+<a href="#Output-1163471607" onClick='toggleBox("Output-1163471607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1163471607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1163471607">
+Skipping DeleteUserTest because UserCreate did not pass.<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.DeleteUserTest.deleteUserByEmail(DeleteUserTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1163471607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1163471607'><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.DeleteUserTest.deleteUserByEmail(DeleteUserTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>com.purebi.User.DeleteUserTest@6ca8564a</td></tr>
+</table><p>
+</body>
+</html>

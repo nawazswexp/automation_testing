@@ -1,0 +1,333 @@
+<html>
+<head>
+<title>TestNG:  Browser 4 - Home Dashboard</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Browser 4 - Home Dashboard</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 18 18:09:33 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>164 seconds (164966 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.purebi.homepage.OpexDashboardChartTest.opexDashboardChartDataCheck()'><b>opexDashboardChartDataCheck</b><br>Test class: com.purebi.homepage.OpexDashboardChartTest<br/>
+<a href="#Output-1754215677" onClick='toggleBox("Output-1754215677", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1754215677" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1754215677">
+Found list item: Chemicals<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.OpexDashboardChartTest@3911c2a7</td></tr>
+<tr>
+<td title='com.purebi.homepage.OpexDashboardTest.opexModuleDashboardNavigationAndValidation()'><b>opexModuleDashboardNavigationAndValidation</b><br>Test class: com.purebi.homepage.OpexDashboardTest<br/>
+<a href="#Output-1637363626" onClick='toggleBox("Output-1637363626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1637363626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1637363626">
+Icon path navigation success: true<br/>
+Reset to main view after icon path.<br/>
+Menu navigation failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h4[normalize-space()='OPEX Module Reports'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51601}, goog:processID: 11148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51601/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b8d5ebd0b80b998ccac39d7cfb10a74<br/>
+Screenshot saved: screenshots/opex_navigation_fail_20260518_181150.png<br/>
+Menu path navigation success: false<br/>
+OPEX navigation considered SUCCESS (at least one path succeeded).<br/>
+Clicked logo at test end to return to main view.<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.purebi.homepage.OpexDashboardTest@4ac3c60d</td></tr>
+<tr>
+<td title='com.purebi.homepage.SpecialReportsDashboardTest.specialReportsDashboardCheck()'><b>specialReportsDashboardCheck</b><br>Test class: com.purebi.homepage.SpecialReportsDashboardTest<br/>
+<a href="#Output-343643279" onClick='toggleBox("Output-343643279", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-343643279" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-343643279">
+Clicked SPECIAL REPORTS link.<br/>
+✅ Dashboard Report list present. Test passed.<br/>
+Returned to Home screen after SpecialReportsDashboardTest.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.SpecialReportsDashboardTest@15c43bd9</td></tr>
+<tr>
+<td title='com.purebi.homepage.ProcessDashboardModuleStoreTest.processDashboardModuleStoreCheck()'><b>processDashboardModuleStoreCheck</b><br>Test class: com.purebi.homepage.ProcessDashboardModuleStoreTest<br>Test method: Click process dashboard icon, check module store row, then return home<br/>
+<a href="#Output-1965281252" onClick='toggleBox("Output-1965281252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1965281252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1965281252">
+Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']<br/>
+Found element: By.xpath: //div[@class='row mt-1 ng-star-inserted']<br/>
+Clicked home logo after ProcessDashboardModuleStoreTest.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.purebi.homepage.ProcessDashboardModuleStoreTest@76508ed1</td></tr>
+<tr>
+<td title='com.purebi.homepage.GaugeTest.gaugeEchartCanvasPresenceAfterOpex()'><b>gaugeEchartCanvasPresenceAfterOpex</b><br>Test class: com.purebi.homepage.GaugeTest<br/>
+<a href="#Output-1724113627" onClick='toggleBox("Output-1724113627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1724113627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1724113627">
+Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.GaugeTest@4facf68f</td></tr>
+<tr>
+<td title='com.purebi.homepage.DashboardRefreshTest.dashboardRefreshAndNotificationTest()'><b>dashboardRefreshAndNotificationTest</b><br>Test class: com.purebi.homepage.DashboardRefreshTest<br/>
+<a href="#Output-691094397" onClick='toggleBox("Output-691094397", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-691094397" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-691094397">
+Old Updated On text: Updated On : 18-05-2026 17:59:59<br/>
+Clicked dashboard Refresh button.<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 17:59:59<br/>
+Polling Updated On: Updated On : 18-05-2026 18:10:19<br/>
+Updated time changed after refresh<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>com.purebi.homepage.DashboardRefreshTest@1725dc0f</td></tr>
+<tr>
+<td title='com.purebi.homepage.SpecialReportPage.specialReportPageTest()'><b>specialReportPageTest</b><br>Test class: com.purebi.homepage.SpecialReportPage<br>Test method: Run special reports navigation check; only when login succeeded<br/>
+<a href="#Output-1502240053" onClick='toggleBox("Output-1502240053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1502240053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1502240053">
+Clicked SPECIAL REPORTS.<br/>
+✅ Dashboard Report list found.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.purebi.homepage.SpecialReportPage@41e36e46</td></tr>
+<tr>
+<td title='com.purebi.homepage.UserTest.userSettingsPresence()'><b>userSettingsPresence</b><br>Test class: com.purebi.homepage.UserTest<br>Test method: Verify Site User Settings page is accessible<br/>
+<a href="#Output-75529423" onClick='toggleBox("Output-75529423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-75529423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-75529423">
+Hovered on PLANT SETTINGS.<br/>
+Clicked USER menu.<br/>
+Pressed ESC to close dropdown.<br/>
+Site User Settings header visible<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.purebi.homepage.UserTest@3d74bf60</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.purebi.AdvanceAlert.PMAlertsTest">
+        <methods>
+          <include name="resetDriverState"/>
+          <include name="quitDriver"/>
+          <include name="setup"/>
+          <include name="quitAllDrivers"/>
+          <include name="pmAlertFullFlow"/>
+        </methods>
+      </class> <!-- com.purebi.AdvanceAlert.PMAlertsTest -->
+      <class name="com.purebi.AdvanceAlert.ParameterAlertsTest">
+        <methods>
+          <include name="resetDriverState"/>
+          <include name="quitDriver"/>
+          <include name="setup"/>
+          <include name="quitAllDrivers"/>
+          <include name="parameterAlertFullFlow"/>
+        </methods>
+      </class> <!-- com.purebi.AdvanceAlert.ParameterAlertsTest -->
+      <class name="com.purebi.AdvanceAlert.ModuleAlertsTest">
+        <methods>
+          <include name="resetDriverState"/>
+          <include name="quitDriver"/>
+          <include name="quitAllDrivers"/>
+          <include name="setup"/>
+          <include name="moduleAlertFullFlow"/>
+        </methods>
+      </class> <!-- com.purebi.AdvanceAlert.ModuleAlertsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
