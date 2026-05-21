@@ -6,17 +6,17 @@
     <listener class-name="com.purebi.listeners.ScreenshotListener"/>
     <listener class-name="com.purebi.listeners.LoginGatekeeperListener"/>
   </listeners>
-  <test thread-count="5" name="Browser 4 - Special Reports(failed)" verbose="0">
+  <test thread-count="5" name="Browser 1 - Advanced Alerts(failed)" verbose="0">
     <classes>
-      <class name="com.purebi.SpecialReports.SpecialReportsTest">
+      <class name="com.purebi.AdvanceAlert.ModuleAlertsTest">
         <methods>
           <include name="resetDriverState"/>
           <include name="quitDriver"/>
           <include name="quitAllDrivers"/>
           <include name="setup"/>
-          <include name="lifecycleAllReports"/>
+          <include name="moduleAlertFullFlow"/>
         </methods>
-      </class> <!-- com.purebi.SpecialReports.SpecialReportsTest -->
+      </class> <!-- com.purebi.AdvanceAlert.ModuleAlertsTest -->
     </classes>
-  </test> <!-- Browser 4 - Special Reports(failed) -->
+  </test> <!-- Browser 1 - Advanced Alerts(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

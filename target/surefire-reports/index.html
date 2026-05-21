@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-TestSuite" class="navigator-link">
-              <span class="suite-name border-failed">TestSuite</span>
+              <span class="suite-name border-passed">TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
-                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-TestSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.SpecialReports.SpecialReportsTest" class="method navigator-link" hash-for-method="lifecycleAllReports">lifecycleAllReports</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TestSuite -->
+                    <span class="method-stats">18 methods,   18 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -138,6 +124,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestSuite" title="com.purebi.homepage.GaugeTest" class="method navigator-link" hash-for-method="gaugeEchartCanvasPresenceAfterOpex">gaugeEchartCanvasPresenceAfterOpex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.purebi.SpecialReports.SpecialReportsTest" class="method navigator-link" hash-for-method="lifecycleAllReports">lifecycleAllReports</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -212,9 +203,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestSuite" class="panel TestSuite">
-          <div class="suite-TestSuite-class-failed">
+          <div class="suite-TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.purebi.SpecialReports.SpecialReportsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -223,19 +214,10 @@
                   <a name="lifecycleAllReports">
                   </a> <!-- lifecycleAllReports -->
                   <span class="method-name">lifecycleAllReports</span>
-                  <div class="stack-trace">java.lang.AssertionError: One or more report types failed. Check emailable-report.html for details.
-	at com.purebi.SpecialReports.SpecialReportsTest.lifecycleAllReports(SpecialReportsTest.java:144)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestSuite-class-failed -->
+          </div> <!-- suite-TestSuite-class-passed -->
           <div class="suite-TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -680,82 +662,82 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(18);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'plantSettingsTest')
-data.setCell(0, 2, 'com.purebi.PlantSettings.PlantSettingsTest')
-data.setCell(0, 3, 220385);
+data.setCell(0, 1, 'lifecycleAllReports')
+data.setCell(0, 2, 'com.purebi.SpecialReports.SpecialReportsTest')
+data.setCell(0, 3, 482908);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'revertPlantSettings')
-data.setCell(1, 2, 'com.purebi.PlantSettings.RevertPlantSettingsTest')
-data.setCell(1, 3, 145197);
+data.setCell(1, 1, 'plantSettingsTest')
+data.setCell(1, 2, 'com.purebi.PlantSettings.PlantSettingsTest')
+data.setCell(1, 3, 221433);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'dashboardRefreshAndNotificationTest')
-data.setCell(2, 2, 'com.purebi.homepage.DashboardRefreshTest')
-data.setCell(2, 3, 81925);
+data.setCell(2, 1, 'revertPlantSettings')
+data.setCell(2, 2, 'com.purebi.PlantSettings.RevertPlantSettingsTest')
+data.setCell(2, 3, 176458);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'editUserFromExcel')
-data.setCell(3, 2, 'com.purebi.User.EditUserTest')
-data.setCell(3, 3, 56160);
+data.setCell(3, 1, 'dashboardRefreshAndNotificationTest')
+data.setCell(3, 2, 'com.purebi.homepage.DashboardRefreshTest')
+data.setCell(3, 3, 82589);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deleteUserByEmail')
-data.setCell(4, 2, 'com.purebi.User.DeleteUserTest')
-data.setCell(4, 3, 33938);
+data.setCell(4, 1, 'editUserFromExcel')
+data.setCell(4, 2, 'com.purebi.User.EditUserTest')
+data.setCell(4, 3, 55309);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'opexModuleDashboardNavigationAndValidation')
-data.setCell(5, 2, 'com.purebi.homepage.OpexDashboardTest')
-data.setCell(5, 3, 21943);
+data.setCell(5, 1, 'deleteUserByEmail')
+data.setCell(5, 2, 'com.purebi.User.DeleteUserTest')
+data.setCell(5, 3, 33604);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'moduleAlertFullFlow')
-data.setCell(6, 2, 'com.purebi.AdvanceAlert.ModuleAlertsTest')
-data.setCell(6, 3, 20089);
+data.setCell(6, 1, 'opexModuleDashboardNavigationAndValidation')
+data.setCell(6, 2, 'com.purebi.homepage.OpexDashboardTest')
+data.setCell(6, 3, 23041);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'parameterAlertFullFlow')
 data.setCell(7, 2, 'com.purebi.AdvanceAlert.ParameterAlertsTest')
-data.setCell(7, 3, 19946);
+data.setCell(7, 3, 21092);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'pmAlertFullFlow')
-data.setCell(8, 2, 'com.purebi.AdvanceAlert.PMAlertsTest')
-data.setCell(8, 3, 14648);
+data.setCell(8, 1, 'moduleAlertFullFlow')
+data.setCell(8, 2, 'com.purebi.AdvanceAlert.ModuleAlertsTest')
+data.setCell(8, 3, 18574);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'loginTest')
-data.setCell(9, 2, 'com.purebi.homepage.LoginTest')
-data.setCell(9, 3, 12041);
+data.setCell(9, 1, 'pmAlertFullFlow')
+data.setCell(9, 2, 'com.purebi.AdvanceAlert.PMAlertsTest')
+data.setCell(9, 3, 14227);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'lifecycleAllReports')
-data.setCell(10, 2, 'com.purebi.SpecialReports.SpecialReportsTest')
-data.setCell(10, 3, 12034);
+data.setCell(10, 1, 'loginTest')
+data.setCell(10, 2, 'com.purebi.homepage.LoginTest')
+data.setCell(10, 3, 14087);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'createSiteUserFromExcel')
 data.setCell(11, 2, 'com.purebi.User.UserCreate')
-data.setCell(11, 3, 8990);
+data.setCell(11, 3, 8891);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'userSettingsPresence')
 data.setCell(12, 2, 'com.purebi.homepage.UserTest')
-data.setCell(12, 3, 4336);
+data.setCell(12, 3, 4591);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'processDashboardModuleStoreCheck')
 data.setCell(13, 2, 'com.purebi.homepage.ProcessDashboardModuleStoreTest')
-data.setCell(13, 3, 1119);
+data.setCell(13, 3, 1189);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'specialReportPageTest')
-data.setCell(14, 2, 'com.purebi.homepage.SpecialReportPage')
-data.setCell(14, 3, 672);
+data.setCell(14, 1, 'specialReportsDashboardCheck')
+data.setCell(14, 2, 'com.purebi.homepage.SpecialReportsDashboardTest')
+data.setCell(14, 3, 747);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'specialReportsDashboardCheck')
-data.setCell(15, 2, 'com.purebi.homepage.SpecialReportsDashboardTest')
-data.setCell(15, 3, 651);
+data.setCell(15, 1, 'specialReportPageTest')
+data.setCell(15, 2, 'com.purebi.homepage.SpecialReportPage')
+data.setCell(15, 3, 721);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'gaugeEchartCanvasPresenceAfterOpex')
 data.setCell(16, 2, 'com.purebi.homepage.GaugeTest')
-data.setCell(16, 3, 623);
+data.setCell(16, 3, 631);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'opexDashboardChartDataCheck')
 data.setCell(17, 2, 'com.purebi.homepage.OpexDashboardChartTest')
-data.setCell(17, 3, 54);
+data.setCell(17, 3, 85);
 window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
               <div id="times-div-TestSuite">
               </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
@@ -771,133 +753,6 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">✅ Login successful. PLANT SETTINGS is visible.</span>
                 <span class="reporter-method-output">Login succeeded — tests will run.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">lifecycleAllReports</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br><b>Report Type - Bar</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Bar</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=148.0.7778.168)
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, executeScript {args=[], script=window.scrollTo(0, document.body.scrollHeight);}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Line</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Line</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Dot</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Dot</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Bar Label</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Bar Label</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Line Label</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Line Label</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Table</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Table</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Numeric</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Numeric</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Gauge</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Gauge</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Pie</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Pie</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Donut</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Donut</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Box</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Box</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
-                <span class="reporter-method-output"><br><b>Report Type - Text</b><br></span>
-                <span class="reporter-method-output"><span style='color:red;'><b>Creation FAIL: Text</b></span><br></span>
-                <span class="reporter-method-output"><b>Reason:</b> invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cff2c730553b3dfc061eb87fbec10dde, findElement {value=//a[normalize-space()='SPECIAL REPORTS'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58442}, goog:processID: 9392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58442/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
-                <span class="reporter-method-output">Skipping View & Delete<br><hr></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -923,7 +778,7 @@ Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
                 <span class="reporter-method-output">Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']</span>
                 <span class="reporter-method-output">Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']</span>
                 <span class="reporter-method-output">Entered score: 70</span>
-                <span class="reporter-method-output">Screenshot saved: screenshots/module_alert_before_save_20260520_120058.png</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/module_alert_before_save_20260521_142124.png</span>
                 <span class="reporter-method-output">Clicked: Save alert</span>
                 <span class="reporter-method-output">Clicked Save.</span>
                 <span class="reporter-method-output">Toast: Added successfully visible.</span>
@@ -935,51 +790,6 @@ Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
                 <span class="reporter-method-output">Clicked: Popup DELETE button</span>
                 <span class="reporter-method-output">STEP 15 — Validate Deletion: Ensuring row no longer exists.</span>
                 <span class="reporter-method-output">Module Alert flow completed successfully.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">pmAlertFullFlow</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">STEP 1 — Navigation: Clicking Home logo</span>
-                <span class="reporter-method-output">Clicked: Home logo</span>
-                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
-                <span class="reporter-method-output">Hovered on PLANT SETTINGS again.</span>
-                <span class="reporter-method-output">Clicked ADVANCED ALERTS.</span>
-                <span class="reporter-method-output">Advanced Alerts page loaded.</span>
-                <span class="reporter-method-output">STEP 2 — Create PM Alert: Opening create modal</span>
-                <span class="reporter-method-output">Clicked: CREATE NEW ALERT</span>
-                <span class="reporter-method-output">Create modal visible.</span>
-                <span class="reporter-method-output">Selecting PM Alert type...</span>
-                <span class="reporter-method-output">Alert Type Option: 'PM Alert'</span>
-                <span class="reporter-method-output">Alert Type Option: 'Module Alert'</span>
-                <span class="reporter-method-output">Alert Type Option: 'Parameter Alert'</span>
-                <span class="reporter-method-output">Alert Type Option: 'AI Alert'</span>
-                <span class="reporter-method-output">Selected Alert Type: PM Alert</span>
-                <span class="reporter-method-output">Entered alert name: PM Alert Test</span>
-                <span class="reporter-method-output">Waiting for Equipment dropdown options to load...</span>
-                <span class="reporter-method-output">Equipment option found: Equipments*</span>
-                <span class="reporter-method-output">Equipment option found: PI-9019AN</span>
-                <span class="reporter-method-output">Selected Equipment: PI-9019AN</span>
-                <span class="reporter-method-output">Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']</span>
-                <span class="reporter-method-output">Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']</span>
-                <span class="reporter-method-output">Setting Start Date & Time...</span>
-                <span class="reporter-method-output">Target datetime: 19-May-2026 12:01</span>
-                <span class="reporter-method-output">Calendar popup opened</span>
-                <span class="reporter-method-output">Target day selected</span>
-                <span class="reporter-method-output">Selected datetime value: 19-05-2026 12:01</span>
-                <span class="reporter-method-output">Datetime field populated</span>
-                <span class="reporter-method-output">Screenshot saved: screenshots/pm_alert_before_save_20260520_120134.png</span>
-                <span class="reporter-method-output">Clicked: Save alert</span>
-                <span class="reporter-method-output">Clicked Save.</span>
-                <span class="reporter-method-output">Toast: Added successfully visible.</span>
-                <span class="reporter-method-output">STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.</span>
-                <span class="reporter-method-output">Clicked: PM Alert tab</span>
-                <span class="reporter-method-output">PM Alert row found in AG Grid.</span>
-                <span class="reporter-method-output">STEP 5 — Delete Alert: Clicking delete icon on row.</span>
-                <span class="reporter-method-output">Clicked: Delete icon</span>
-                <span class="reporter-method-output">Clicked: Popup DELETE button</span>
-                <span class="reporter-method-output">STEP 6 — Validate Deletion: Ensuring row no longer exists.</span>
-                <span class="reporter-method-output">PM Alert flow completed successfully.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1020,7 +830,7 @@ Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
                 <span class="reporter-method-output">STEP 9 — Enter Score</span>
                 <span class="reporter-method-output">Entered score: 70</span>
                 <span class="reporter-method-output">STEP 10 — Screenshot Before Save</span>
-                <span class="reporter-method-output">Screenshot saved: screenshots/parameter_alert_before_save_20260520_120114.png</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/parameter_alert_before_save_20260521_142141.png</span>
                 <span class="reporter-method-output">STEP 11 — Save Alert</span>
                 <span class="reporter-method-output">Clicked: Save alert</span>
                 <span class="reporter-method-output">Clicked Save.</span>
@@ -1046,11 +856,48 @@ Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">specialReportsDashboardCheck</span>
+              <span class="reporter-method-name">pmAlertFullFlow</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Clicked SPECIAL REPORTS link.</span>
-                <span class="reporter-method-output">✅ Dashboard Report list present. Test passed.</span>
-                <span class="reporter-method-output">Returned to Home screen after SpecialReportsDashboardTest.</span>
+                <span class="reporter-method-output">STEP 1 — Navigation: Clicking Home logo</span>
+                <span class="reporter-method-output">Clicked: Home logo</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS again.</span>
+                <span class="reporter-method-output">Clicked ADVANCED ALERTS.</span>
+                <span class="reporter-method-output">Advanced Alerts page loaded.</span>
+                <span class="reporter-method-output">STEP 2 — Create PM Alert: Opening create modal</span>
+                <span class="reporter-method-output">Clicked: CREATE NEW ALERT</span>
+                <span class="reporter-method-output">Create modal visible.</span>
+                <span class="reporter-method-output">Selecting PM Alert type...</span>
+                <span class="reporter-method-output">Alert Type Option: 'PM Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Module Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'Parameter Alert'</span>
+                <span class="reporter-method-output">Alert Type Option: 'AI Alert'</span>
+                <span class="reporter-method-output">Selected Alert Type: PM Alert</span>
+                <span class="reporter-method-output">Entered alert name: PM Alert Test</span>
+                <span class="reporter-method-output">Waiting for Equipment dropdown options to load...</span>
+                <span class="reporter-method-output">Equipment option found: Equipments*</span>
+                <span class="reporter-method-output">Equipment option found: PI-9019AN</span>
+                <span class="reporter-method-output">Selected Equipment: PI-9019AN</span>
+                <span class="reporter-method-output">Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']</span>
+                <span class="reporter-method-output">Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']</span>
+                <span class="reporter-method-output">Setting Start Date & Time...</span>
+                <span class="reporter-method-output">Target datetime: 20-May-2026 14:21</span>
+                <span class="reporter-method-output">Calendar popup opened</span>
+                <span class="reporter-method-output">Target day selected</span>
+                <span class="reporter-method-output">Selected datetime value: 20-05-2026 14:21</span>
+                <span class="reporter-method-output">Datetime field populated</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/pm_alert_before_save_20260521_142200.png</span>
+                <span class="reporter-method-output">Clicked: Save alert</span>
+                <span class="reporter-method-output">Clicked Save.</span>
+                <span class="reporter-method-output">Toast: Added successfully visible.</span>
+                <span class="reporter-method-output">STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.</span>
+                <span class="reporter-method-output">Clicked: PM Alert tab</span>
+                <span class="reporter-method-output">PM Alert row found in AG Grid.</span>
+                <span class="reporter-method-output">STEP 5 — Delete Alert: Clicking delete icon on row.</span>
+                <span class="reporter-method-output">Clicked: Delete icon</span>
+                <span class="reporter-method-output">Clicked: Popup DELETE button</span>
+                <span class="reporter-method-output">STEP 6 — Validate Deletion: Ensuring row no longer exists.</span>
+                <span class="reporter-method-output">PM Alert flow completed successfully.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1064,156 +911,195 @@ Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
             <div class="reporter-method-div">
               <span class="reporter-method-name">dashboardRefreshAndNotificationTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Old Updated On text: Updated On : 19-05-2026 14:38:46</span>
+                <span class="reporter-method-output">Old Updated On text: Updated On : 21-05-2026 13:32:34</span>
                 <span class="reporter-method-output">Clicked dashboard Refresh button.</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 19-05-2026 14:38:46</span>
-                <span class="reporter-method-output">Polling Updated On: Updated On : 20-05-2026 12:00:50</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 13:32:34</span>
+                <span class="reporter-method-output">Polling Updated On: Updated On : 21-05-2026 14:21:21</span>
                 <span class="reporter-method-output">Updated time changed after refresh</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">opexModuleDashboardNavigationAndValidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Icon path navigation success: true</span>
+                <span class="reporter-method-output">Reset to main view after icon path.</span>
+                <span class="reporter-method-output">Menu navigation failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h4[normalize-space()='OPEX Module Reports'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52090}, goog:processID: 24872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52090/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cec5ee9030182d2cacbc6761d5bcb1d6</span>
+                <span class="reporter-method-output">Screenshot saved: screenshots/opex_navigation_fail_20260521_142259.png</span>
+                <span class="reporter-method-output">Menu path navigation success: false</span>
+                <span class="reporter-method-output">OPEX navigation considered SUCCESS (at least one path succeeded).</span>
+                <span class="reporter-method-output">Clicked logo at test end to return to main view.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">specialReportPageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked SPECIAL REPORTS.</span>
+                <span class="reporter-method-output">✅ Dashboard Report list found.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">gaugeEchartCanvasPresenceAfterOpex</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">specialReportsDashboardCheck</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked SPECIAL REPORTS link.</span>
+                <span class="reporter-method-output">✅ Dashboard Report list present. Test passed.</span>
+                <span class="reporter-method-output">Returned to Home screen after SpecialReportsDashboardTest.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1226,64 +1112,9 @@ Session ID: cff2c730553b3dfc061eb87fbec10dde<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">gaugeEchartCanvasPresenceAfterOpex</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">specialReportPageTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Clicked SPECIAL REPORTS.</span>
-                <span class="reporter-method-output">✅ Dashboard Report list found.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">opexDashboardChartDataCheck</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Found list item: Chemicals</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">opexModuleDashboardNavigationAndValidation</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Icon path navigation success: true</span>
-                <span class="reporter-method-output">Reset to main view after icon path.</span>
-                <span class="reporter-method-output">Menu navigation failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h4[normalize-space()='OPEX Module Reports'] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62086}, goog:processID: 14300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62086/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e21c6df2b4b7520af7f1bb93a05f7aa</span>
-                <span class="reporter-method-output">Screenshot saved: screenshots/opex_navigation_fail_20260520_120229.png</span>
-                <span class="reporter-method-output">Menu path navigation success: false</span>
-                <span class="reporter-method-output">OPEX navigation considered SUCCESS (at least one path succeeded).</span>
-                <span class="reporter-method-output">Clicked logo at test end to return to main view.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">editUserFromExcel</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
-                <span class="reporter-method-output">Clicked USER menu.</span>
-                <span class="reporter-method-output">Pressed ESC to close dropdown.</span>
-                <span class="reporter-method-output">Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
-                <span class="reporter-method-output">Clicked dropdown div trigger.</span>
-                <span class="reporter-method-output">Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
-                <span class="reporter-method-output">Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]</span>
-                <span class="reporter-method-output">Edit form appeared for user: jamil0943334@gmail.com</span>
-                <span class="reporter-method-output">Image upload failed: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='form-group']//input[@id='imageUpload'] (tried for 20 second(s) with 500 milliseconds interval)</span>
-                <span class="reporter-method-output">✅ User updated successfully.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1296,18 +1127,43 @@ Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59223}, goog:processID: 3272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59223/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be2e863c8d3663556b898330ea5ce7ac</span>
                 <span class="reporter-method-output">Clicked dropdown div trigger.</span>
                 <span class="reporter-method-output">Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61080}, goog:processID: 6272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61080/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59223}, goog:processID: 3272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59223/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be2e863c8d3663556b898330ea5ce7ac</span>
                 <span class="reporter-method-output">Clicked delete icon for user: jamil0943334@gmail.com</span>
                 <span class="reporter-method-output">Clicked confirmation Yes button.</span>
                 <span class="reporter-method-output">✅ User deleted successfully toast found.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editUserFromExcel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hovered on PLANT SETTINGS.</span>
+                <span class="reporter-method-output">Clicked USER menu.</span>
+                <span class="reporter-method-output">Pressed ESC to close dropdown.</span>
+                <span class="reporter-method-output">Dropdown span click failed: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59223}, goog:processID: 3272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59223/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be2e863c8d3663556b898330ea5ce7ac</span>
+                <span class="reporter-method-output">Clicked dropdown div trigger.</span>
+                <span class="reporter-method-output">Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element located by By.xpath: //p-overlay[contains(@class,'p-element')] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59223}, goog:processID: 3272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59223/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be2e863c8d3663556b898330ea5ce7ac</span>
+                <span class="reporter-method-output">Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]</span>
+                <span class="reporter-method-output">Edit form appeared for user: jamil0943334@gmail.com</span>
+                <span class="reporter-method-output">Image upload failed: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='form-group']//input[@id='imageUpload'] (tried for 20 second(s) with 500 milliseconds interval)</span>
+                <span class="reporter-method-output">✅ User updated successfully.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1320,6 +1176,59 @@ Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
                 <span class="reporter-method-output">Toast message: User added successfully.</span>
                 <span class="reporter-method-output">✅ User added successfully.</span>
                 <span class="reporter-method-output">Closed Add Site User sidebar.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">lifecycleAllReports</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><b>Report Type - Bar</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Bar<br></span>
+                <span class="reporter-method-output">View PASS: Bar<br></span>
+                <span class="reporter-method-output">Delete PASS: Bar<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Line</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Line<br></span>
+                <span class="reporter-method-output">View PASS: Line<br></span>
+                <span class="reporter-method-output">Delete PASS: Line<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Dot</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Dot<br></span>
+                <span class="reporter-method-output">View PASS: Dot<br></span>
+                <span class="reporter-method-output">Delete PASS: Dot<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Bar Label</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Bar Label<br></span>
+                <span class="reporter-method-output">View PASS: Bar Label<br></span>
+                <span class="reporter-method-output">Delete PASS: Bar Label<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Line Label</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Line Label<br></span>
+                <span class="reporter-method-output">View PASS: Line Label<br></span>
+                <span class="reporter-method-output">Delete PASS: Line Label<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Table</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Table<br></span>
+                <span class="reporter-method-output">View PASS: Table<br></span>
+                <span class="reporter-method-output">Delete PASS: Table<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Numeric</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Numeric<br></span>
+                <span class="reporter-method-output">View PASS: Numeric<br></span>
+                <span class="reporter-method-output">Delete PASS: Numeric<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Gauge</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Gauge<br></span>
+                <span class="reporter-method-output">View PASS: Gauge<br></span>
+                <span class="reporter-method-output">Delete PASS: Gauge<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Pie</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Pie<br></span>
+                <span class="reporter-method-output">View PASS: Pie<br></span>
+                <span class="reporter-method-output">Delete PASS: Pie<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Donut</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Donut<br></span>
+                <span class="reporter-method-output">View PASS: Donut<br></span>
+                <span class="reporter-method-output">Delete PASS: Donut<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Box</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Box<br></span>
+                <span class="reporter-method-output">View PASS: Box<br></span>
+                <span class="reporter-method-output">Delete PASS: Box<br><hr></span>
+                <span class="reporter-method-output"><br><b>Report Type - Text</b><br></span>
+                <span class="reporter-method-output">Creation PASS: Text<br></span>
+                <span class="reporter-method-output">View PASS: Text<br></span>
+                <span class="reporter-method-output">Delete PASS: Text<br><hr></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1479,282 +1388,280 @@ Session ID: 550734d4e8bccff3e228d534fa73fc33</span>
               <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.SpecialReports.SpecialReportsTest.lifecycleAllReports())</span>
-                <span class="method-start">50 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.LoginTest.loginTest())</span>
-                <span class="method-start">51 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(public void com.purebi.AdvanceAlert.ModuleAlertsTest.moduleAlertFullFlow())</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.DashboardRefreshTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.DashboardRefreshTest.dashboardRefreshAndNotificationTest())</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.PlantSettings.PlantSettingsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.PlantSettings.PlantSettingsTest.plantSettingsTest())</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.AdvanceAlert.ModuleAlertsTest.moduleAlertFullFlow())</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">13540 ms</span>
+                <span class="method-start">5896 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">25585 ms</span>
+                <span class="method-start">20000 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.purebi.PlantSettings.PlantSettingsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">plantSettingsTest</span>
-                <span class="method-start">44487 ms</span>
+                <span class="method-name">lifecycleAllReports</span>
+                <span class="method-start">38967 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.DashboardRefreshTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">dashboardRefreshAndNotificationTest</span>
-                <span class="method-start">47228 ms</span>
+                <span class="method-start">40826 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">moduleAlertFullFlow</span>
-                <span class="method-start">47782 ms</span>
+                <span class="method-start">40879 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.purebi.PlantSettings.PlantSettingsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">lifecycleAllReports</span>
-                <span class="method-start">50854 ms</span>
+                <span class="method-name">plantSettingsTest</span>
+                <span class="method-start">42330 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.User.UserCreate.createSiteUserFromExcel())</span>
-                <span class="method-start">54377 ms</span>
+                <span class="method-start">43986 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">62900 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.AdvanceAlert.ParameterAlertsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.AdvanceAlert.ParameterAlertsTest.parameterAlertFullFlow())</span>
-                <span class="method-start">67872 ms</span>
+                <span class="method-start">59455 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">parameterAlertFullFlow</span>
-                <span class="method-start">67873 ms</span>
+                <span class="method-start">59457 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createSiteUserFromExcel</span>
-                <span class="method-start">71074 ms</span>
+                <span class="method-start">61668 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ensureSidebarClosed</span>
-                <span class="method-start">80066 ms</span>
+                <span class="method-start">70574 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.purebi.AdvanceAlert.PMAlertsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(public void com.purebi.AdvanceAlert.PMAlertsTest.pmAlertFullFlow())</span>
-                <span class="method-start">87819 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">pmAlertFullFlow</span>
-                <span class="method-start">87822 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.EditUserTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.User.EditUserTest.editUserFromExcel())</span>
-                <span class="method-start">88320 ms</span>
+                <span class="method-start">78657 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">editUserFromExcel</span>
-                <span class="method-start">88325 ms</span>
+                <span class="method-start">78660 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.AdvanceAlert.PMAlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.purebi.AdvanceAlert.PMAlertsTest.pmAlertFullFlow())</span>
+                <span class="method-start">80551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pmAlertFullFlow</span>
+                <span class="method-start">80557 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.AdvanceAlert.ModuleAlertsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">102471 ms</span>
+                <span class="method-start">94785 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.OpexDashboardChartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.OpexDashboardChartTest.opexDashboardChartDataCheck())</span>
-                <span class="method-start">129154 ms</span>
+                <span class="method-start">123416 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">opexDashboardChartDataCheck</span>
-                <span class="method-start">129156 ms</span>
+                <span class="method-start">123420 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.OpexDashboardTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.OpexDashboardTest.opexModuleDashboardNavigationAndValidation())</span>
-                <span class="method-start">129211 ms</span>
+                <span class="method-start">123507 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">opexModuleDashboardNavigationAndValidation</span>
-                <span class="method-start">129215 ms</span>
+                <span class="method-start">123509 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.EditUserTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">ensureReturnHome</span>
-                <span class="method-start">144486 ms</span>
+                <span class="method-start">133970 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.DeleteUserTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.User.DeleteUserTest.deleteUserByEmail())</span>
-                <span class="method-start">144932 ms</span>
+                <span class="method-start">134255 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">deleteUserByEmail</span>
-                <span class="method-start">144935 ms</span>
+                <span class="method-start">134259 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.GaugeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.GaugeTest.gaugeEchartCanvasPresenceAfterOpex())</span>
-                <span class="method-start">151159 ms</span>
+                <span class="method-start">146551 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">gaugeEchartCanvasPresenceAfterOpex</span>
-                <span class="method-start">151161 ms</span>
+                <span class="method-start">146555 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.ProcessDashboardModuleStoreTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.ProcessDashboardModuleStoreTest.processDashboardModuleStoreCheck())</span>
-                <span class="method-start">151785 ms</span>
+                <span class="method-start">147187 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">processDashboardModuleStoreCheck</span>
-                <span class="method-start">151788 ms</span>
+                <span class="method-start">147189 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.SpecialReportPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.SpecialReportPage.specialReportPageTest())</span>
-                <span class="method-start">152909 ms</span>
+                <span class="method-start">148379 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">specialReportPageTest</span>
-                <span class="method-start">152914 ms</span>
+                <span class="method-start">148383 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.SpecialReportsDashboardTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.SpecialReportsDashboardTest.specialReportsDashboardCheck())</span>
-                <span class="method-start">153588 ms</span>
+                <span class="method-start">149105 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">specialReportsDashboardCheck</span>
-                <span class="method-start">153594 ms</span>
+                <span class="method-start">149107 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.UserTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.homepage.UserTest.userSettingsPresence())</span>
-                <span class="method-start">154246 ms</span>
+                <span class="method-start">149857 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">userSettingsPresence</span>
-                <span class="method-start">154250 ms</span>
+                <span class="method-start">149864 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.homepage.DashboardRefreshTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">158586 ms</span>
+                <span class="method-start">154455 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.DeleteUserTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">ensureReturnHome</span>
-                <span class="method-start">178874 ms</span>
+                <span class="method-start">167863 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">179277 ms</span>
+                <span class="method-start">168032 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.PlantSettings.RevertPlantSettingsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.purebi.PlantSettings.RevertPlantSettingsTest.revertPlantSettings())</span>
-                <span class="method-start">264874 ms</span>
+                <span class="method-start">263768 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">revertPlantSettings</span>
-                <span class="method-start">264877 ms</span>
+                <span class="method-start">263771 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.PlantSettings.PlantSettingsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">410075 ms</span>
+                <span class="method-start">440230 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.purebi.SpecialReports.SpecialReportsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">521876 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.purebi.User.UserCreate</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">quitAllDrivers</span>
-                <span class="method-start">430484 ms</span>
+                <span class="method-start">542295 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

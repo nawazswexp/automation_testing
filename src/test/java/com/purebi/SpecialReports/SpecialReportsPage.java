@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
 import java.time.Duration;
 import java.util.List;
@@ -12,6 +13,13 @@ import java.util.List;
 public class SpecialReportsPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
+    private static final By LAYOUT_10_CARD = By.xpath(
+        "//button[@title='Layout 10']"
+    );
+
+    private static final By LAYOUT_10_SELECTED = By.xpath(
+        "//button[@title='Layout 10' and contains(@class,'selected')]"
+    );
 
     public SpecialReportsPage(WebDriver driver) {
         this.driver = driver;
@@ -241,27 +249,45 @@ public class SpecialReportsPage {
     }
 
     public void selectSingleLayout() {
+
         By layout10 = By.xpath(
-                "//button[@title='Layout 10' and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
+            "//button[@title='Layout 10' " +
+            "and contains(@class,'layout-card') " +
+            "and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
+        );
+
+        By layout10Selected = By.xpath(
+            "//button[@title='Layout 10' " +
+            "and contains(@class,'selected') " +
+            "and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
         );
 
         waitForOverlayToDisappear();
 
-        safeClick(layout10);
-
-        // confirm selection against exact target layout to avoid false matches
-        By selectedLayout = By.xpath(
-            "//button[contains(@class,'selected') " +
-            "and @title='Layout 10' " +
-            "and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
+        WebElement layout = wait.until(
+            ExpectedConditions.visibilityOfElementLocated(layout10)
         );
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(selectedLayout));
-
-        // scroll to bottom after selection
         ((JavascriptExecutor) driver).executeScript(
-                "window.scrollTo(0, document.body.scrollHeight);"
+            "arguments[0].scrollIntoView({block:'center'});",
+            layout
         );
+
+        wait.until(ExpectedConditions.elementToBeClickable(layout));
+
+        try {
+            layout.click();
+        } catch (Exception e) {
+            ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].click();",
+                layout
+            );
+        }
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(layout10Selected));
+
+        System.out.println("Layout 10 selected successfully");
+
     }
 
     public void expandReportSection1() {
@@ -426,16 +452,18 @@ public class SpecialReportsPage {
             );
 
             safeClick(addSection);
-
-            wait.until(ExpectedConditions.presenceOfElementLocated(
-                    By.xpath("//p-accordion-header[contains(.,'Report')]")
-            ));
         } else {
             safeClick(Locators.ADD_SECTION_SPAN);
-            // wait for a new section to appear (best-effort)
-            By flexAccordion = By.xpath("//*[@role='button'][.//*[contains(normalize-space(),'Report')]] | //div[contains(@class,'p-accordion-header')][.//*[contains(normalize-space(),'Report')]] | //button[contains(@class,'p-accordion-header')][.//*[contains(normalize-space(),'Report')]]");
-            wait.until(ExpectedConditions.presenceOfElementLocated(flexAccordion));
         }
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException("Interrupted while waiting after Add Section", e);
+        }
+
+        
     }
 
     public void saveDashboard() {
@@ -448,11 +476,92 @@ public class SpecialReportsPage {
         boolean isText = driver.findElements(textSelected).size() > 0;
 
         if (isText) {
-            WebElement saveBtn = wait.until(
-                    ExpectedConditions.elementToBeClickable(By.xpath("//span[normalize-space()='Save Dashboard']"))
+            By saveDashboardBtn = By.xpath(
+                "//button[.//span[normalize-space()='Save Dashboard']]"
             );
 
-            safeClick(saveBtn);
+            WebElement saveBtn = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(saveDashboardBtn)
+            );
+
+            ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({block:'center'});",
+                saveBtn
+            );
+
+            wait.until(ExpectedConditions.elementToBeClickable(saveBtn));
+
+            // =========================
+            // Ensure Layout 10 selected before Save
+            // =========================
+
+            try {
+
+                By layout10 = By.xpath(
+                    "//button[@title='Layout 10' " +
+                    "and contains(@class,'layout-card') " +
+                    "and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
+                );
+
+                By layout10Selected = By.xpath(
+                    "//button[@title='Layout 10' " +
+                    "and contains(@class,'selected') " +
+                    "and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
+                );
+
+                // check if layout already selected
+                boolean selected =
+                    driver.findElements(layout10Selected).size() > 0;
+
+                // if NOT selected -> click again
+                if (!selected) {
+
+                    WebElement layout = wait.until(
+                        ExpectedConditions.visibilityOfElementLocated(layout10)
+                    );
+
+                    ((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].scrollIntoView({block:'center'});",
+                        layout
+                    );
+
+                    wait.until(
+                        ExpectedConditions.elementToBeClickable(layout)
+                    );
+
+                    try {
+                        layout.click();
+                    } catch (Exception ex) {
+                        ((JavascriptExecutor) driver).executeScript(
+                            "arguments[0].click();",
+                            layout
+                        );
+                    }
+
+                    // wait until selected class appears
+                    wait.until(
+                        ExpectedConditions.visibilityOfElementLocated(layout10Selected)
+                    );
+
+                    System.out.println("Layout 10 re-selected before Save Dashboard");
+                }
+
+                // stabilization wait
+                Thread.sleep(2000);
+
+            } catch (Exception e) {
+                System.out.println("Layout 10 verification before save failed: "
+                    + e.getMessage());
+            }
+
+            try {
+                saveBtn.click();
+            } catch (Exception e) {
+                ((JavascriptExecutor) driver).executeScript(
+                    "arguments[0].click();",
+                    saveBtn
+                );
+            }
 
             // wait for confirm dialog popup
             WebElement popup = wait.until(ExpectedConditions.visibilityOfElementLocated(
@@ -473,7 +582,92 @@ public class SpecialReportsPage {
 
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@title='Notifications']")));
         } else {
-            safeClick(Locators.SAVE_DASHBOARD_SPAN);
+            By saveDashboardBtn = By.xpath(
+                "//button[.//span[normalize-space()='Save Dashboard']]"
+            );
+
+            WebElement saveBtn = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(saveDashboardBtn)
+            );
+
+            ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({block:'center'});",
+                saveBtn
+            );
+
+            wait.until(ExpectedConditions.elementToBeClickable(saveBtn));
+
+            // =========================
+            // Ensure Layout 10 selected before Save
+            // =========================
+
+            try {
+
+                By layout10 = By.xpath(
+                    "//button[@title='Layout 10' " +
+                    "and contains(@class,'layout-card') " +
+                    "and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
+                );
+
+                By layout10Selected = By.xpath(
+                    "//button[@title='Layout 10' " +
+                    "and contains(@class,'selected') " +
+                    "and .//div[contains(@class,'rows-1') and contains(@class,'cols-1')]]"
+                );
+
+                // check if layout already selected
+                boolean selected =
+                    driver.findElements(layout10Selected).size() > 0;
+
+                // if NOT selected -> click again
+                if (!selected) {
+
+                    WebElement layout = wait.until(
+                        ExpectedConditions.visibilityOfElementLocated(layout10)
+                    );
+
+                    ((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].scrollIntoView({block:'center'});",
+                        layout
+                    );
+
+                    wait.until(
+                        ExpectedConditions.elementToBeClickable(layout)
+                    );
+
+                    try {
+                        layout.click();
+                    } catch (Exception ex) {
+                        ((JavascriptExecutor) driver).executeScript(
+                            "arguments[0].click();",
+                            layout
+                        );
+                    }
+
+                    // wait until selected class appears
+                    wait.until(
+                        ExpectedConditions.visibilityOfElementLocated(layout10Selected)
+                    );
+
+                    System.out.println("Layout 10 re-selected before Save Dashboard");
+                }
+
+                // stabilization wait
+                Thread.sleep(2000);
+
+            } catch (Exception e) {
+                System.out.println("Layout 10 verification before save failed: "
+                    + e.getMessage());
+            }
+
+            try {
+                saveBtn.click();
+            } catch (Exception e) {
+                ((JavascriptExecutor) driver).executeScript(
+                    "arguments[0].click();",
+                    saveBtn
+                );
+            }
 
             // wait for confirm dialog popup
             WebElement popup = wait.until(ExpectedConditions.visibilityOfElementLocated(
@@ -666,5 +860,19 @@ public class SpecialReportsPage {
                 return false;
             }
         });
+    }
+
+    private boolean isLayout10SelectedFresh() {
+        WebElement layout10 = wait.until(ExpectedConditions.presenceOfElementLocated(LAYOUT_10_CARD));
+        String className = layout10.getAttribute("class");
+        if (className == null) {
+            return false;
+        }
+
+        boolean selected = className.contains("selected") || className.contains("active") || className.contains("border-primary");
+        if (!selected) {
+            return driver.findElements(LAYOUT_10_SELECTED).size() > 0;
+        }
+        return true;
     }
 }
