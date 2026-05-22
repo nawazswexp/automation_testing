@@ -81,17 +81,29 @@ public class BaseTest {
         WebDriver newDriver = new ChromeDriver(options);
         newDriver.manage().window().maximize();
 
-        String baseUrl = Config.getBaseUrl();
-        System.out.println("Running tests on: " + baseUrl + " | headless=" + headless);
-        newDriver.get(baseUrl + "/login");
-
-        if (!loginTest) {
-            authenticateBrowser(newDriver, baseUrl);
-        }
-
         DRIVER.set(newDriver);
         ACTIVE_DRIVERS.add(newDriver);
         driver = newDriver;
+
+        String baseUrl = Config.getBaseUrl();
+        System.out.println("Running tests on: " + baseUrl + " | headless=" + headless);
+        try {
+            newDriver.get(baseUrl + "/login");
+
+            if (!loginTest) {
+                authenticateBrowser(newDriver, baseUrl);
+            }
+        } catch (RuntimeException | Error ex) {
+            try {
+                newDriver.quit();
+            } catch (Exception ignored) {
+            } finally {
+                ACTIVE_DRIVERS.remove(newDriver);
+                DRIVER.remove();
+                driver = null;
+            }
+            throw ex;
+        }
     }
 
     private Boolean waitForLoginDecision(boolean loginTest) {
