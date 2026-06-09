@@ -1,0 +1,4489 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>PURE BI Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css">.nav { background: #0f172a !important; }
+.card { border-radius: 18px !important; }
+.timeline { display: none !important; }
+.test-name, .test-status { font-family: 'Inter', sans-serif !important; }</style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">PURE BI AUTOMATION REPORT</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 22, 2026 12:31:57 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Browser3-PlantSettings</a><a class="dropdown-item" href="#">Browser5-UserManagement</a><a class="dropdown-item" href="#">LoginGate</a><a class="dropdown-item" href="#">SpecialReports</a><a class="dropdown-item" href="#">Execution</a><a class="dropdown-item" href="#">UserManagement</a><a class="dropdown-item" href="#">Browser2-HomeDashboard</a><a class="dropdown-item" href="#">AdvancedAlerts</a><a class="dropdown-item" href="#">Browser1-AdvancedAlerts</a><a class="dropdown-item" href="#">PlantSettings</a><a class="dropdown-item" href="#">Browser4-SpecialReports</a><a class="dropdown-item" href="#">HomeDashboard</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="LoginGate"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Gate :: loginTest</p>
+            <p class="text-sm">
+              <span>12:32:03 pm</span> / <span>00:00:04:368</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Gate :: loginTest</h5>
+<span class='badge badge-success'>05.22.2026 12:32:03 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:32:08 pm</span>
+<span class='badge badge-default'>00:00:04:368</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LoginGate</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:03 pm</td>
+        <td>
+          Execution lane: Login Gate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:08 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:08 pm</td>
+        <td>
+          ✅ Login successful. PLANT SETTINGS is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:08 pm</td>
+        <td>
+          Login succeeded — tests will run.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="AdvancedAlerts Browser1-AdvancedAlerts"
+          device="">
+          <div class="test-detail">
+            <p class="name">Advanced Alerts :: moduleAlertFullFlow</p>
+            <p class="text-sm">
+              <span>12:32:29 pm</span> / <span>00:00:25:222</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Advanced Alerts :: moduleAlertFullFlow</h5>
+<span class='badge badge-success'>05.22.2026 12:32:29 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:32:55 pm</span>
+<span class='badge badge-default'>00:00:25:222</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">AdvancedAlerts</span>
+<span class="badge badge-pill badge-default">Browser1-AdvancedAlerts</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:29 pm</td>
+        <td>
+          Execution lane: Browser 1 - Advanced Alerts
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          STEP 1 — Navigation: Clicking Home logo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked: Home logo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS again.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked ADVANCED ALERTS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Advanced Alerts page loaded.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          STEP 2 — Create Module Alert: Opening create modal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked: CREATE NEW ALERT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Create modal visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Selecting Module Alert type...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Alert Type Option: 'PM Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Alert Type Option: 'Module Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Alert Type Option: 'Parameter Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Alert Type Option: 'AI Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Selected Alert Type: Module Alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Entered alert name: Module Alert Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Entered score: 70
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Screenshot saved: screenshots/module_alert_before_save_20260522_123247.png
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshots/module_alert_before_save_20260522_123247.png' src="../screenshots/module_alert_before_save_20260522_123247.png">
+    <div class="title">Screenshot</div>
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked: Save alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked Save.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Toast: Added successfully visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked: Module Alert tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Module Alert row found in AG Grid.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          STEP 12 — Delete Alert: Clicking delete icon on row.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked: Delete icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Clicked: Popup DELETE button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          STEP 15 — Validate Deletion: Ensuring row no longer exists.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Module Alert flow completed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="PlantSettings Browser3-PlantSettings"
+          device="">
+          <div class="test-detail">
+            <p class="name">Plant Settings :: plantSettingsTest</p>
+            <p class="text-sm">
+              <span>12:32:35 pm</span> / <span>00:03:49:237</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Plant Settings :: plantSettingsTest</h5>
+<span class='badge badge-success'>05.22.2026 12:32:35 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:36:25 pm</span>
+<span class='badge badge-default'>00:03:49:237</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">PlantSettings</span>
+<span class="badge badge-pill badge-default">Browser3-PlantSettings</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:35 pm</td>
+        <td>
+          Execution lane: Browser 3 - Plant Settings
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:25 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="HomeDashboard Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Dashboard :: dashboardRefreshAndNotificationTest</p>
+            <p class="text-sm">
+              <span>12:32:36 pm</span> / <span>00:01:11:805</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Dashboard :: dashboardRefreshAndNotificationTest</h5>
+<span class='badge badge-success'>05.22.2026 12:32:36 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:33:48 pm</span>
+<span class='badge badge-default'>00:01:11:805</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeDashboard</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:36 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Old Updated On text: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Clicked dashboard Refresh button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:20:25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Polling Updated On: Updated On : 22-05-2026 12:32:42
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Updated time changed after refresh
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="SpecialReports Browser4-SpecialReports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Special Reports :: lifecycleAllReports</p>
+            <p class="text-sm">
+              <span>12:32:37 pm</span> / <span>00:07:33:824</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Special Reports :: lifecycleAllReports</h5>
+<span class='badge badge-success'>05.22.2026 12:32:37 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:40:11 pm</span>
+<span class='badge badge-default'>00:07:33:824</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SpecialReports</span>
+<span class="badge badge-pill badge-default">Browser4-SpecialReports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:37 pm</td>
+        <td>
+          Execution lane: Browser 4 - Special Reports
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Bar</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Bar<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Bar<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Bar<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Line</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Line<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Line<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Line<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Dot</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Dot<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Dot<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Dot<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Bar Label</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Bar Label<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Bar Label<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Bar Label<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Line Label</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Line Label<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Line Label<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Line Label<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Table</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Table<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Table<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Table<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Numeric</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Numeric<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Numeric<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Numeric<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Gauge</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Gauge<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Gauge<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Gauge<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Pie</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Pie<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Pie<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Pie<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Donut</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Donut<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Donut<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Donut<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Box</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Box<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Box<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Box<br><hr>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          <br><b>Report Type - Text</b><br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Creation PASS: Text<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          View PASS: Text<br>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:40:11 pm</td>
+        <td>
+          Delete PASS: Text<br><hr>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="Browser5-UserManagement UserManagement"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Management :: createSiteUserFromExcel</p>
+            <p class="text-sm">
+              <span>12:32:53 pm</span> / <span>00:00:08:289</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Management :: createSiteUserFromExcel</h5>
+<span class='badge badge-success'>05.22.2026 12:32:53 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:33:01 pm</span>
+<span class='badge badge-default'>00:00:08:289</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Browser5-UserManagement</span>
+<span class="badge badge-pill badge-default">UserManagement</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:53 pm</td>
+        <td>
+          Execution lane: Browser 5 - User Management
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          Clicked USER menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          Pressed ESC to close dropdown.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          Clicked + Add Site User.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          Toast message: User added successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          ✅ User added successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:01 pm</td>
+        <td>
+          Closed Add Site User sidebar.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="AdvancedAlerts Browser1-AdvancedAlerts"
+          device="">
+          <div class="test-detail">
+            <p class="name">Advanced Alerts :: parameterAlertFullFlow</p>
+            <p class="text-sm">
+              <span>12:32:55 pm</span> / <span>00:00:22:471</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Advanced Alerts :: parameterAlertFullFlow</h5>
+<span class='badge badge-success'>05.22.2026 12:32:55 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:33:17 pm</span>
+<span class='badge badge-default'>00:00:22:471</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">AdvancedAlerts</span>
+<span class="badge badge-pill badge-default">Browser1-AdvancedAlerts</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:32:55 pm</td>
+        <td>
+          Execution lane: Browser 1 - Advanced Alerts
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 1 — Navigation: Clicking Home logo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked: Home logo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS again.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked: ADVANCED ALERTS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked ADVANCED ALERTS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Advanced Alerts page loaded.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 2 — Open Create Alert Modal: Opening create modal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked: CREATE NEW ALERT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Create modal visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 3 — Select Alert Type
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Selecting Parameter Alert type...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Alert Type Option: 'PM Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Alert Type Option: 'Module Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Alert Type Option: 'Parameter Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Alert Type Option: 'AI Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Selected Alert Type: Parameter Alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 4 — Enter Alert Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Entered alert name: Parameter Alert Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 5 — Select Module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Selected 'RO-3' on By.xpath: //select[@formcontrolname='moduleparam']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Validated selected Module: RO-3
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 6 — Select Parameter
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Parameter option found: Select Parameter*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Parameter option found: RO-3 I/L Flow rate (O)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Selected Parameter: RO-3 I/L Flow rate (O)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 7 — Select Condition
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Condition option found: Conditions*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Condition option found: Greater (>)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Selected Condition: Greater (>)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 8 — Assign To
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 9 — Enter Score
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Entered score: 70
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 10 — Screenshot Before Save
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Screenshot saved: screenshots/parameter_alert_before_save_20260522_123304.png
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshots/parameter_alert_before_save_20260522_123304.png' src="../screenshots/parameter_alert_before_save_20260522_123304.png">
+    <div class="title">Screenshot</div>
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 11 — Save Alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked: Save alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked Save.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 12 — Validate Creation Toast
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Toast: Added successfully visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 13 — Reopen Advanced Alerts Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS again.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked: ADVANCED ALERTS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked ADVANCED ALERTS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Advanced Alerts page loaded.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 14 — Click Parameter Alert Filter
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked: Parameter Alert tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 15 — Validate Row Exists In AG Grid
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Parameter Alert row found in AG Grid.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 16 — Delete Alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked delete icon for Parameter Alert Test row.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 17 — Delete Confirmation Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Clicked: Popup DELETE button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 18 — Validate Delete Toast
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          STEP 19 — Final Delete Validation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Parameter Alert row deleted successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag="Browser5-UserManagement UserManagement"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Management :: editUserFromExcel</p>
+            <p class="text-sm">
+              <span>12:33:09 pm</span> / <span>00:00:57:592</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User Management :: editUserFromExcel</h5>
+<span class='badge badge-success'>05.22.2026 12:33:09 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:07 pm</span>
+<span class='badge badge-default'>00:00:57:592</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Browser5-UserManagement</span>
+<span class="badge badge-pill badge-default">UserManagement</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:09 pm</td>
+        <td>
+          Execution lane: Browser 5 - User Management
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          FAIL
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Clicked USER menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Pressed ESC to close dropdown.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Log 4 technical details
+Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Clicked dropdown div trigger.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
+(tried for 8 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Log 6 technical details
+Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
+(tried for 8 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Edit form appeared for user: jamil0943334@gmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Image upload failed: Expected condition failed: waiting for presence of element found by By.xpath: //div[@class='form-group']//input[@id='imageUpload']
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Log 9 technical details
+Image upload failed: Expected condition failed: waiting for presence of element found by By.xpath: //div[@class='form-group']//input[@id='imageUpload']
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          ✅ User updated successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="AdvancedAlerts Browser1-AdvancedAlerts"
+          device="">
+          <div class="test-detail">
+            <p class="name">Advanced Alerts :: pmAlertFullFlow</p>
+            <p class="text-sm">
+              <span>12:33:17 pm</span> / <span>00:00:14:961</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Advanced Alerts :: pmAlertFullFlow</h5>
+<span class='badge badge-success'>05.22.2026 12:33:17 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:33:32 pm</span>
+<span class='badge badge-default'>00:00:14:961</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">AdvancedAlerts</span>
+<span class="badge badge-pill badge-default">Browser1-AdvancedAlerts</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:17 pm</td>
+        <td>
+          Execution lane: Browser 1 - Advanced Alerts
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          STEP 1 — Navigation: Clicking Home logo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked: Home logo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS again.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked ADVANCED ALERTS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Advanced Alerts page loaded.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          STEP 2 — Create PM Alert: Opening create modal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked: CREATE NEW ALERT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Create modal visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Selecting PM Alert type...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Alert Type Option: 'PM Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Alert Type Option: 'Module Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Alert Type Option: 'Parameter Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Alert Type Option: 'AI Alert'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Selected Alert Type: PM Alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Entered alert name: PM Alert Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Waiting for Equipment dropdown options to load...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Equipment option found: Equipments*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Equipment option found: PI-9019AN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Selected Equipment: PI-9019AN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Setting Start Date & Time...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Target datetime: 21-May-2026 12:33
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Calendar popup opened
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Target day selected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Selected datetime value: 21-05-2026 12:33
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Datetime field populated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Screenshot saved: screenshots/pm_alert_before_save_20260522_123325.png
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshots/pm_alert_before_save_20260522_123325.png' src="../screenshots/pm_alert_before_save_20260522_123325.png">
+    <div class="title">Screenshot</div>
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked: Save alert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked Save.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Toast: Added successfully visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked: PM Alert tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          PM Alert row found in AG Grid.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          STEP 5 — Delete Alert: Clicking delete icon on row.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked: Delete icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          Clicked: Popup DELETE button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          STEP 6 — Validate Deletion: Ensuring row no longer exists.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:32 pm</td>
+        <td>
+          PM Alert flow completed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="HomeDashboard Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Dashboard :: opexDashboardChartDataCheck</p>
+            <p class="text-sm">
+              <span>12:33:48 pm</span> / <span>00:00:00:074</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Dashboard :: opexDashboardChartDataCheck</h5>
+<span class='badge badge-success'>05.22.2026 12:33:48 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:33:48 pm</span>
+<span class='badge badge-default'>00:00:00:074</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeDashboard</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Found list item: Chemicals
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag="HomeDashboard Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Dashboard :: opexModuleDashboardNavigationAndValidation</p>
+            <p class="text-sm">
+              <span>12:33:48 pm</span> / <span>00:00:23:359</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Home Dashboard :: opexModuleDashboardNavigationAndValidation</h5>
+<span class='badge badge-success'>05.22.2026 12:33:48 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:12 pm</span>
+<span class='badge badge-default'>00:00:23:359</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeDashboard</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:33:48 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          FAIL
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Icon path navigation success: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Reset to main view after icon path.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Menu navigation failed: Expected condition failed: waiting for visibility of element found by By.xpath: //h4[normalize-space()='OPEX Module Reports'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[normalize-space()='OPEX Module Reports']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, goog:processID: 26876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 838db13fb648224c122dd30d307ad160
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Log 3 technical details
+Menu navigation failed: Expected condition failed: waiting for visibility of element found by By.xpath: //h4[normalize-space()='OPEX Module Reports'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[normalize-space()='OPEX Module Reports']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, goog:processID: 26876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 838db13fb648224c122dd30d307ad160
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Screenshot saved: screenshots/opex_navigation_fail_20260522_123411.png
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshots/opex_navigation_fail_20260522_123411.png' src="../screenshots/opex_navigation_fail_20260522_123411.png">
+    <div class="title">Screenshot</div>
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Menu path navigation success: false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          OPEX navigation considered SUCCESS (at least one path succeeded).
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Clicked logo at test end to return to main view.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="12"
+          author=""
+          tag="Browser5-UserManagement UserManagement"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Management :: deleteUserByEmail</p>
+            <p class="text-sm">
+              <span>12:34:07 pm</span> / <span>00:00:34:295</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User Management :: deleteUserByEmail</h5>
+<span class='badge badge-success'>05.22.2026 12:34:07 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:41 pm</span>
+<span class='badge badge-default'>00:00:34:295</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Browser5-UserManagement</span>
+<span class="badge badge-pill badge-default">UserManagement</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:07 pm</td>
+        <td>
+          Execution lane: Browser 5 - User Management
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          FAIL
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Clicked USER menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Pressed ESC to close dropdown.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Log 4 technical details
+Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Clicked dropdown div trigger.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
+(tried for 8 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Log 6 technical details
+Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
+(tried for 8 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62204}, goog:processID: 17600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62204/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca213c5ef4f46f2e5de6707c941bfa5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Clicked delete icon for user: jamil0943334@gmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          Clicked confirmation Yes button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:41 pm</td>
+        <td>
+          ✅ User deleted successfully toast found.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="HomeDashboard Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Dashboard :: gaugeEchartCanvasPresenceAfterOpex</p>
+            <p class="text-sm">
+              <span>12:34:12 pm</span> / <span>00:00:00:434</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Dashboard :: gaugeEchartCanvasPresenceAfterOpex</h5>
+<span class='badge badge-success'>05.22.2026 12:34:12 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:12 pm</span>
+<span class='badge badge-default'>00:00:00:434</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeDashboard</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="HomeDashboard Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Dashboard :: processDashboardModuleStoreCheck</p>
+            <p class="text-sm">
+              <span>12:34:12 pm</span> / <span>00:00:01:475</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Dashboard :: processDashboardModuleStoreCheck</h5>
+<span class='badge badge-success'>05.22.2026 12:34:12 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:13 pm</span>
+<span class='badge badge-default'>00:00:01:475</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeDashboard</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:12 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:13 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:13 pm</td>
+        <td>
+          Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:13 pm</td>
+        <td>
+          Found element: By.xpath: //div[@class='row mt-1 ng-star-inserted']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:13 pm</td>
+        <td>
+          Clicked home logo after ProcessDashboardModuleStoreTest.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="HomeDashboard Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Dashboard :: specialReportPageTest</p>
+            <p class="text-sm">
+              <span>12:34:13 pm</span> / <span>00:00:01:294</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Dashboard :: specialReportPageTest</h5>
+<span class='badge badge-success'>05.22.2026 12:34:13 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:15 pm</span>
+<span class='badge badge-default'>00:00:01:294</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeDashboard</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:13 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:15 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:15 pm</td>
+        <td>
+          Clicked SPECIAL REPORTS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:15 pm</td>
+        <td>
+          ✅ Dashboard Report list found.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="HomeDashboard Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Dashboard :: specialReportsDashboardCheck</p>
+            <p class="text-sm">
+              <span>12:34:15 pm</span> / <span>00:00:01:040</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Dashboard :: specialReportsDashboardCheck</h5>
+<span class='badge badge-success'>05.22.2026 12:34:15 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:16 pm</span>
+<span class='badge badge-default'>00:00:01:040</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomeDashboard</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:15 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:16 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:16 pm</td>
+        <td>
+          Clicked SPECIAL REPORTS link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:16 pm</td>
+        <td>
+          ✅ Dashboard Report list present. Test passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:16 pm</td>
+        <td>
+          Returned to Home screen after SpecialReportsDashboardTest.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="Execution Browser2-HomeDashboard"
+          device="">
+          <div class="test-detail">
+            <p class="name">Execution :: userSettingsPresence</p>
+            <p class="text-sm">
+              <span>12:34:16 pm</span> / <span>00:00:04:091</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Execution :: userSettingsPresence</h5>
+<span class='badge badge-success'>05.22.2026 12:34:16 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:34:20 pm</span>
+<span class='badge badge-default'>00:00:04:091</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Execution</span>
+<span class="badge badge-pill badge-default">Browser2-HomeDashboard</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:16 pm</td>
+        <td>
+          Execution lane: Browser 2 - Home Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:20 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:20 pm</td>
+        <td>
+          Hovered on PLANT SETTINGS.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:20 pm</td>
+        <td>
+          Clicked USER menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:34:20 pm</td>
+        <td>
+          Pressed ESC to close dropdown.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:34:20 pm</td>
+        <td>
+          Site User Settings header visible
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="PlantSettings Browser3-PlantSettings"
+          device="">
+          <div class="test-detail">
+            <p class="name">Plant Settings :: revertPlantSettings</p>
+            <p class="text-sm">
+              <span>12:36:25 pm</span> / <span>00:02:55:637</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Plant Settings :: revertPlantSettings</h5>
+<span class='badge badge-success'>05.22.2026 12:36:25 pm</span>
+<span class='badge badge-danger'>05.22.2026 12:39:20 pm</span>
+<span class='badge badge-default'>00:02:55:637</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">PlantSettings</span>
+<span class="badge badge-pill badge-default">Browser3-PlantSettings</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:36:25 pm</td>
+        <td>
+          Execution lane: Browser 3 - Plant Settings
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:20 pm</td>
+        <td>
+          PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">12</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">Browser3-PlantSettings</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Browser3-PlantSettings</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Plant Settings :: plantSettingsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>Plant Settings :: revertPlantSettings</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">Browser5-UserManagement</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Browser5-UserManagement</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>User Management :: createSiteUserFromExcel</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:33:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>User Management :: editUserFromExcel</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:34:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>User Management :: deleteUserByEmail</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">LoginGate</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LoginGate</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Login Gate :: loginTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">SpecialReports</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>SpecialReports</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Special Reports :: lifecycleAllReports</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Execution</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Execution</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Execution :: userSettingsPresence</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">UserManagement</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UserManagement</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>User Management :: createSiteUserFromExcel</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:33:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>User Management :: editUserFromExcel</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:34:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>User Management :: deleteUserByEmail</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Browser2-HomeDashboard</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Browser2-HomeDashboard</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Home Dashboard :: dashboardRefreshAndNotificationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:33:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Home Dashboard :: opexDashboardChartDataCheck</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:33:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Home Dashboard :: opexModuleDashboardNavigationAndValidation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Home Dashboard :: gaugeEchartCanvasPresenceAfterOpex</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Home Dashboard :: processDashboardModuleStoreCheck</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Home Dashboard :: specialReportPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:15 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Home Dashboard :: specialReportsDashboardCheck</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Execution :: userSettingsPresence</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">AdvancedAlerts</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>AdvancedAlerts</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Advanced Alerts :: moduleAlertFullFlow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Advanced Alerts :: parameterAlertFullFlow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:33:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Advanced Alerts :: pmAlertFullFlow</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">Browser1-AdvancedAlerts</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Browser1-AdvancedAlerts</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Advanced Alerts :: moduleAlertFullFlow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Advanced Alerts :: parameterAlertFullFlow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:33:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Advanced Alerts :: pmAlertFullFlow</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">PlantSettings</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>PlantSettings</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Plant Settings :: plantSettingsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>Plant Settings :: revertPlantSettings</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Browser4-SpecialReports</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Browser4-SpecialReports</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Special Reports :: lifecycleAllReports</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">HomeDashboard</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>HomeDashboard</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:32:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Home Dashboard :: dashboardRefreshAndNotificationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:33:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Home Dashboard :: opexDashboardChartDataCheck</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:33:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Home Dashboard :: opexModuleDashboardNavigationAndValidation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Home Dashboard :: gaugeEchartCanvasPresenceAfterOpex</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Home Dashboard :: processDashboardModuleStoreCheck</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Home Dashboard :: specialReportPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:15 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Home Dashboard :: specialReportsDashboardCheck</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 22, 2026 12:31:57 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 22, 2026 12:40:31 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>15</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'>
+<b>15</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='16%'><b>3</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='16%'><b>67</b> events passed</small></div>
+<div>
+<small data-tooltip='1%'><b>6</b> events failed,
+<b data-tooltip='%'>329</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login Gate :: loginTest":4.368,"Advanced Alerts :: moduleAlertFullFlow":25.222,"Plant Settings :: plantSettingsTest":229.237,"Home Dashboard :: dashboardRefreshAndNotificationTest":71.805,"Special Reports :: lifecycleAllReports":453.824,"User Management :: createSiteUserFromExcel":8.289,"Advanced Alerts :: parameterAlertFullFlow":22.471,"User Management :: editUserFromExcel":57.592,"Advanced Alerts :: pmAlertFullFlow":14.961,"Home Dashboard :: opexDashboardChartDataCheck":0.074,"Home Dashboard :: opexModuleDashboardNavigationAndValidation":23.359,"User Management :: deleteUserByEmail":34.295,"Home Dashboard :: gaugeEchartCanvasPresenceAfterOpex":0.434,"Home Dashboard :: processDashboardModuleStoreCheck":1.475,"Home Dashboard :: specialReportPageTest":1.294,"Home Dashboard :: specialReportsDashboardCheck":1.04,"Execution :: userSettingsPresence":4.091,"Plant Settings :: revertPlantSettings":175.637
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Browser3-PlantSettings</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Browser5-UserManagement</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+<tr>
+<td>LoginGate</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>SpecialReports</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Execution</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>UserManagement</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+<tr>
+<td>Browser2-HomeDashboard</td>
+<td>7</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>87.5%</td>
+</tr>
+<tr>
+<td>AdvancedAlerts</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Browser1-AdvancedAlerts</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>PlantSettings</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Browser4-SpecialReports</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>HomeDashboard</td>
+<td>6</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>85.714%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Project</td>
+<td>PURE BI Automation</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Chrome</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>https://test.pure.bi</td>
+</tr>
+<tr>
+<td>Parallel Threads</td>
+<td>8</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 15,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 67,
+failEvents: 6,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 329
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript">document.addEventListener('DOMContentLoaded', () => {
+  document.body.classList.add('purebi-extent-ready');
+});</script></body>
+</html>

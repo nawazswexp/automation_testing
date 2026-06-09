@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Browser 5 - User Management</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 22 10:59:01 IST 2026</td>
+<td>Started on:</td><td>Tue Jun 09 15:20:56 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>154 seconds (154255 ms)</td>
+<tr><td>Total time:</td><td>63 seconds (63495 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -77,93 +77,172 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.purebi.User.UserCreate.createSiteUserFromExcel()'><b>createSiteUserFromExcel</b><br>Test class: com.purebi.User.UserCreate<br/>
-<a href="#Output-2061958451" onClick='toggleBox("Output-2061958451", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1971616215" onClick='toggleBox("Output-1971616215", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2061958451" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2061958451">
+<a href="#Output-1971616215" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1971616215">
 Hovered on PLANT SETTINGS.<br/>
 Clicked USER menu.<br/>
 Pressed ESC to close dropdown.<br/>
 Clicked + Add Site User.<br/>
-Toast message: User added successfully.<br/>
-✅ User added successfully.<br/>
+Exception in UserCreate: element click intercepted: Element <button _ngcontent-ng-c3113716814="" type="submit" class="btn btn-sm me-1 btn-add-site-user">...</button> is not clickable at point (1047, 649). Other element would receive the click: <div _ngcontent-ng-c2269823470="" role="dialog" aria-live="polite" aria-label="Cookie consent" class="cookie-consent ng-star-inserted">...</div>
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04b782aa58431274e67f4a765b12703b, clickElement {id=f.7BD9095F6FF77D799249FA9E0C68FEED.d.2D81D7F7EDF7998719EA7A92D9275ACA.e.932}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61212}, goog:processID: 20252, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61212/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (04b782aa58431274e67f4a765b12703b)] -> xpath: //button[normalize-space()='Save']]
+Session ID: 04b782aa58431274e67f4a765b12703b<br/>
+Screenshot saved: screenshots/user_create_exception_20260609_152127.png<br/>
 Closed Add Site User sidebar.<br/>
+<a href='screenshots/createSiteUserFromExcel_20260609_152127.png'><img src='screenshots/createSiteUserFromExcel_20260609_152127.png' height='200' alt='screenshot'/></a><br/>
+<br/><a href='screenshots/createSiteUserFromExcel_20260609_152127.png'>Full screenshot: createSiteUserFromExcel</a><br/>
 </div>
 </td>
-<td></td>
-<td>10</td>
+<td><div><pre>java.lang.AssertionError: Exception creating user: element click intercepted: Element &lt;button _ngcontent-ng-c3113716814=&quot;&quot; type=&quot;submit&quot; class=&quot;btn btn-sm me-1 btn-add-site-user&quot;&gt;...&lt;/button&gt; is not clickable at point (1047, 649). Other element would receive the click: &lt;div _ngcontent-ng-c2269823470=&quot;&quot; role=&quot;dialog&quot; aria-live=&quot;polite&quot; aria-label=&quot;Cookie consent&quot; class=&quot;cookie-consent ng-star-inserted&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=148.0.7778.217)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04b782aa58431274e67f4a765b12703b, clickElement {id=f.7BD9095F6FF77D799249FA9E0C68FEED.d.2D81D7F7EDF7998719EA7A92D9275ACA.e.932}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61212}, goog:processID: 20252, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61212/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (04b782aa58431274e67f4a765b12703b)] -&gt; xpath: //button[normalize-space()=&apos;Save&apos;]]
+Session ID: 04b782aa58431274e67f4a765b12703b
+	at com.purebi.User.UserCreate.createSiteUserFromExcel(UserCreate.java:191)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1971616215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1971616215'><pre>java.lang.AssertionError: Exception creating user: element click intercepted: Element &lt;button _ngcontent-ng-c3113716814=&quot;&quot; type=&quot;submit&quot; class=&quot;btn btn-sm me-1 btn-add-site-user&quot;&gt;...&lt;/button&gt; is not clickable at point (1047, 649). Other element would receive the click: &lt;div _ngcontent-ng-c2269823470=&quot;&quot; role=&quot;dialog&quot; aria-live=&quot;polite&quot; aria-label=&quot;Cookie consent&quot; class=&quot;cookie-consent ng-star-inserted&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=148.0.7778.217)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04b782aa58431274e67f4a765b12703b, clickElement {id=f.7BD9095F6FF77D799249FA9E0C68FEED.d.2D81D7F7EDF7998719EA7A92D9275ACA.e.932}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61212}, goog:processID: 20252, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61212/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (04b782aa58431274e67f4a765b12703b)] -&gt; xpath: //button[normalize-space()=&apos;Save&apos;]]
+Session ID: 04b782aa58431274e67f4a765b12703b
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.purebi.User.UserCreate.createSiteUserFromExcel(UserCreate.java:191)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>11</td>
 <td>com.purebi.User.UserCreate@4a94ee4</td></tr>
-<tr>
-<td title='com.purebi.User.DeleteUserTest.deleteUserByEmail()'><b>deleteUserByEmail</b><br>Test class: com.purebi.User.DeleteUserTest<br/>
-<a href="#Output-319801322" onClick='toggleBox("Output-319801322", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-319801322" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-319801322">
-Hovered on PLANT SETTINGS.<br/>
-Clicked USER menu.<br/>
-Pressed ESC to close dropdown.<br/>
-Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba<br/>
-Clicked dropdown div trigger.<br/>
-Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
-(tried for 8 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba<br/>
-Clicked delete icon for user: jamil0943334@gmail.com<br/>
-Clicked confirmation Yes button.<br/>
-✅ User deleted successfully toast found.<br/>
-</div>
-</td>
-<td></td>
-<td>33</td>
-<td>com.purebi.User.DeleteUserTest@6379eb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='com.purebi.User.EditUserTest.editUserFromExcel()'><b>editUserFromExcel</b><br>Test class: com.purebi.User.EditUserTest<br/>
-<a href="#Output-1272575695" onClick='toggleBox("Output-1272575695", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1637457864" onClick='toggleBox("Output-1637457864", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1272575695" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1272575695">
-Hovered on PLANT SETTINGS.<br/>
-Clicked USER menu.<br/>
-Pressed ESC to close dropdown.<br/>
-Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba<br/>
-Clicked dropdown div trigger.<br/>
-Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
-(tried for 8 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba<br/>
-Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]<br/>
-Edit form appeared for user: jamil0943334@gmail.com<br/>
-Image upload failed: Expected condition failed: waiting for presence of element found by By.xpath: //div[@class='form-group']//input[@id='imageUpload']
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba<br/>
-✅ User updated successfully.<br/>
+<a href="#Output-1637457864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1637457864">
+Skipping EditUserTest because UserCreate did not pass.<br/>
 </div>
 </td>
-<td></td>
-<td>54</td>
+<td><div><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.EditUserTest.editUserFromExcel(EditUserTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1637457864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1637457864'><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.EditUserTest.editUserFromExcel(EditUserTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
 <td>com.purebi.User.EditUserTest@4cc451f2</td></tr>
+<tr>
+<td title='com.purebi.User.DeleteUserTest.deleteUserByEmail()'><b>deleteUserByEmail</b><br>Test class: com.purebi.User.DeleteUserTest<br/>
+<a href="#Output-542481337" onClick='toggleBox("Output-542481337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-542481337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-542481337">
+Skipping DeleteUserTest because UserCreate did not pass.<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.DeleteUserTest.deleteUserByEmail(DeleteUserTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace542481337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace542481337'><pre>org.testng.SkipException: UserCreate did not pass
+	at com.purebi.User.DeleteUserTest.deleteUserByEmail(DeleteUserTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>com.purebi.User.DeleteUserTest@6379eb</td></tr>
 </table><p>
 </body>
 </html>

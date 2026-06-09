@@ -6,17 +6,38 @@
     <listener class-name="com.purebi.listeners.ScreenshotListener"/>
     <listener class-name="com.purebi.listeners.LoginGatekeeperListener"/>
   </listeners>
-  <test thread-count="5" name="Browser 4 - Special Reports(failed)" verbose="0">
+  <test thread-count="5" name="Browser 5 - User Management(failed)" verbose="0">
     <classes>
-      <class name="com.purebi.SpecialReports.SpecialReportsTest">
+      <class name="com.purebi.User.DeleteUserTest">
         <methods>
           <include name="resetDriverState"/>
+          <include name="deleteUserByEmail"/>
           <include name="quitDriver"/>
           <include name="quitAllDrivers"/>
           <include name="setup"/>
-          <include name="lifecycleAllReports"/>
+          <include name="ensureReturnHome"/>
         </methods>
-      </class> <!-- com.purebi.SpecialReports.SpecialReportsTest -->
+      </class> <!-- com.purebi.User.DeleteUserTest -->
+      <class name="com.purebi.User.EditUserTest">
+        <methods>
+          <include name="resetDriverState"/>
+          <include name="quitDriver"/>
+          <include name="ensureReturnHome"/>
+          <include name="quitAllDrivers"/>
+          <include name="setup"/>
+          <include name="editUserFromExcel"/>
+        </methods>
+      </class> <!-- com.purebi.User.EditUserTest -->
+      <class name="com.purebi.User.UserCreate">
+        <methods>
+          <include name="resetDriverState"/>
+          <include name="quitDriver"/>
+          <include name="ensureSidebarClosed"/>
+          <include name="quitAllDrivers"/>
+          <include name="setup"/>
+          <include name="createSiteUserFromExcel"/>
+        </methods>
+      </class> <!-- com.purebi.User.UserCreate -->
     </classes>
-  </test> <!-- Browser 4 - Special Reports(failed) -->
+  </test> <!-- Browser 5 - User Management(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

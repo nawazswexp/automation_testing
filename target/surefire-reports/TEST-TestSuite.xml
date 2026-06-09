@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="499.365" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="607.751" tests="18" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="webdriver.chrome.driver" value="C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\nawaz\AppData\Local\Temp\surefire1502633119157812676\surefirebooter-20260522105826777_3.jar C:\Users\nawaz\AppData\Local\Temp\surefire1502633119157812676 2026-05-22T10-58-26_642-jvmRun1 surefire-20260522105826777_1tmp surefire_0-20260522105826777_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nawaz\AppData\Local\Temp\surefire14767158550609084628\surefirebooter-20260608105636870_3.jar C:\Users\nawaz\AppData\Local\Temp\surefire14767158550609084628 2026-06-08T10-56-36_720-jvmRun1 surefire-20260608105636870_1tmp surefire_0-20260608105636870_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\test-classes;C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\classes;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\nawaz\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\nawaz\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\nawaz\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\nawaz\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nawaz\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\nawaz\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\nawaz\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\nawaz\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\nawaz\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nawaz\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\nawaz\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nawaz\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\nawaz\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\nawaz\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\nawaz\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\nawaz\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\nawaz\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\nawaz\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\nawaz\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\nawaz\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\nawaz\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\nawaz\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\nawaz\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\nawaz\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\nawaz\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\nawaz\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\nawaz\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\nawaz\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\nawaz\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\nawaz\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\nawaz\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\nawaz\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\nawaz\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\nawaz\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nawaz\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nawaz\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\nawaz\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\nawaz\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\nawaz\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\nawaz\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\nawaz\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\nawaz\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\nawaz\.m2\repository\com\sun\mail\jakarta.mail\2.0.1\jakarta.mail-2.0.1.jar;C:\Users\nawaz\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\nawaz\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nawaz\AppData\Local\Temp\surefire1502633119157812676\surefirebooter-20260522105826777_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nawaz\AppData\Local\Temp\surefire14767158550609084628\surefirebooter-20260608105636870_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="loginTest" classname="com.purebi.homepage.LoginTest" time="5.711">
+  <testcase name="loginTest" classname="com.purebi.homepage.LoginTest" time="5.67">
     <system-out><![CDATA[Running tests on: https://test.pure.bi | headless=false
 ✅ Login successful. PLANT SETTINGS is visible.
 Login succeeded — tests will run.
@@ -75,64 +75,41 @@ Login succeeded — tests will run.
 [TestNG-tests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
 ]]></system-err>
   </testcase>
-  <testcase name="moduleAlertFullFlow" classname="com.purebi.AdvanceAlert.ModuleAlertsTest" time="3.742">
+  <testcase name="moduleAlertFullFlow" classname="com.purebi.AdvanceAlert.ModuleAlertsTest" time="19.72">
     <system-out><![CDATA[Running tests on: https://test.pure.bi | headless=false
 Running tests on: https://test.pure.bi | headless=false
 Running tests on: https://test.pure.bi | headless=false
 Running tests on: https://test.pure.bi | headless=false
 Authenticated browser ready for tests on: https://test.pure.bi
-Old Updated On text: Updated On : 22-05-2026 10:48:37
-Clicked dashboard Refresh button.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Running tests on: https://test.pure.bi | headless=false
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Report Type - Bar
 Authenticated browser ready for tests on: https://test.pure.bi
 STEP 0: Go to Home
+Authenticated browser ready for tests on: https://test.pure.bi
+Authenticated browser ready for tests on: https://test.pure.bi
 STEP 1: Navigate to Plant Customization
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Old Updated On text: Updated On : 08-06-2026 10:40:28
 STEP 2: Wait 60 seconds
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Authenticated browser ready for tests on: https://test.pure.bi
-Report Type - Bar
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Layout 10 selected successfully
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Authenticated browser ready for tests on: https://test.pure.bi
-Polling Updated On: Updated On : 22-05-2026 10:48:37
 STEP 1 — Navigation: Clicking Home logo
+Clicked dashboard Refresh button.
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Home logo
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS again.
+Layout 10 selected successfully
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked ADVANCED ALERTS.
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Advanced Alerts page loaded.
 STEP 2 — Create Module Alert: Opening create modal
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: CREATE NEW ALERT
 Create modal visible.
 Selecting Module Alert type...
@@ -140,78 +117,81 @@ Alert Type Option: 'PM Alert'
 Alert Type Option: 'Module Alert'
 Alert Type Option: 'Parameter Alert'
 Alert Type Option: 'AI Alert'
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Selected Alert Type: Module Alert
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Entered alert name: Module Alert Test
 Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Running tests on: https://test.pure.bi | headless=false
 Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']
 Entered score: 70
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\module_alert_before_save_20260522_105923.png
-Screenshot saved: screenshots/module_alert_before_save_20260522_105923.png
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\module_alert_before_save_20260608_105716.png
+Screenshot saved: screenshots/module_alert_before_save_20260608_105716.png
 Clicked: Save alert
 Clicked Save.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Toast: Added successfully visible.
 STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Module Alert tab
 Module Alert row found in AG Grid.
 STEP 12 — Delete Alert: Clicking delete icon on row.
-Authenticated browser ready for tests on: https://test.pure.bi
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Delete icon
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Popup DELETE button
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 STEP 15 — Validate Deletion: Ensuring row no longer exists.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Hovered on PLANT SETTINGS.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Clicked USER menu.
-Pressed ESC to close dropdown.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Module Alert flow completed successfully.
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-tests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
-[TestNG-tests-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+    <system-err><![CDATA[[TestNG-tests-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+[TestNG-tests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+[TestNG-tests-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+[TestNG-tests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
 [TestNG-tests-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
 [TestNG-tests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
-[TestNG-tests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
-[TestNG-tests-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
-[TestNG-tests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
 [TestNG-tests-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+[TestNG-tests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
 [TestNG-tests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
 [TestNG-tests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nawaz\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
 ]]></system-err>
   </testcase>
-  <testcase name="createSiteUserFromExcel" classname="com.purebi.User.UserCreate" time="6.51">
+  <testcase name="parameterAlertFullFlow" classname="com.purebi.AdvanceAlert.ParameterAlertsTest" time="21.122">
     <system-out><![CDATA[STEP 1 — Navigation: Clicking Home logo
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Home logo
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Authenticated browser ready for tests on: https://test.pure.bi
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Hovered on PLANT SETTINGS.
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS again.
-Clicked + Add Site User.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
 Clicked: ADVANCED ALERTS
 Clicked ADVANCED ALERTS.
 Advanced Alerts page loaded.
 STEP 2 — Open Create Alert Modal: Opening create modal
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Clicked USER menu.
+Pressed ESC to close dropdown.
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: CREATE NEW ALERT
 Create modal visible.
 STEP 3 — Select Alert Type
@@ -220,294 +200,304 @@ Alert Type Option: 'PM Alert'
 Alert Type Option: 'Module Alert'
 Alert Type Option: 'Parameter Alert'
 Alert Type Option: 'AI Alert'
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Selected Alert Type: Parameter Alert
 STEP 4 — Enter Alert Name
 Entered alert name: Parameter Alert Test
 STEP 5 — Select Module
-Polling Updated On: Updated On : 22-05-2026 10:48:37
 Selected 'RO-3' on By.xpath: //select[@formcontrolname='moduleparam']
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Validated selected Module: RO-3
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Toast message: User added successfully.
-✅ User added successfully.
-Closed Add Site User sidebar.
-]]></system-out>
-    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-]]></system-err>
-  </testcase>
-  <testcase name="parameterAlertFullFlow" classname="com.purebi.AdvanceAlert.ParameterAlertsTest" time="5.908">
-    <system-out><![CDATA[Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 STEP 6 — Select Parameter
 Parameter option found: Select Parameter*
 Parameter option found: RO-3 I/L Flow rate (O)
-Polling Updated On: Updated On : 22-05-2026 10:48:37
 Selected Parameter: RO-3 I/L Flow rate (O)
 STEP 7 — Select Condition
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Condition option found: Conditions*
 Condition option found: Greater (>)
 Selected Condition: Greater (>)
 STEP 8 — Assign To
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']
 STEP 9 — Enter Score
-Polling Updated On: Updated On : 22-05-2026 10:48:37
 Entered score: 70
 STEP 10 — Screenshot Before Save
-📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\parameter_alert_before_save_20260522_105940.png
-Screenshot saved: screenshots/parameter_alert_before_save_20260522_105940.png
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\parameter_alert_before_save_20260608_105735.png
+Screenshot saved: screenshots/parameter_alert_before_save_20260608_105735.png
 STEP 11 — Save Alert
 Clicked: Save alert
 Clicked Save.
 STEP 12 — Validate Creation Toast
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Toast: Added successfully visible.
 STEP 13 — Reopen Advanced Alerts Page
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS again.
 Clicked: ADVANCED ALERTS
 Clicked ADVANCED ALERTS.
 Advanced Alerts page loaded.
 STEP 14 — Click Parameter Alert Filter
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Parameter Alert tab
 STEP 15 — Validate Row Exists In AG Grid
 Parameter Alert row found in AG Grid.
 STEP 16 — Delete Alert
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Failed to close sidebar in AfterMethod (both click and JS): no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')]"}
-  (Session info: chrome=148.0.7778.169)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [936dc5b27e6610faa8a156a2496fb2ba, findElement {value=//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba
-Report Type - Line
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked delete icon for Parameter Alert Test row.
 STEP 17 — Delete Confirmation Popup
 Clicked: Popup DELETE button
 STEP 18 — Validate Delete Toast
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 STEP 19 — Final Delete Validation
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Hovered on PLANT SETTINGS.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Clicked USER menu.
-Pressed ESC to close dropdown.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Layout 10 selected successfully
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Parameter Alert row deleted successfully
 ]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
   </testcase>
-  <testcase name="pmAlertFullFlow" classname="com.purebi.AdvanceAlert.PMAlertsTest" time="12.99">
+  <testcase name="pmAlertFullFlow" classname="com.purebi.AdvanceAlert.PMAlertsTest" time="15.19">
     <system-out><![CDATA[STEP 1 — Navigation: Clicking Home logo
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Home logo
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Hovered on PLANT SETTINGS again.
 Clicked ADVANCED ALERTS.
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Advanced Alerts page loaded.
 STEP 2 — Create PM Alert: Opening create modal
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: CREATE NEW ALERT
 Create modal visible.
+Exception in UserCreate: Expected condition failed: waiting for visibility of element found by By.xpath: //a[normalize-space()='+ Add Site User'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='+ Add Site User']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62944}, goog:processID: 21832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62944/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d395dc68a198aa4b21dd220684d7be15
 Selecting PM Alert type...
+📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\user_create_exception_20260608_105753.png
+Screenshot saved: screenshots/user_create_exception_20260608_105753.png
 Alert Type Option: 'PM Alert'
 Alert Type Option: 'Module Alert'
 Alert Type Option: 'Parameter Alert'
 Alert Type Option: 'AI Alert'
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Selected Alert Type: PM Alert
 Entered alert name: PM Alert Test
 Waiting for Equipment dropdown options to load...
 Equipment option found: Equipments*
 Equipment option found: PI-9019AN
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Selected Equipment: PI-9019AN
-Polling Updated On: Updated On : 22-05-2026 10:48:37
 Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']
 Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']
 Setting Start Date & Time...
-Target datetime: 21-May-2026 10:59
+Target datetime: 07-Jun-2026 10:57
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Calendar popup opened
-Polling Updated On: Updated On : 22-05-2026 10:48:37
 Target day selected
-Selected datetime value: 21-05-2026 10:59
+Selected datetime value: 07-06-2026 10:57
 Datetime field populated
-📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\pm_alert_before_save_20260522_105958.png
-Screenshot saved: screenshots/pm_alert_before_save_20260522_105958.png
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\pm_alert_before_save_20260608_105755.png
+Screenshot saved: screenshots/pm_alert_before_save_20260608_105755.png
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Save alert
 Clicked Save.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Toast: Added successfully visible.
 STEP 4 — Validate Alert Exists: Reopening Advanced Alerts.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: PM Alert tab
 PM Alert row found in AG Grid.
 STEP 5 — Delete Alert: Clicking delete icon on row.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Delete icon
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 Clicked: Popup DELETE button
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 STEP 6 — Validate Deletion: Ensuring row no longer exists.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Report Type - Line
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 PM Alert flow completed successfully.
 ]]></system-out>
   </testcase>
-  <testcase name="dashboardRefreshAndNotificationTest" classname="com.purebi.homepage.DashboardRefreshTest" time="20.895">
-    <system-out><![CDATA[Layout 10 re-selected before Save Dashboard
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
+  <testcase name="dashboardRefreshAndNotificationTest" classname="com.purebi.homepage.DashboardRefreshTest" time="18.483">
+    <system-out><![CDATA[Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:40:28
 STEP 3: Read Excel data
 STEP 4: Fill form
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba
-Clicked dropdown div trigger.
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:48:37
-Polling Updated On: Updated On : 22-05-2026 10:59:06
+Polling Updated On: Updated On : 08-06-2026 10:40:28
+Polling Updated On: Updated On : 08-06-2026 10:57:06
 Updated time changed after refresh
 ]]></system-out>
   </testcase>
-  <testcase name="opexDashboardChartDataCheck" classname="com.purebi.homepage.OpexDashboardChartTest" time="0.078">
+  <testcase name="opexDashboardChartDataCheck" classname="com.purebi.homepage.OpexDashboardChartTest" time="0.052">
     <system-out><![CDATA[Found list item: Chemicals
 ]]></system-out>
   </testcase>
-  <testcase name="opexModuleDashboardNavigationAndValidation" classname="com.purebi.homepage.OpexDashboardTest" time="22.659">
-    <system-out><![CDATA[Icon path navigation success: true
-Reset to main view after icon path.
-Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
-(tried for 8 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba
-Clicked edit for user using xpath: //tr[td[normalize-space()='jamil0943334@gmail.com']]//button[.//i[contains(@class,'fa-edit')]]
-Edit form appeared for user: jamil0943334@gmail.com
-STEP 5: Click Next
-Wait 10 seconds
-Report Type - Dot
-Layout 10 selected successfully
-STEP 6: Increment channels
-STEP 7: Wait for grid cell 4A
-STEP 8-10: Safe Modules open and JS drag-drop
-Clicked Modules button using Actions
-Module panel is visible
-DAF found
-Menu navigation failed: Expected condition failed: waiting for visibility of element found by By.xpath: //h4[normalize-space()='OPEX Module Reports'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[normalize-space()='OPEX Module Reports']"}.
+  <testcase name="createSiteUserFromExcel" classname="com.purebi.User.UserCreate" time="7.729">
+    <failure message="Exception creating user: Expected condition failed: waiting for visibility of element found by By.xpath: //a[normalize-space()=&apos;+ Add Site User&apos;], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;+ Add Site User&apos;]&quot;}.&#10;(tried for 20 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62944}, goog:processID: 21832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62944/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d395dc68a198aa4b21dd220684d7be15" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Exception creating user: Expected condition failed: waiting for visibility of element found by By.xpath: //a[normalize-space()='+ Add Site User'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='+ Add Site User']"}.
 (tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.44.0', revision: 'da2039b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52272}, goog:processID: 19372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52272/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 07daf1aef3e10b71df05af89a3e71cfb
-📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\opex_navigation_fail_20260522_110035.png
-Screenshot saved: screenshots/opex_navigation_fail_20260522_110035.png
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62944}, goog:processID: 21832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62944/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d395dc68a198aa4b21dd220684d7be15
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.purebi.User.UserCreate.createSiteUserFromExcel(UserCreate.java:191)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+    <system-out><![CDATA[Icon path navigation success: true
+Layout 10 selected successfully
+Reset to main view after icon path.
+Closed Add Site User sidebar via JS click.
+📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\createSiteUserFromExcel_20260608_105813.png
+<a href='screenshots/createSiteUserFromExcel_20260608_105813.png'><img src='screenshots/createSiteUserFromExcel_20260608_105813.png' height='200' alt='screenshot'/></a>
+<br/><a href='screenshots/createSiteUserFromExcel_20260608_105813.png'>Full screenshot: createSiteUserFromExcel</a>
+]]></system-out>
+  </testcase>
+  <testcase name="editUserFromExcel" classname="com.purebi.User.EditUserTest" time="0.0">
+    <skipped message="UserCreate did not pass"/>
+    <system-out><![CDATA[STEP 5: Click Next
+Wait 10 seconds
+Failed to close sidebar in AfterMethod (both click and JS): no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')]"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d395dc68a198aa4b21dd220684d7be15, findElement {value=//span[contains(@class,'p-sidebar-close-icon') and contains(@class,'pi-times')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62944}, goog:processID: 21832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62944/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d395dc68a198aa4b21dd220684d7be15
+Skipping EditUserTest because UserCreate did not pass.
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserByEmail" classname="com.purebi.User.DeleteUserTest" time="0.0">
+    <skipped message="UserCreate did not pass"/>
+    <system-out><![CDATA[Skipping DeleteUserTest because UserCreate did not pass.
+]]></system-out>
+  </testcase>
+  <testcase name="opexModuleDashboardNavigationAndValidation" classname="com.purebi.homepage.OpexDashboardTest" time="6.89">
+    <system-out><![CDATA[Menu navigation failed: Expected condition failed: waiting for visibility of element found by By.xpath: //h4[normalize-space()='OPEX Module Reports'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[normalize-space()='OPEX Module Reports']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62834}, goog:processID: 14204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62834/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 646befca3cf62d9a472bace0736798c1
+📸 Screenshot saved: C:\Users\nawaz\OneDrive\Desktop\automation_testing\target\surefire-reports\screenshots\opex_navigation_fail_20260608_105828.png
+Screenshot saved: screenshots/opex_navigation_fail_20260608_105828.png
 Menu path navigation success: false
 OPEX navigation considered SUCCESS (at least one path succeeded).
 Clicked logo at test end to return to main view.
 ]]></system-out>
   </testcase>
-  <testcase name="gaugeEchartCanvasPresenceAfterOpex" classname="com.purebi.homepage.GaugeTest" time="0.575">
+  <testcase name="gaugeEchartCanvasPresenceAfterOpex" classname="com.purebi.homepage.GaugeTest" time="0.349">
     <system-out><![CDATA[Found echart canvas using: By.xpath: //div[@class='col-md-7']//div[@id='echart']//div//canvas
 ]]></system-out>
   </testcase>
-  <testcase name="processDashboardModuleStoreCheck" classname="com.purebi.homepage.ProcessDashboardModuleStoreTest" time="1.092">
-    <system-out><![CDATA[Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']
+  <testcase name="processDashboardModuleStoreCheck" classname="com.purebi.homepage.ProcessDashboardModuleStoreTest" time="2.313">
+    <system-out><![CDATA[STEP 6: Increment channels
+Clicked process dashboard icon: By.xpath: //img[@routerlink='/dashboard/processdashboard']
 Found element: By.xpath: //div[@class='row mt-1 ng-star-inserted']
+STEP 7: Wait for grid cell 4A
+STEP 8-10: Safe Modules open and JS drag-drop
 Clicked home logo after ProcessDashboardModuleStoreTest.
 ]]></system-out>
   </testcase>
-  <testcase name="specialReportPageTest" classname="com.purebi.homepage.SpecialReportPage" time="0.896">
+  <testcase name="specialReportPageTest" classname="com.purebi.homepage.SpecialReportPage" time="1.245">
     <system-out><![CDATA[Clicked SPECIAL REPORTS.
 ✅ Dashboard Report list found.
 ]]></system-out>
   </testcase>
-  <testcase name="specialReportsDashboardCheck" classname="com.purebi.homepage.SpecialReportsDashboardTest" time="0.968">
-    <system-out><![CDATA[Clicked SPECIAL REPORTS link.
-Dragged DAF to 4A using safe target offset
+  <testcase name="specialReportsDashboardCheck" classname="com.purebi.homepage.SpecialReportsDashboardTest" time="1.277">
+    <system-out><![CDATA[Clicked Modules button using Actions
+Clicked SPECIAL REPORTS link.
 ✅ Dashboard Report list present. Test passed.
 Returned to Home screen after SpecialReportsDashboardTest.
 ]]></system-out>
   </testcase>
-  <testcase name="editUserFromExcel" classname="com.purebi.User.EditUserTest" time="1.605">
-    <system-out><![CDATA[Image upload failed: Expected condition failed: waiting for presence of element found by By.xpath: //div[@class='form-group']//input[@id='imageUpload']
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba
-✅ User updated successfully.
-]]></system-out>
-  </testcase>
-  <testcase name="userSettingsPresence" classname="com.purebi.homepage.UserTest" time="2.188">
-    <system-out><![CDATA[Module successfully dropped in 4A
-STEP 11: Close Modules panel
+  <testcase name="userSettingsPresence" classname="com.purebi.homepage.UserTest" time="4.194">
+    <system-out><![CDATA[Module panel is visible
+DAF found
 Hovered on PLANT SETTINGS.
-STEP 12: Close overlay before CONFIG click
 Clicked USER menu.
 Pressed ESC to close dropdown.
-STEP 12: Click CONFIG button for DAF
 Site User Settings header visible
 ]]></system-out>
   </testcase>
-  <testcase name="deleteUserByEmail" classname="com.purebi.User.DeleteUserTest" time="33.861">
-    <system-out><![CDATA[Hovered on PLANT SETTINGS.
+  <testcase name="plantSettingsTest" classname="com.purebi.PlantSettings.PlantSettingsTest" time="165.545">
+    <system-out><![CDATA[Dragged DAF to 4A using safe target offset
+Module successfully dropped in 4A
+STEP 11: Close Modules panel
+STEP 12: Close overlay before CONFIG click
+STEP 12: Click CONFIG button for DAF
 Clicked CONFIGURE for DAF
 STEP 13: Wait config dialog
 Configure popup opened successfully
 STEP 14: Enter aliasName
-Clicked USER menu.
-Pressed ESC to close dropdown.
 STEP 15: Select dropdowns
 STEP 16: Click ADD Parameter
 STEP 17: Wait Add Parameter screen
@@ -524,12 +514,14 @@ STEP 25: Final Save
 Final Save clicked successfully
 Parameter configured and saved successfully
 STEP 26: WAIT AFTER FIRST SAVE
+Report Type - Dot
 STEP 27: CLICK CONFIG BUTTON AGAIN
 Clicked CONFIG again successfully
 STEP 29: WAIT FOR CONFIG DIALOG
 STEP 30: FINAL SAVE AGAIN
 Second Save flow completed
 STEP 31: Click Next button
+Layout 10 selected successfully
 STEP 32: Click Create New Group
 STEP 33: Enter Group Name
 STEP 34: Select checkbox for Collection tank
@@ -539,68 +531,42 @@ STEP 37: Click Save
 STEP 38: Click Next Arrow
 STEP 39: Click Submit button (Step 4)
 STEP 40: Select Manpower cost checkbox
-Report Type - Bar Label
-Dropdown span click failed: Expected condition failed: waiting for element found by By.xpath: //span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class,'p-dropdown-trigger-icon') and contains(@class,'pi-chevron-down')]"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba
-Clicked dropdown div trigger.
 STEP 42: Select Internal employee checkbox
-Layout 10 selected successfully
 STEP 43: Click edit button
 STEP 44: Fill details
 STEP 45: Save row
-Overlay not visible after clicking dropdown: Expected condition failed: waiting for visibility of element found by By.xpath: //p-overlay[contains(@class,'p-element')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p-overlay[contains(@class,'p-element')]"}.
-(tried for 8 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nawaz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53284}, goog:processID: 23008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53284/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 936dc5b27e6610faa8a156a2496fb2ba
 STEP 46: Next step
 STEP 47: Final Save
-Clicked delete icon for user: jamil0943334@gmail.com
-Clicked confirmation Yes button.
-✅ User deleted successfully toast found.
-]]></system-out>
-  </testcase>
-  <testcase name="plantSettingsTest" classname="com.purebi.PlantSettings.PlantSettingsTest" time="155.773">
-    <system-out><![CDATA[STEP 48: Wait for Home button and click
+STEP 48: Wait for Home button and click
+Report Type - Bar Label
+Layout 10 selected successfully
 Layout 10 re-selected before Save Dashboard
 Report Type - Line Label
 Layout 10 selected successfully
 Report Type - Table
 Layout 10 selected successfully
+TEST PASS ✅ - Site Configuration Saved
 Layout 10 re-selected before Save Dashboard
+]]></system-out>
+  </testcase>
+  <testcase name="revertPlantSettings" classname="com.purebi.PlantSettings.RevertPlantSettingsTest" time="236.237">
+    <system-out><![CDATA[STEP 1: Navigate
 ✅ Table Report is NOT Empty – PASS
 Report Type - Numeric
 Layout 10 selected successfully
 Layout 10 re-selected before Save Dashboard
-TEST PASS ✅ - Site Configuration Saved
-]]></system-out>
-  </testcase>
-  <testcase name="revertPlantSettings" classname="com.purebi.PlantSettings.RevertPlantSettingsTest" time="175.069">
-    <system-out><![CDATA[STEP 1: Navigate
 Report Type - Gauge
-Layout 10 selected successfully
-Layout 10 re-selected before Save Dashboard
-Report Type - Pie
-Layout 10 selected successfully
 STEP 2: Read Excel
 STEP 3: Validation
 STEP 4: Revert Data
-Report Type - Donut
-STEP 5: Next
 Layout 10 selected successfully
+STEP 5: Next
+Layout 10 re-selected before Save Dashboard
 STEP 6: Delete Module
 STEP 7: Decrease Channel
 STEP 8: Delete Group
 STEP 9: Click Next (TOP button)
 STEP 10: Click arrow forward (Site Score -> Open Opex)
-Layout 10 re-selected before Save Dashboard
 STEP 11: Click arrow forward again (enter Open Opex page)
 STEP 12: Verify Open Opex page
 STEP 13: Manpower Cost
@@ -610,18 +576,22 @@ STEP 12: Checkbox Handling
 STEP 13: Final Save
 STEP 14: Home Button
 STEP 15: Notification Validation
-Report Type - Box
+Report Type - Pie
 Layout 10 selected successfully
-Report Type - Text
+Report Type - Donut
 Layout 10 selected successfully
 Layout 10 re-selected before Save Dashboard
+Report Type - Box
+Layout 10 selected successfully
 TEST PASS - Revert Successful
 STEP 15.5: Clear Notifications
 STEP 16: Close Notification
 ]]></system-out>
   </testcase>
-  <testcase name="lifecycleAllReports" classname="com.purebi.SpecialReports.SpecialReportsTest" time="188.666">
-    <system-out><![CDATA[Text Report Content Found: Testing the text report type
+  <testcase name="lifecycleAllReports" classname="com.purebi.SpecialReports.SpecialReportsTest" time="304.41">
+    <system-out><![CDATA[Report Type - Text
+Layout 10 selected successfully
+Text Report Content Found: Testing the text report type
 ]]></system-out>
   </testcase>
 </testsuite>

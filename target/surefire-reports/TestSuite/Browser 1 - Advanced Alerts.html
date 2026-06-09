@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 22 10:58:27 IST 2026</td>
+<td>Started on:</td><td>Tue Jun 09 15:20:20 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>117 seconds (117850 ms)</td>
+<tr><td>Total time:</td><td>120 seconds (120743 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,10 +77,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.purebi.AdvanceAlert.ParameterAlertsTest.parameterAlertFullFlow()'><b>parameterAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.ParameterAlertsTest<br/>
-<a href="#Output-45565557" onClick='toggleBox("Output-45565557", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1424795469" onClick='toggleBox("Output-1424795469", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-45565557" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-45565557">
+<a href="#Output-1424795469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1424795469">
 STEP 1 — Navigation: Clicking Home logo<br/>
 Clicked: Home logo<br/>
 Hovered on PLANT SETTINGS.<br/>
@@ -116,7 +116,7 @@ Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']<br/>
 STEP 9 — Enter Score<br/>
 Entered score: 70<br/>
 STEP 10 — Screenshot Before Save<br/>
-Screenshot saved: screenshots/parameter_alert_before_save_20260522_105940.png<br/>
+Screenshot saved: screenshots/parameter_alert_before_save_20260609_152127.png<br/>
 STEP 11 — Save Alert<br/>
 Clicked: Save alert<br/>
 Clicked Save.<br/>
@@ -142,14 +142,57 @@ Parameter Alert row deleted successfully<br/>
 </div>
 </td>
 <td></td>
-<td>20</td>
+<td>23</td>
 <td>com.purebi.AdvanceAlert.ParameterAlertsTest@6ca8564a</td></tr>
 <tr>
-<td title='com.purebi.AdvanceAlert.PMAlertsTest.pmAlertFullFlow()'><b>pmAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.PMAlertsTest<br/>
-<a href="#Output-2051759118" onClick='toggleBox("Output-2051759118", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.purebi.AdvanceAlert.ModuleAlertsTest.moduleAlertFullFlow()'><b>moduleAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.ModuleAlertsTest<br/>
+<a href="#Output-1730910963" onClick='toggleBox("Output-1730910963", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2051759118" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2051759118">
+<a href="#Output-1730910963" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1730910963">
+STEP 1 — Navigation: Clicking Home logo<br/>
+Clicked: Home logo<br/>
+Hovered on PLANT SETTINGS.<br/>
+Hovered on PLANT SETTINGS again.<br/>
+Clicked ADVANCED ALERTS.<br/>
+Advanced Alerts page loaded.<br/>
+STEP 2 — Create Module Alert: Opening create modal<br/>
+Clicked: CREATE NEW ALERT<br/>
+Create modal visible.<br/>
+Selecting Module Alert type...<br/>
+Alert Type Option: 'PM Alert'<br/>
+Alert Type Option: 'Module Alert'<br/>
+Alert Type Option: 'Parameter Alert'<br/>
+Alert Type Option: 'AI Alert'<br/>
+Selected Alert Type: Module Alert<br/>
+Entered alert name: Module Alert Test<br/>
+Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']<br/>
+Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']<br/>
+Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']<br/>
+Entered score: 70<br/>
+Screenshot saved: screenshots/module_alert_before_save_20260609_152108.png<br/>
+Clicked: Save alert<br/>
+Clicked Save.<br/>
+Toast: Added successfully visible.<br/>
+STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.<br/>
+Clicked: Module Alert tab<br/>
+Module Alert row found in AG Grid.<br/>
+STEP 12 — Delete Alert: Clicking delete icon on row.<br/>
+Clicked: Delete icon<br/>
+Clicked: Popup DELETE button<br/>
+STEP 15 — Validate Deletion: Ensuring row no longer exists.<br/>
+Module Alert flow completed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.purebi.AdvanceAlert.ModuleAlertsTest@1817d444</td></tr>
+<tr>
+<td title='com.purebi.AdvanceAlert.PMAlertsTest.pmAlertFullFlow()'><b>pmAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.PMAlertsTest<br/>
+<a href="#Output-384251338" onClick='toggleBox("Output-384251338", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384251338" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384251338">
 STEP 1 — Navigation: Clicking Home logo<br/>
 Clicked: Home logo<br/>
 Hovered on PLANT SETTINGS.<br/>
@@ -173,12 +216,12 @@ Selected Equipment: PI-9019AN<br/>
 Selected 'Daily' on By.xpath: //select[@formcontrolname='interval']<br/>
 Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']<br/>
 Setting Start Date & Time...<br/>
-Target datetime: 21-May-2026 10:59<br/>
+Target datetime: 08-Jun-2026 15:21<br/>
 Calendar popup opened<br/>
 Target day selected<br/>
-Selected datetime value: 21-05-2026 10:59<br/>
+Selected datetime value: 08-06-2026 15:21<br/>
 Datetime field populated<br/>
-Screenshot saved: screenshots/pm_alert_before_save_20260522_105958.png<br/>
+Screenshot saved: screenshots/pm_alert_before_save_20260609_152151.png<br/>
 Clicked: Save alert<br/>
 Clicked Save.<br/>
 Toast: Added successfully visible.<br/>
@@ -193,51 +236,8 @@ PM Alert flow completed successfully.<br/>
 </div>
 </td>
 <td></td>
-<td>12</td>
+<td>19</td>
 <td>com.purebi.AdvanceAlert.PMAlertsTest@50b472aa</td></tr>
-<tr>
-<td title='com.purebi.AdvanceAlert.ModuleAlertsTest.moduleAlertFullFlow()'><b>moduleAlertFullFlow</b><br>Test class: com.purebi.AdvanceAlert.ModuleAlertsTest<br/>
-<a href="#Output-1617884563" onClick='toggleBox("Output-1617884563", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1617884563" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1617884563">
-STEP 1 — Navigation: Clicking Home logo<br/>
-Clicked: Home logo<br/>
-Hovered on PLANT SETTINGS.<br/>
-Hovered on PLANT SETTINGS again.<br/>
-Clicked ADVANCED ALERTS.<br/>
-Advanced Alerts page loaded.<br/>
-STEP 2 — Create Module Alert: Opening create modal<br/>
-Clicked: CREATE NEW ALERT<br/>
-Create modal visible.<br/>
-Selecting Module Alert type...<br/>
-Alert Type Option: 'PM Alert'<br/>
-Alert Type Option: 'Module Alert'<br/>
-Alert Type Option: 'Parameter Alert'<br/>
-Alert Type Option: 'AI Alert'<br/>
-Selected Alert Type: Module Alert<br/>
-Entered alert name: Module Alert Test<br/>
-Selected 'RO-3' on By.xpath: //select[@formcontrolname='module']<br/>
-Selected 'Greater (>)' on By.xpath: //select[@formcontrolname='conditions']<br/>
-Selected 'Site Admin' on By.xpath: //select[@formcontrolname='assignto']<br/>
-Entered score: 70<br/>
-Screenshot saved: screenshots/module_alert_before_save_20260522_105923.png<br/>
-Clicked: Save alert<br/>
-Clicked Save.<br/>
-Toast: Added successfully visible.<br/>
-STEP 11 — Validate Alert Exists: Reopening Advanced Alerts.<br/>
-Clicked: Module Alert tab<br/>
-Module Alert row found in AG Grid.<br/>
-STEP 12 — Delete Alert: Clicking delete icon on row.<br/>
-Clicked: Delete icon<br/>
-Clicked: Popup DELETE button<br/>
-STEP 15 — Validate Deletion: Ensuring row no longer exists.<br/>
-Module Alert flow completed successfully.<br/>
-</div>
-</td>
-<td></td>
-<td>15</td>
-<td>com.purebi.AdvanceAlert.ModuleAlertsTest@1817d444</td></tr>
 </table><p>
 </body>
 </html>

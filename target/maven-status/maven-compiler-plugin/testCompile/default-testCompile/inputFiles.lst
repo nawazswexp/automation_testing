@@ -10,6 +10,7 @@ C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\Adva
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\AdvanceAlert\ParameterAlertsTest.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\listeners\TestListener.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\homepage\BackToHomeScreen.java
+C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\listeners\AutomationReportListener.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\PlantSettings\PlantSettingsTest.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\homepage\GaugeTest.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\User\UserCreate.java
@@ -29,10 +30,12 @@ C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\home
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\homepage\BaseTest.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\homepage\SpecialReportsDashboardTest.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\listeners\LoginGatekeeperListener.java
+C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\reporting\AutomationReportStore.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\utils\Locators.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\utils\PlantSettingsNavigation.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\utils\TestExecutionControl.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\utils\DropdownUtils.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\AdvanceAlert\ModuleAlertsTest.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\pages\SpecialReportsPage.java
+C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\reporting\DashboardGenerator.java
 C:\Users\nawaz\OneDrive\Desktop\automation_testing\src\test\java\com\purebi\utils\InteractionUtils.java
